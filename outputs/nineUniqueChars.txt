@@ -1,0 +1,3056 @@
+Nine Unique Character Performance analysis: 
+
+Run #1
+Input: i tested in the cat
+Input dictionary:      itesdnhca
+Encryption dictionary: nthsiecda
+Encrypted text:        n thsthi ne tch dat
+Written to ciphertext.txt
+Serial Output:
+rank 0: n tested nh tie cat
+rank 0: n tested nh tie act
+rank 0: n tested nc tie hat
+rank 0: n tested ni the cat
+rank 0: n tested ni the act
+rank 0: t sensed tc she ais
+rank 0: t sensed ta she cis
+rank 0: h tented hs tie cat
+rank 0: h tented hs tie act
+rank 0: h tented ha tie cst
+rank 0: s tented sh tie cat
+rank 0: s tented sh tie act
+rank 0: s tented sc tie hat
+rank 0: s tented si the cat
+rank 0: s tented si the act
+rank 0: i tested in the cat
+rank 0: i tested in the act
+rank 0: i tented is the cat
+rank 0: i tented is the act
+rank 0: i tented ia the cst
+rank 0: c tested ci the nat
+rank 0: c tested ci the ant
+rank 0: c tested ch tie nat
+rank 0: c tested ch tie ant
+rank 0: c tested ca the nit
+rank 0: c tested ca the int
+rank 0: c tented ci the sat
+rank 0: c tented ch tie sat
+rank 0: c tented cs tie hat
+rank 0: c tented ca the sit
+rank 0: c tented ca tie hst
+rank 0: c sensed ci she ats
+rank 0: c sensed ct she ais
+rank 0: c sensed ca she its
+rank 0: c deaden ch die std
+rank 0: a tested ac the int
+rank 0: a tested ac the nit
+rank 0: a tented ai the cst
+rank 0: a tented ah tie cst
+rank 0: a tented ac the sit
+rank 0: a tented ac tie hst
+rank 0: a sensed at she cis
+rank 0: a sensed ac she its
+
+real	0m0.201s
+user	0m0.098s
+sys	0m0.010s
+
+Parallel Output:
+rank 0: n tested nh tie cat 
+rank 0: n tested nh tie act 
+rank 0: n tested nc tie hat 
+rank 0: n tested ni the cat 
+rank 0: n tested ni the act 
+rank 2: h tented hs tie cat 
+rank 2: h tented hs tie act 
+rank 2: h tented ha tie cst 
+rank 6: c tested ci the nat 
+rank 6: c tested ci the ant 
+rank 6: c tested ch tie nat 
+rank 6: c tested ch tie ant 
+rank 6: c tested ca the nit 
+rank 6: c tested ca the int 
+rank 6: c tented ci the sat 
+rank 6: c tented ch tie sat 
+rank 6: c tented cs tie hat 
+rank 6: c tented ca the sit 
+rank 6: c tented ca tie hst 
+rank 3: s tented sh tie cat 
+rank 3: s tented sh tie act 
+rank 3: s tented sc tie hat 
+rank 4: i tested in the cat 
+rank 4: i tested in the act 
+rank 4: i tented is the cat 
+rank 4: i tented is the act 
+rank 3: s tented si the cat 
+rank 3: s tented si the act 
+rank 4: i tented ia the cst 
+rank 8: a tested ac the int 
+rank 8: a tested ac the nit 
+rank 8: a tented ai the cst 
+rank 8: a tented ah tie cst 
+rank 8: a tented ac the sit 
+rank 8: a tented ac tie hst 
+rank 1: t sensed tc she ais 
+rank 1: t sensed ta she cis 
+rank 6: c sensed ci she ats 
+rank 6: c sensed ct she ais 
+rank 6: c sensed ca she its 
+rank 8: a sensed at she cis 
+rank 8: a sensed ac she its 
+rank 6: c deaden ch die std 
+real 0.76
+user 0.93
+sys 1.15
+-------------------------------------------------------------------
+Run #2
+Input: i tested in the cat
+Input dictionary:      itesdnhca
+Encryption dictionary: dtancehis
+Encrypted text:        d tantac de tha ist
+Written to ciphertext.txt
+Serial Output:
+rank 0: t sensed ta she cis
+rank 0: t sensed tc she ais
+rank 0: a tented ac the sit
+rank 0: a tented ac tie hst
+rank 0: a tented ah tie cst
+rank 0: a tented ai the cst
+rank 0: a tested ac the int
+rank 0: a tested ac the nit
+rank 0: a sensed at she cis
+rank 0: a sensed ac she its
+rank 0: n tested nc tie hat
+rank 0: n tested nh tie cat
+rank 0: n tested nh tie act
+rank 0: n tested ni the cat
+rank 0: n tested ni the act
+rank 0: c deaden ch die std
+rank 0: c tented ca the sit
+rank 0: c tented ca tie hst
+rank 0: c tented ch tie sat
+rank 0: c tented ci the sat
+rank 0: c tented cs tie hat
+rank 0: c tested ch tie nat
+rank 0: c tested ch tie ant
+rank 0: c tested ci the nat
+rank 0: c tested ci the ant
+rank 0: c tested ca the int
+rank 0: c tested ca the nit
+rank 0: c sensed ct she ais
+rank 0: c sensed ci she ats
+rank 0: c sensed ca she its
+rank 0: h tented ha tie cst
+rank 0: h tented hs tie act
+rank 0: h tented hs tie cat
+rank 0: i tented ia the cst
+rank 0: i tented is the act
+rank 0: i tented is the cat
+rank 0: i tested in the cat
+rank 0: i tested in the act
+rank 0: s tented sc tie hat
+rank 0: s tented sh tie cat
+rank 0: s tented sh tie act
+rank 0: s tented si the act
+rank 0: s tented si the cat
+
+real	0m0.214s
+user	0m0.111s
+sys	0m0.005s
+
+Parallel Output:
+rank 4: c deaden ch die std 
+rank 7: i tented ia the cst 
+rank 7: i tented is the act 
+rank 7: i tented is the cat 
+rank 7: i tested in the cat 
+rank 7: i tested in the act 
+rank 2: a tented ac the sit 
+rank 2: a tented ac tie hst 
+rank 2: a tented ah tie cst 
+rank 2: a tented ai the cst 
+rank 4: c tented ca the sit 
+rank 4: c tented ca tie hst 
+rank 4: c tented ch tie sat 
+rank 4: c tented ci the sat 
+rank 4: c tented cs tie hat 
+rank 8: s tented sc tie hat 
+rank 8: s tented sh tie cat 
+rank 8: s tented sh tie act 
+rank 2: a tested ac the int 
+rank 2: a tested ac the nit 
+rank 3: n tested nc tie hat 
+rank 3: n tested nh tie cat 
+rank 3: n tested nh tie act 
+rank 3: n tested ni the cat 
+rank 3: n tested ni the act 
+rank 6: h tented ha tie cst 
+rank 6: h tented hs tie act 
+rank 6: h tented hs tie cat 
+rank 8: s tented si the act 
+rank 8: s tented si the cat 
+rank 4: c tested ch tie nat 
+rank 4: c tested ch tie ant 
+rank 4: c tested ci the nat 
+rank 4: c tested ci the ant 
+rank 4: c tested ca the int 
+rank 4: c tested ca the nit 
+rank 2: a sensed at she cis 
+rank 2: a sensed ac she its 
+rank 4: c sensed ct she ais 
+rank 4: c sensed ci she ats 
+rank 4: c sensed ca she its 
+rank 1: t sensed ta she cis 
+rank 1: t sensed tc she ais 
+real 0.78
+user 0.97
+sys 1.17
+-------------------------------------------------------------------
+Run #3
+Input: i tested in the cat
+Input dictionary:      itesdnhca
+Encryption dictionary: cdihsneta
+Encrypted text:        c dihdis cn dei tad
+Written to ciphertext.txt
+Serial Output:
+rank 0: c deaden ch die std
+rank 0: c sensed ci she ats
+rank 0: c sensed ct she ais
+rank 0: c sensed ca she its
+rank 0: c tested ci the nat
+rank 0: c tested ci the ant
+rank 0: c tested ch tie nat
+rank 0: c tested ch tie ant
+rank 0: c tested ca the int
+rank 0: c tested ca the nit
+rank 0: c tented ch tie sat
+rank 0: c tented ci the sat
+rank 0: c tented cs tie hat
+rank 0: c tented ca tie hst
+rank 0: c tented ca the sit
+rank 0: i tested in the cat
+rank 0: i tested in the act
+rank 0: i tented is the cat
+rank 0: i tented is the act
+rank 0: i tented ia the cst
+rank 0: h tented hs tie cat
+rank 0: h tented hs tie act
+rank 0: h tented ha tie cst
+rank 0: s tented si the cat
+rank 0: s tented si the act
+rank 0: s tented sh tie cat
+rank 0: s tented sh tie act
+rank 0: s tented sc tie hat
+rank 0: n tested ni the cat
+rank 0: n tested ni the act
+rank 0: n tested nh tie cat
+rank 0: n tested nh tie act
+rank 0: n tested nc tie hat
+rank 0: t sensed tc she ais
+rank 0: t sensed ta she cis
+rank 0: a sensed ac she its
+rank 0: a sensed at she cis
+rank 0: a tested ac the nit
+rank 0: a tested ac the int
+rank 0: a tented ai the cst
+rank 0: a tented ah tie cst
+rank 0: a tented ac tie hst
+rank 0: a tented ac the sit
+
+real	0m0.207s
+user	0m0.095s
+sys	0m0.021s
+
+Parallel Output:
+rank 0: c deaden ch die std 
+rank 0: c sensed ci she ats 
+rank 0: c sensed ct she ais 
+rank 0: c sensed ca she its 
+rank 7: t sensed tc she ais 
+rank 7: t sensed ta she cis 
+rank 8: a sensed ac she its 
+rank 8: a sensed at she cis 
+rank 3: h tented hs tie cat 
+rank 3: h tented hs tie act 
+rank 3: h tented ha tie cst 
+rank 5: n tested ni the cat 
+rank 5: n tested ni the act 
+rank 5: n tested nh tie cat 
+rank 5: n tested nh tie act 
+rank 5: n tested nc tie hat 
+rank 0: c tested ci the nat 
+rank 0: c tested ci the ant 
+rank 0: c tested ch tie nat 
+rank 0: c tested ch tie ant 
+rank 0: c tested ca the int 
+rank 0: c tested ca the nit 
+rank 0: c tented ch tie sat 
+rank 0: c tented ci the sat 
+rank 0: c tented cs tie hat 
+rank 0: c tented ca tie hst 
+rank 0: c tented ca the sit 
+rank 2: i tested in the cat 
+rank 2: i tested in the act 
+rank 2: i tented is the cat 
+rank 2: i tented is the act 
+rank 2: i tented ia the cst 
+rank 4: s tented si the cat 
+rank 4: s tented si the act 
+rank 4: s tented sh tie cat 
+rank 4: s tented sh tie act 
+rank 4: s tented sc tie hat 
+rank 8: a tested ac the nit 
+rank 8: a tested ac the int 
+rank 8: a tented ai the cst 
+rank 8: a tented ah tie cst 
+rank 8: a tented ac tie hst 
+rank 8: a tented ac the sit 
+real 0.80
+user 1.03
+sys 1.12
+-------------------------------------------------------------------
+Run #4
+Input: i tested in the cat
+Input dictionary:      itesdnhca
+Encryption dictionary: hsnadtiec
+Encrypted text:        h snasnd ht sin ecs
+Written to ciphertext.txt
+Serial Output:
+rank 0: h tented hs tie act
+rank 0: h tented hs tie cat
+rank 0: h tented ha tie cst
+rank 0: s tented sh tie act
+rank 0: s tented sh tie cat
+rank 0: s tented si the act
+rank 0: s tented si the cat
+rank 0: s tented sc tie hat
+rank 0: n tested nh tie act
+rank 0: n tested nh tie cat
+rank 0: n tested ni the act
+rank 0: n tested ni the cat
+rank 0: n tested nc tie hat
+rank 0: a sensed at she cis
+rank 0: a sensed ac she its
+rank 0: a tented ah tie cst
+rank 0: a tented ai the cst
+rank 0: a tented ac tie hst
+rank 0: a tented ac the sit
+rank 0: a tested ac the nit
+rank 0: a tested ac the int
+rank 0: t sensed ta she cis
+rank 0: t sensed tc she ais
+rank 0: i tented ia the cst
+rank 0: i tented is the act
+rank 0: i tented is the cat
+rank 0: i tested in the act
+rank 0: i tested in the cat
+rank 0: c sensed ca she its
+rank 0: c sensed ct she ais
+rank 0: c sensed ci she ats
+rank 0: c deaden ch die std
+rank 0: c tented ca the sit
+rank 0: c tented ca tie hst
+rank 0: c tented ch tie sat
+rank 0: c tented ci the sat
+rank 0: c tented cs tie hat
+rank 0: c tested ca the int
+rank 0: c tested ca the nit
+rank 0: c tested ch tie ant
+rank 0: c tested ch tie nat
+rank 0: c tested ci the ant
+rank 0: c tested ci the nat
+
+real	0m0.201s
+user	0m0.091s
+sys	0m0.017s
+
+Parallel Output:
+rank 3: a sensed at she cis 
+rank 3: a sensed ac she its 
+rank 8: c sensed ca she its 
+rank 8: c sensed ct she ais 
+rank 8: c sensed ci she ats 
+rank 5: t sensed ta she cis 
+rank 5: t sensed tc she ais 
+rank 0: h tented hs tie act 
+rank 0: h tented hs tie cat 
+rank 0: h tented ha tie cst 
+rank 1: s tented sh tie act 
+rank 1: s tented sh tie cat 
+rank 1: s tented si the act 
+rank 1: s tented si the cat 
+rank 1: s tented sc tie hat 
+rank 3: a tented ah tie cst 
+rank 3: a tented ai the cst 
+rank 3: a tented ac tie hst 
+rank 3: a tented ac the sit 
+rank 3: a tested ac the nit 
+rank 3: a tested ac the int 
+rank 8: c deaden ch die std 
+rank 8: c tented ca the sit 
+rank 8: c tented ca tie hst 
+rank 8: c tented ch tie sat 
+rank 8: c tented ci the sat 
+rank 8: c tented cs tie hat 
+rank 8: c tested ca the int 
+rank 8: c tested ca the nit 
+rank 8: c tested ch tie ant 
+rank 8: c tested ch tie nat 
+rank 8: c tested ci the ant 
+rank 8: c tested ci the nat 
+rank 2: n tested nh tie act 
+rank 2: n tested nh tie cat 
+rank 2: n tested ni the act 
+rank 2: n tested ni the cat 
+rank 2: n tested nc tie hat 
+rank 6: i tented ia the cst 
+rank 6: i tented is the act 
+rank 6: i tented is the cat 
+rank 6: i tested in the act 
+rank 6: i tested in the cat 
+real 0.74
+user 0.87
+sys 1.08
+-------------------------------------------------------------------
+Run #5
+Input: i tested in the cat
+Input dictionary:      itesdnhca
+Encryption dictionary: aehtisdcn
+Encrypted text:        a ehtehi as edh cne
+Written to ciphertext.txt
+Serial Output:
+rank 0: a tested ac the int
+rank 0: a tested ac the nit
+rank 0: a tented ai the cst
+rank 0: a tented ac tie hst
+rank 0: a tented ac the sit
+rank 0: a tented ah tie cst
+rank 0: a sensed ac she its
+rank 0: a sensed at she cis
+rank 0: h tented hs tie cat
+rank 0: h tented hs tie act
+rank 0: h tented ha tie cst
+rank 0: t sensed ta she cis
+rank 0: t sensed tc she ais
+rank 0: i tested in the cat
+rank 0: i tested in the act
+rank 0: i tented is the cat
+rank 0: i tented is the act
+rank 0: i tented ia the cst
+rank 0: s tented si the cat
+rank 0: s tented si the act
+rank 0: s tented sc tie hat
+rank 0: s tented sh tie cat
+rank 0: s tented sh tie act
+rank 0: c tested ci the ant
+rank 0: c tested ci the nat
+rank 0: c tested ch tie ant
+rank 0: c tested ch tie nat
+rank 0: c tested ca the int
+rank 0: c tested ca the nit
+rank 0: c tented ci the sat
+rank 0: c tented cs tie hat
+rank 0: c tented ca tie hst
+rank 0: c tented ca the sit
+rank 0: c tented ch tie sat
+rank 0: c sensed ci she ats
+rank 0: c sensed ca she its
+rank 0: c sensed ct she ais
+rank 0: c deaden ch die std
+rank 0: n tested ni the act
+rank 0: n tested ni the cat
+rank 0: n tested nh tie act
+rank 0: n tested nh tie cat
+rank 0: n tested nc tie hat
+
+real	0m0.208s
+user	0m0.098s
+sys	0m0.022s
+
+Parallel Output:
+rank 2: h tented hs tie cat 
+rank 2: h tented hs tie act 
+rank 2: h tented ha tie cst 
+rank 5: s tented si the cat 
+rank 5: s tented si the act 
+rank 5: s tented sc tie hat 
+rank 5: s tented sh tie cat 
+rank 5: s tented sh tie act 
+rank 0: a tested ac the int 
+rank 0: a tested ac the nit 
+rank 0: a tented ai the cst 
+rank 0: a tented ac tie hst 
+rank 0: a tented ac the sit 
+rank 0: a tented ah tie cst 
+rank 8: n tested ni the act 
+rank 8: n tested ni the cat 
+rank 8: n tested nh tie act 
+rank 8: n tested nh tie cat 
+rank 8: n tested nc tie hat 
+rank 4: i tested in the cat 
+rank 4: i tested in the act 
+rank 4: i tented is the cat 
+rank 4: i tented is the act 
+rank 4: i tented ia the cst 
+rank 7: c tested ci the ant 
+rank 7: c tested ci the nat 
+rank 7: c tested ch tie ant 
+rank 7: c tested ch tie nat 
+rank 7: c tested ca the int 
+rank 7: c tested ca the nit 
+rank 7: c tented ci the sat 
+rank 7: c tented cs tie hat 
+rank 7: c tented ca tie hst 
+rank 7: c tented ca the sit 
+rank 7: c tented ch tie sat 
+rank 3: t sensed ta she cis 
+rank 3: t sensed tc she ais 
+rank 0: a sensed ac she its 
+rank 0: a sensed at she cis 
+rank 7: c sensed ci she ats 
+rank 7: c sensed ca she its 
+rank 7: c sensed ct she ais 
+rank 7: c deaden ch die std 
+real 0.80
+user 1.04
+sys 1.10
+-------------------------------------------------------------------
+Run #6
+Input: i tested in the cat
+Input dictionary:      itesdnhca
+Encryption dictionary: etniascdh
+Encrypted text:        e tnitna es tcn dht
+Written to ciphertext.txt
+Serial Output:
+rank 0: t sensed tc she ais
+rank 0: t sensed ta she cis
+rank 0: n tested ni the act
+rank 0: n tested ni the cat
+rank 0: n tested nc tie hat
+rank 0: n tested nh tie act
+rank 0: n tested nh tie cat
+rank 0: i tented is the act
+rank 0: i tented is the cat
+rank 0: i tented ia the cst
+rank 0: i tested in the act
+rank 0: i tested in the cat
+rank 0: a tented ac tie hst
+rank 0: a tented ac the sit
+rank 0: a tented ai the cst
+rank 0: a tented ah tie cst
+rank 0: a tested ac the int
+rank 0: a tested ac the nit
+rank 0: a sensed at she cis
+rank 0: a sensed ac she its
+rank 0: s tented sc tie hat
+rank 0: s tented si the act
+rank 0: s tented si the cat
+rank 0: s tented sh tie cat
+rank 0: s tented sh tie act
+rank 0: c tented ca tie hst
+rank 0: c tented ca the sit
+rank 0: c tented cs tie hat
+rank 0: c tented ci the sat
+rank 0: c tented ch tie sat
+rank 0: c tested ca the int
+rank 0: c tested ca the nit
+rank 0: c tested ci the ant
+rank 0: c tested ci the nat
+rank 0: c tested ch tie nat
+rank 0: c tested ch tie ant
+rank 0: c sensed ca she its
+rank 0: c sensed ct she ais
+rank 0: c sensed ci she ats
+rank 0: c deaden ch die std
+rank 0: h tented ha tie cst
+rank 0: h tented hs tie cat
+rank 0: h tented hs tie act
+
+real	0m0.199s
+user	0m0.105s
+sys	0m0.009s
+
+Parallel Output:
+rank 8: h tented ha tie cst 
+rank 8: h tented hs tie cat 
+rank 8: h tented hs tie act 
+rank 3: i tented is the act 
+rank 3: i tented is the cat 
+rank 3: i tented ia the cst 
+rank 3: i tested in the act 
+rank 3: i tested in the cat 
+rank 2: n tested ni the act 
+rank 2: n tested ni the cat 
+rank 2: n tested nc tie hat 
+rank 2: n tested nh tie act 
+rank 2: n tested nh tie cat 
+rank 4: a tented ac tie hst 
+rank 4: a tented ac the sit 
+rank 4: a tented ai the cst 
+rank 4: a tented ah tie cst 
+rank 5: s tented sc tie hat 
+rank 5: s tented si the act 
+rank 5: s tented si the cat 
+rank 5: s tented sh tie cat 
+rank 5: s tented sh tie act 
+rank 6: c tented ca tie hst 
+rank 6: c tented ca the sit 
+rank 6: c tented cs tie hat 
+rank 6: c tented ci the sat 
+rank 6: c tented ch tie sat 
+rank 4: a tested ac the int 
+rank 4: a tested ac the nit 
+rank 6: c tested ca the int 
+rank 6: c tested ca the nit 
+rank 6: c tested ci the ant 
+rank 6: c tested ci the nat 
+rank 6: c tested ch tie nat 
+rank 6: c tested ch tie ant 
+rank 1: t sensed tc she ais 
+rank 1: t sensed ta she cis 
+rank 4: a sensed at she cis 
+rank 4: a sensed ac she its 
+rank 6: c sensed ca she its 
+rank 6: c sensed ct she ais 
+rank 6: c sensed ci she ats 
+rank 6: c deaden ch die std 
+real 0.77
+user 1.00
+sys 1.21
+-------------------------------------------------------------------
+Run #7
+Input: i tested in the cat
+Input dictionary:      itesdnhca
+Encryption dictionary: nacdihtes
+Encrypted text:        n acdaci nh atc esa
+Written to ciphertext.txt
+Serial Output:
+rank 0: n tested nh tie cat
+rank 0: n tested nh tie act
+rank 0: n tested nc tie hat
+rank 0: n tested ni the cat
+rank 0: n tested ni the act
+rank 0: a tented ah tie cst
+rank 0: a tented ai the cst
+rank 0: a tented ac tie hst
+rank 0: a tented ac the sit
+rank 0: a tested ac the nit
+rank 0: a tested ac the int
+rank 0: a sensed at she cis
+rank 0: a sensed ac she its
+rank 0: c deaden ch die std
+rank 0: c tented ch tie sat
+rank 0: c tented ci the sat
+rank 0: c tented ca tie hst
+rank 0: c tented ca the sit
+rank 0: c tented cs tie hat
+rank 0: c tested ch tie ant
+rank 0: c tested ch tie nat
+rank 0: c tested ca the nit
+rank 0: c tested ca the int
+rank 0: c tested ci the ant
+rank 0: c tested ci the nat
+rank 0: c sensed ct she ais
+rank 0: c sensed ca she its
+rank 0: c sensed ci she ats
+rank 0: i tented ia the cst
+rank 0: i tented is the act
+rank 0: i tented is the cat
+rank 0: i tested in the act
+rank 0: i tested in the cat
+rank 0: h tented ha tie cst
+rank 0: h tented hs tie act
+rank 0: h tented hs tie cat
+rank 0: t sensed ta she cis
+rank 0: t sensed tc she ais
+rank 0: s tented si the cat
+rank 0: s tented si the act
+rank 0: s tented sh tie cat
+rank 0: s tented sh tie act
+rank 0: s tented sc tie hat
+
+real	0m0.204s
+user	0m0.098s
+sys	0m0.014s
+
+Parallel Output:
+rank 2: c deaden ch die std 
+rank 4: i tented ia the cst 
+rank 4: i tented is the act 
+rank 4: i tented is the cat 
+rank 4: i tested in the act 
+rank 4: i tested in the cat 
+rank 2: c tented ch tie sat 
+rank 2: c tented ci the sat 
+rank 2: c tented ca tie hst 
+rank 2: c tented ca the sit 
+rank 2: c tented cs tie hat 
+rank 2: c tested ch tie ant 
+rank 2: c tested ch tie nat 
+rank 2: c tested ca the nit 
+rank 2: c tested ca the int 
+rank 2: c tested ci the ant 
+rank 2: c tested ci the nat 
+rank 6: t sensed ta she cis 
+rank 6: t sensed tc she ais 
+rank 5: h tented ha tie cst 
+rank 5: h tented hs tie act 
+rank 5: h tented hs tie cat 
+rank 0: n tested nh tie cat 
+rank 0: n tested nh tie act 
+rank 0: n tested nc tie hat 
+rank 0: n tested ni the cat 
+rank 0: n tested ni the act 
+rank 1: a tented ah tie cst 
+rank 1: a tented ai the cst 
+rank 1: a tented ac tie hst 
+rank 1: a tented ac the sit 
+rank 1: a tested ac the nit 
+rank 1: a tested ac the int 
+rank 1: a sensed at she cis 
+rank 1: a sensed ac she its 
+rank 2: c sensed ct she ais 
+rank 2: c sensed ca she its 
+rank 8: s tented si the cat 
+rank 8: s tented si the act 
+rank 8: s tented sh tie cat 
+rank 8: s tented sh tie act 
+rank 8: s tented sc tie hat 
+rank 2: c sensed ci she ats 
+real 0.80
+user 1.02
+sys 1.27
+-------------------------------------------------------------------
+Run #8
+Input: i tested in the cat
+Input dictionary:      itesdnhca
+Encryption dictionary: iaehcntds
+Encrypted text:        i aehaec in ate dsa
+Written to ciphertext.txt
+Serial Output:
+rank 0: i tented ia the cst
+rank 0: i tented is the cat
+rank 0: i tented is the act
+rank 0: i tested in the cat
+rank 0: i tested in the act
+rank 0: a tented ah tie cst
+rank 0: a tented ai the cst
+rank 0: a tented ac tie hst
+rank 0: a tented ac the sit
+rank 0: a tested ac the nit
+rank 0: a tested ac the int
+rank 0: a sensed at she cis
+rank 0: a sensed ac she its
+rank 0: h tented ha tie cst
+rank 0: h tented hs tie cat
+rank 0: h tented hs tie act
+rank 0: c tented ca tie hst
+rank 0: c tented ca the sit
+rank 0: c tented ci the sat
+rank 0: c tented ch tie sat
+rank 0: c tented cs tie hat
+rank 0: c tested ci the nat
+rank 0: c tested ci the ant
+rank 0: c tested ch tie nat
+rank 0: c tested ch tie ant
+rank 0: c tested ca the int
+rank 0: c tested ca the nit
+rank 0: c deaden ch die std
+rank 0: c sensed ca she its
+rank 0: c sensed ct she ais
+rank 0: c sensed ci she ats
+rank 0: n tested nc tie hat
+rank 0: n tested ni the cat
+rank 0: n tested ni the act
+rank 0: n tested nh tie cat
+rank 0: n tested nh tie act
+rank 0: t sensed tc she ais
+rank 0: t sensed ta she cis
+rank 0: s tented sc tie hat
+rank 0: s tented si the cat
+rank 0: s tented si the act
+rank 0: s tented sh tie act
+rank 0: s tented sh tie cat
+
+real	0m0.182s
+user	0m0.093s
+sys	0m0.009s
+
+Parallel Output:
+rank 3: h tented ha tie cst 
+rank 3: h tented hs tie cat 
+rank 3: h tented hs tie act 
+rank 0: i tented ia the cst 
+rank 0: i tented is the cat 
+rank 0: i tented is the act 
+rank 0: i tested in the cat 
+rank 0: i tested in the act 
+rank 1: a tented ah tie cst 
+rank 1: a tented ai the cst 
+rank 1: a tented ac tie hst 
+rank 1: a tented ac the sit 
+rank 1: a tested ac the nit 
+rank 1: a tested ac the int 
+rank 4: c tented ca tie hst 
+rank 4: c tented ca the sit 
+rank 4: c tented ci the sat 
+rank 4: c tented ch tie sat 
+rank 4: c tented cs tie hat 
+rank 4: c tested ci the nat 
+rank 4: c tested ci the ant 
+rank 4: c tested ch tie nat 
+rank 4: c tested ch tie ant 
+rank 4: c tested ca the int 
+rank 4: c tested ca the nit 
+rank 6: t sensed tc she ais 
+rank 6: t sensed ta she cis 
+rank 8: s tented sc tie hat 
+rank 8: s tented si the cat 
+rank 8: s tented si the act 
+rank 8: s tented sh tie act 
+rank 8: s tented sh tie cat 
+rank 4: c deaden ch die std 
+rank 1: a sensed at she cis 
+rank 1: a sensed ac she its 
+rank 5: n tested nc tie hat 
+rank 5: n tested ni the cat 
+rank 5: n tested ni the act 
+rank 5: n tested nh tie cat 
+rank 5: n tested nh tie act 
+rank 4: c sensed ca she its 
+rank 4: c sensed ct she ais 
+rank 4: c sensed ci she ats 
+real 0.73
+user 0.78
+sys 1.10
+-------------------------------------------------------------------
+Run #9
+Input: i tested in the cat
+Input dictionary:      itesdnhca
+Encryption dictionary: sidnehatc
+Encrypted text:        s idnide sh iad tci
+Written to ciphertext.txt
+Serial Output:
+rank 0: s tented sh tie act
+rank 0: s tented sh tie cat
+rank 0: s tented si the act
+rank 0: s tented si the cat
+rank 0: s tented sc tie hat
+rank 0: i tented ia the cst
+rank 0: i tented is the act
+rank 0: i tented is the cat
+rank 0: i tested in the act
+rank 0: i tested in the cat
+rank 0: n tested nh tie act
+rank 0: n tested nh tie cat
+rank 0: n tested ni the act
+rank 0: n tested ni the cat
+rank 0: n tested nc tie hat
+rank 0: h tented ha tie cst
+rank 0: h tented hs tie act
+rank 0: h tented hs tie cat
+rank 0: a sensed at she cis
+rank 0: a sensed ac she its
+rank 0: a tented ai the cst
+rank 0: a tented ah tie cst
+rank 0: a tented ac the sit
+rank 0: a tented ac tie hst
+rank 0: a tested ac the nit
+rank 0: a tested ac the int
+rank 0: t sensed ta she cis
+rank 0: t sensed tc she ais
+rank 0: c sensed ci she ats
+rank 0: c sensed ca she its
+rank 0: c sensed ct she ais
+rank 0: c deaden ch die std
+rank 0: c tented ci the sat
+rank 0: c tented ch tie sat
+rank 0: c tented ca the sit
+rank 0: c tented ca tie hst
+rank 0: c tented cs tie hat
+rank 0: c tested ci the ant
+rank 0: c tested ci the nat
+rank 0: c tested ch tie ant
+rank 0: c tested ch tie nat
+rank 0: c tested ca the int
+rank 0: c tested ca the nit
+
+real	0m0.216s
+user	0m0.097s
+sys	0m0.017s
+
+Parallel Output:
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that process rank 4 with PID 0 on node cis3090 exited on signal 13 (Broken pipe).
+--------------------------------------------------------------------------
+real 1.20
+user 0.02
+sys 0.17
+-------------------------------------------------------------------
+Run #10
+Input: i tested in the cat
+Input dictionary:      itesdnhca
+Encryption dictionary: hitcdasne
+Encrypted text:        h itcitd ha ist nei
+Written to ciphertext.txt
+Serial Output:
+rank 0: h tented ha tie cst
+rank 0: h tented hs tie cat
+rank 0: h tented hs tie act
+rank 0: i tested in the act
+rank 0: i tested in the cat
+rank 0: i tented ia the cst
+rank 0: i tented is the cat
+rank 0: i tented is the act
+rank 0: t sensed ta she cis
+rank 0: t sensed tc she ais
+rank 0: c tested ca the nit
+rank 0: c tested ca the int
+rank 0: c tested ch tie nat
+rank 0: c tested ch tie ant
+rank 0: c tested ci the nat
+rank 0: c tested ci the ant
+rank 0: c tented ca the sit
+rank 0: c tented ca tie hst
+rank 0: c tented cs tie hat
+rank 0: c tented ch tie sat
+rank 0: c tented ci the sat
+rank 0: c deaden ch die std
+rank 0: c sensed ca she its
+rank 0: c sensed ct she ais
+rank 0: c sensed ci she ats
+rank 0: a tested ac the nit
+rank 0: a tested ac the int
+rank 0: a tented ac the sit
+rank 0: a tented ac tie hst
+rank 0: a tented ah tie cst
+rank 0: a tented ai the cst
+rank 0: a sensed ac she its
+rank 0: a sensed at she cis
+rank 0: s tented sc tie hat
+rank 0: s tented sh tie cat
+rank 0: s tented sh tie act
+rank 0: s tented si the act
+rank 0: s tented si the cat
+rank 0: n tested nc tie hat
+rank 0: n tested nh tie cat
+rank 0: n tested nh tie act
+rank 0: n tested ni the act
+rank 0: n tested ni the cat
+
+real	0m0.221s
+user	0m0.100s
+sys	0m0.027s
+
+Parallel Output:
+rank 0: h tented ha tie cst 
+rank 0: h tented hs tie cat 
+rank 0: h tented hs tie act 
+rank 5: a tested ac the nit 
+rank 5: a tested ac the int 
+rank 5: a tented ac the sit 
+rank 5: a tented ac tie hst 
+rank 1: i tested in the act 
+rank 1: i tested in the cat 
+rank 1: i tented ia the cst 
+rank 1: i tented is the cat 
+rank 1: i tented is the act 
+rank 5: a tented ah tie cst 
+rank 5: a tented ai the cst 
+rank 7: n tested nc tie hat 
+rank 7: n tested nh tie cat 
+rank 7: n tested nh tie act 
+rank 7: n tested ni the act 
+rank 7: n tested ni the cat 
+rank 6: s tented sc tie hat 
+rank 6: s tented sh tie cat 
+rank 6: s tented sh tie act 
+rank 6: s tented si the act 
+rank 6: s tented si the cat 
+rank 3: c tested ca the nit 
+rank 3: c tested ca the int 
+rank 3: c tested ch tie nat 
+rank 3: c tested ch tie ant 
+rank 3: c tested ci the nat 
+rank 3: c tested ci the ant 
+rank 3: c tented ca the sit 
+rank 3: c tented ca tie hst 
+rank 3: c tented cs tie hat 
+rank 3: c tented ch tie sat 
+rank 3: c tented ci the sat 
+rank 3: c deaden ch die std 
+rank 2: t sensed ta she cis 
+rank 2: t sensed tc she ais 
+rank 5: a sensed ac she its 
+rank 5: a sensed at she cis 
+rank 3: c sensed ca she its 
+rank 3: c sensed ct she ais 
+rank 3: c sensed ci she ats 
+real 0.76
+user 0.90
+sys 1.09
+-------------------------------------------------------------------
+Run #11
+Input: i tested in the cat
+Input dictionary:      itesdnhca
+Encryption dictionary: dtsaeihnc
+Encrypted text:        d tsatse di ths nct
+Written to ciphertext.txt
+Serial Output:
+rank 0: t sensed ta she cis
+rank 0: t sensed tc she ais
+rank 0: s tented si the act
+rank 0: s tented si the cat
+rank 0: s tented sh tie act
+rank 0: s tented sh tie cat
+rank 0: s tented sc tie hat
+rank 0: a tested ac the nit
+rank 0: a tested ac the int
+rank 0: a tented ai the cst
+rank 0: a tented ah tie cst
+rank 0: a tented ac the sit
+rank 0: a tented ac tie hst
+rank 0: a sensed at she cis
+rank 0: a sensed ac she its
+rank 0: i tested in the act
+rank 0: i tested in the cat
+rank 0: i tented ia the cst
+rank 0: i tented is the act
+rank 0: i tented is the cat
+rank 0: h tented ha tie cst
+rank 0: h tented hs tie act
+rank 0: h tented hs tie cat
+rank 0: n tested ni the act
+rank 0: n tested ni the cat
+rank 0: n tested nh tie act
+rank 0: n tested nh tie cat
+rank 0: n tested nc tie hat
+rank 0: c deaden ch die std
+rank 0: c tested ca the int
+rank 0: c tested ca the nit
+rank 0: c tested ci the ant
+rank 0: c tested ci the nat
+rank 0: c tested ch tie ant
+rank 0: c tested ch tie nat
+rank 0: c tented ca tie hst
+rank 0: c tented ca the sit
+rank 0: c tented ci the sat
+rank 0: c tented ch tie sat
+rank 0: c tented cs tie hat
+rank 0: c sensed ct she ais
+rank 0: c sensed ci she ats
+rank 0: c sensed ca she its
+
+real	0m0.212s
+user	0m0.095s
+sys	0m0.021s
+
+Parallel Output:
+rank 8: c deaden ch die std 
+rank 7: n tested ni the act 
+rank 7: n tested ni the cat 
+rank 7: n tested nh tie act 
+rank 7: n tested nh tie cat 
+rank 7: n tested nc tie hat 
+rank 2: s tented si the act 
+rank 2: s tented si the cat 
+rank 2: s tented sh tie act 
+rank 2: s tented sh tie cat 
+rank 2: s tented sc tie hat 
+rank 6: h tented ha tie cst 
+rank 6: h tented hs tie act 
+rank 6: h tented hs tie cat 
+rank 3: a tested ac the nit 
+rank 3: a tested ac the int 
+rank 1: t sensed ta she cis 
+rank 1: t sensed tc she ais 
+rank 3: a tented ai the cst 
+rank 3: a tented ah tie cst 
+rank 3: a tented ac the sit 
+rank 3: a tented ac tie hst 
+rank 5: i tested in the act 
+rank 5: i tested in the cat 
+rank 5: i tented ia the cst 
+rank 5: i tented is the act 
+rank 5: i tented is the cat 
+rank 8: c tested ca the int 
+rank 8: c tested ca the nit 
+rank 8: c tested ci the ant 
+rank 8: c tested ci the nat 
+rank 8: c tested ch tie ant 
+rank 8: c tested ch tie nat 
+rank 8: c tented ca tie hst 
+rank 8: c tented ca the sit 
+rank 8: c tented ci the sat 
+rank 8: c tented ch tie sat 
+rank 8: c tented cs tie hat 
+rank 3: a sensed at she cis 
+rank 3: a sensed ac she its 
+rank 8: c sensed ct she ais 
+rank 8: c sensed ci she ats 
+rank 8: c sensed ca she its 
+real 0.76
+user 1.00
+sys 1.03
+-------------------------------------------------------------------
+Run #12
+Input: i tested in the cat
+Input dictionary:      itesdnhca
+Encryption dictionary: cahitnsde
+Encrypted text:        c ahiaht cn ash dea
+Written to ciphertext.txt
+Serial Output:
+rank 0: c tented ci the sat
+rank 0: c tented cs tie hat
+rank 0: c tented ca tie hst
+rank 0: c tented ca the sit
+rank 0: c tented ch tie sat
+rank 0: c tested ci the ant
+rank 0: c tested ci the nat
+rank 0: c tested ca the nit
+rank 0: c tested ca the int
+rank 0: c tested ch tie ant
+rank 0: c tested ch tie nat
+rank 0: c sensed ci she ats
+rank 0: c sensed ca she its
+rank 0: c sensed ct she ais
+rank 0: c deaden ch die std
+rank 0: a tented ai the cst
+rank 0: a tented ac tie hst
+rank 0: a tented ac the sit
+rank 0: a tented ah tie cst
+rank 0: a tested ac the nit
+rank 0: a tested ac the int
+rank 0: a sensed ac she its
+rank 0: a sensed at she cis
+rank 0: h tented hs tie cat
+rank 0: h tented hs tie act
+rank 0: h tented ha tie cst
+rank 0: i tented is the cat
+rank 0: i tented is the act
+rank 0: i tented ia the cst
+rank 0: i tested in the cat
+rank 0: i tested in the act
+rank 0: t sensed tc she ais
+rank 0: t sensed ta she cis
+rank 0: n tested nc tie hat
+rank 0: n tested nh tie cat
+rank 0: n tested nh tie act
+rank 0: n tested ni the cat
+rank 0: n tested ni the act
+rank 0: s tented sc tie hat
+rank 0: s tented sh tie cat
+rank 0: s tented sh tie act
+rank 0: s tented si the cat
+rank 0: s tented si the act
+
+real	0m0.240s
+user	0m0.116s
+sys	0m0.009s
+
+Parallel Output:
+rank 1: a tented ai the cst 
+rank 1: a tented ac tie hst 
+rank 1: a tented ac the sit 
+rank 1: a tented ah tie cst 
+rank 2: h tented hs tie cat 
+rank 2: h tented hs tie act 
+rank 2: h tented ha tie cst 
+rank 1: a tested ac the nit 
+rank 1: a tested ac the int 
+rank 0: c tented ci the sat 
+rank 0: c tented cs tie hat 
+rank 0: c tented ca tie hst 
+rank 0: c tented ca the sit 
+rank 0: c tented ch tie sat 
+rank 0: c tested ci the ant 
+rank 0: c tested ci the nat 
+rank 0: c tested ca the nit 
+rank 0: c tested ca the int 
+rank 0: c tested ch tie ant 
+rank 0: c tested ch tie nat 
+rank 1: a sensed ac she its 
+rank 1: a sensed at she cis 
+rank 3: i tented is the cat 
+rank 3: i tented is the act 
+rank 3: i tented ia the cst 
+rank 3: i tested in the cat 
+rank 3: i tested in the act 
+rank 5: n tested nc tie hat 
+rank 5: n tested nh tie cat 
+rank 5: n tested nh tie act 
+rank 5: n tested ni the cat 
+rank 5: n tested ni the act 
+rank 6: s tented sc tie hat 
+rank 6: s tented sh tie cat 
+rank 6: s tented sh tie act 
+rank 6: s tented si the cat 
+rank 6: s tented si the act 
+rank 0: c sensed ci she ats 
+rank 0: c sensed ca she its 
+rank 0: c sensed ct she ais 
+rank 4: t sensed tc she ais 
+rank 4: t sensed ta she cis 
+rank 0: c deaden ch die std 
+real 0.75
+user 0.84
+sys 1.14
+-------------------------------------------------------------------
+Run #13
+Input: i tested in the cat
+Input dictionary:      itesdnhca
+Encryption dictionary: tdancheis
+Encrypted text:        t dandac th dea isd
+Written to ciphertext.txt
+Serial Output:
+rank 0: t sensed ta she cis
+rank 0: t sensed tc she ais
+rank 0: a tented ah tie cst
+rank 0: a tented ac the sit
+rank 0: a tented ac tie hst
+rank 0: a tented ai the cst
+rank 0: a tested ac the int
+rank 0: a tested ac the nit
+rank 0: a sensed ac she its
+rank 0: a sensed at she cis
+rank 0: n tested nh tie cat
+rank 0: n tested nh tie act
+rank 0: n tested nc tie hat
+rank 0: n tested ni the cat
+rank 0: n tested ni the act
+rank 0: c tented ch tie sat
+rank 0: c tented ca the sit
+rank 0: c tented ca tie hst
+rank 0: c tented ci the sat
+rank 0: c tented cs tie hat
+rank 0: c tested ch tie nat
+rank 0: c tested ch tie ant
+rank 0: c tested ci the nat
+rank 0: c tested ci the ant
+rank 0: c tested ca the int
+rank 0: c tested ca the nit
+rank 0: c deaden ch die std
+rank 0: c sensed ca she its
+rank 0: c sensed ci she ats
+rank 0: c sensed ct she ais
+rank 0: h tented ha tie cst
+rank 0: h tented hs tie act
+rank 0: h tented hs tie cat
+rank 0: i tented ia the cst
+rank 0: i tented is the act
+rank 0: i tented is the cat
+rank 0: i tested in the cat
+rank 0: i tested in the act
+rank 0: s tented sc tie hat
+rank 0: s tented sh tie act
+rank 0: s tented sh tie cat
+rank 0: s tented si the act
+rank 0: s tented si the cat
+
+real	0m0.224s
+user	0m0.117s
+sys	0m0.009s
+
+Parallel Output:
+rank 2: a tented ah tie cst 
+rank 2: a tented ac the sit 
+rank 2: a tented ac tie hst 
+rank 2: a tented ai the cst 
+rank 4: c tented ch tie sat 
+rank 4: c tented ca the sit 
+rank 4: c tented ca tie hst 
+rank 4: c tented ci the sat 
+rank 4: c tented cs tie hat 
+rank 2: a tested ac the int 
+rank 2: a tested ac the nit 
+rank 5: h tented ha tie cst 
+rank 5: h tented hs tie act 
+rank 5: h tented hs tie cat 
+rank 7: i tented ia the cst 
+rank 7: i tented is the act 
+rank 7: i tented is the cat 
+rank 7: i tested in the cat 
+rank 7: i tested in the act 
+rank 8: s tented sc tie hat 
+rank 8: s tented sh tie act 
+rank 8: s tented sh tie cat 
+rank 8: s tented si the act 
+rank 8: s tented si the cat 
+rank 4: c tested ch tie nat 
+rank 4: c tested ch tie ant 
+rank 4: c tested ci the nat 
+rank 4: c tested ci the ant 
+rank 4: c tested ca the int 
+rank 4: c tested ca the nit 
+rank 3: n tested nh tie cat 
+rank 3: n tested nh tie act 
+rank 3: n tested nc tie hat 
+rank 3: n tested ni the cat 
+rank 3: n tested ni the act 
+rank 4: c deaden ch die std 
+rank 2: a sensed ac she its 
+rank 2: a sensed at she cis 
+rank 0: t sensed ta she cis 
+rank 0: t sensed tc she ais 
+rank 4: c sensed ca she its 
+rank 4: c sensed ci she ats 
+rank 4: c sensed ct she ais 
+real 0.75
+user 0.91
+sys 0.95
+-------------------------------------------------------------------
+Run #14
+Input: i tested in the cat
+Input dictionary:      itesdnhca
+Encryption dictionary: istcednha
+Encrypted text:        i stcste id snt has
+Written to ciphertext.txt
+Serial Output:
+rank 0: i tested in the cat
+rank 0: i tested in the act
+rank 0: i tented is the cat
+rank 0: i tented is the act
+rank 0: i tented ia the cst
+rank 0: s tented si the cat
+rank 0: s tented si the act
+rank 0: s tented sc tie hat
+rank 0: s tented sh tie cat
+rank 0: s tented sh tie act
+rank 0: t sensed tc she ais
+rank 0: t sensed ta she cis
+rank 0: c sensed ci she ats
+rank 0: c sensed ct she ais
+rank 0: c sensed ca she its
+rank 0: c tested ci the nat
+rank 0: c tested ci the ant
+rank 0: c tested ch tie nat
+rank 0: c tested ch tie ant
+rank 0: c tested ca the nit
+rank 0: c tested ca the int
+rank 0: c tented cs tie hat
+rank 0: c tented ci the sat
+rank 0: c tented ch tie sat
+rank 0: c tented ca tie hst
+rank 0: c tented ca the sit
+rank 0: c deaden ch die std
+rank 0: n tested ni the cat
+rank 0: n tested ni the act
+rank 0: n tested nc tie hat
+rank 0: n tested nh tie cat
+rank 0: n tested nh tie act
+rank 0: h tented hs tie cat
+rank 0: h tented hs tie act
+rank 0: h tented ha tie cst
+rank 0: a sensed ac she its
+rank 0: a sensed at she cis
+rank 0: a tested ac the nit
+rank 0: a tested ac the int
+rank 0: a tented ac tie hst
+rank 0: a tented ac the sit
+rank 0: a tented ai the cst
+rank 0: a tented ah tie cst
+
+real	0m0.231s
+user	0m0.106s
+sys	0m0.024s
+
+Parallel Output:
+rank 2: t sensed tc she ais 
+rank 2: t sensed ta she cis 
+rank 8: a sensed ac she its 
+rank 8: a sensed at she cis 
+rank 1: s tented si the cat 
+rank 1: s tented si the act 
+rank 1: s tented sc tie hat 
+rank 1: s tented sh tie cat 
+rank 1: s tented sh tie act 
+rank 3: c sensed ci she ats 
+rank 3: c sensed ct she ais 
+rank 3: c sensed ca she its 
+rank 0: i tested in the cat 
+rank 0: i tested in the act 
+rank 6: n tested ni the cat 
+rank 6: n tested ni the act 
+rank 6: n tested nc tie hat 
+rank 6: n tested nh tie cat 
+rank 6: n tested nh tie act 
+rank 0: i tented is the cat 
+rank 0: i tented is the act 
+rank 0: i tented ia the cst 
+rank 8: a tested ac the nit 
+rank 8: a tested ac the int 
+rank 8: a tented ac tie hst 
+rank 8: a tented ac the sit 
+rank 8: a tented ai the cst 
+rank 8: a tented ah tie cst 
+rank 3: c tested ci the nat 
+rank 3: c tested ci the ant 
+rank 3: c tested ch tie nat 
+rank 3: c tested ch tie ant 
+rank 3: c tested ca the nit 
+rank 3: c tested ca the int 
+rank 3: c tented cs tie hat 
+rank 3: c tented ci the sat 
+rank 3: c tented ch tie sat 
+rank 3: c tented ca tie hst 
+rank 3: c tented ca the sit 
+rank 7: h tented hs tie cat 
+rank 7: h tented hs tie act 
+rank 7: h tented ha tie cst 
+rank 3: c deaden ch die std 
+real 0.75
+user 0.86
+sys 1.14
+-------------------------------------------------------------------
+Run #15
+Input: i tested in the cat
+Input dictionary:      itesdnhca
+Encryption dictionary: seahdtinc
+Encrypted text:        s eahead st eia nce
+Written to ciphertext.txt
+Serial Output:
+rank 0: s tented si the act
+rank 0: s tented si the cat
+rank 0: s tented sh tie act
+rank 0: s tented sh tie cat
+rank 0: s tented sc tie hat
+rank 0: a sensed at she cis
+rank 0: a sensed ac she its
+rank 0: a tested ac the nit
+rank 0: a tested ac the int
+rank 0: a tented ai the cst
+rank 0: a tented ah tie cst
+rank 0: a tented ac tie hst
+rank 0: a tented ac the sit
+rank 0: h tented hs tie act
+rank 0: h tented hs tie cat
+rank 0: h tented ha tie cst
+rank 0: t sensed ta she cis
+rank 0: t sensed tc she ais
+rank 0: i tested in the act
+rank 0: i tested in the cat
+rank 0: i tented is the act
+rank 0: i tented is the cat
+rank 0: i tented ia the cst
+rank 0: n tested nh tie act
+rank 0: n tested nh tie cat
+rank 0: n tested ni the act
+rank 0: n tested ni the cat
+rank 0: n tested nc tie hat
+rank 0: c sensed ct she ais
+rank 0: c sensed ci she ats
+rank 0: c sensed ca she its
+rank 0: c deaden ch die std
+rank 0: c tested ch tie ant
+rank 0: c tested ch tie nat
+rank 0: c tested ca the int
+rank 0: c tested ca the nit
+rank 0: c tested ci the ant
+rank 0: c tested ci the nat
+rank 0: c tented ch tie sat
+rank 0: c tented cs tie hat
+rank 0: c tented ci the sat
+rank 0: c tented ca tie hst
+rank 0: c tented ca the sit
+
+real	0m0.210s
+user	0m0.098s
+sys	0m0.017s
+
+Parallel Output:
+rank 5: t sensed ta she cis 
+rank 5: t sensed tc she ais 
+rank 2: a sensed at she cis 
+rank 2: a sensed ac she its 
+rank 8: c sensed ct she ais 
+rank 8: c sensed ci she ats 
+rank 8: c sensed ca she its 
+rank 2: a tested ac the nit 
+rank 2: a tested ac the int 
+rank 3: h tented hs tie act 
+rank 3: h tented hs tie cat 
+rank 3: h tented ha tie cst 
+rank 2: a tented ai the cst 
+rank 2: a tented ah tie cst 
+rank 2: a tented ac tie hst 
+rank 2: a tented ac the sit 
+rank 7: n tested nh tie act 
+rank 7: n tested nh tie cat 
+rank 7: n tested ni the act 
+rank 7: n tested ni the cat 
+rank 7: n tested nc tie hat 
+rank 8: c deaden ch die std 
+rank 0: s tented si the act 
+rank 0: s tented si the cat 
+rank 0: s tented sh tie act 
+rank 0: s tented sh tie cat 
+rank 0: s tented sc tie hat 
+rank 8: c tested ch tie ant 
+rank 8: c tested ch tie nat 
+rank 8: c tested ca the int 
+rank 8: c tested ca the nit 
+rank 8: c tested ci the ant 
+rank 8: c tested ci the nat 
+rank 6: i tested in the act 
+rank 6: i tested in the cat 
+rank 6: i tented is the act 
+rank 6: i tented is the cat 
+rank 6: i tented ia the cst 
+rank 8: c tented ch tie sat 
+rank 8: c tented cs tie hat 
+rank 8: c tented ci the sat 
+rank 8: c tented ca tie hst 
+rank 8: c tented ca the sit 
+real 0.73
+user 0.90
+sys 1.02
+-------------------------------------------------------------------
+Run #16
+Input: i tested in the cat
+Input dictionary:      itesdnhca
+Encryption dictionary: htdaenisc
+Encrypted text:        h tdatde hn tid sct
+Written to ciphertext.txt
+Serial Output:
+rank 0: h tented ha tie cst
+rank 0: h tented hs tie act
+rank 0: h tented hs tie cat
+rank 0: t sensed ta she cis
+rank 0: t sensed tc she ais
+rank 0: a tented ah tie cst
+rank 0: a tented ai the cst
+rank 0: a tented ac tie hst
+rank 0: a tented ac the sit
+rank 0: a tested ac the int
+rank 0: a tested ac the nit
+rank 0: a sensed at she cis
+rank 0: a sensed ac she its
+rank 0: n tested nh tie act
+rank 0: n tested nh tie cat
+rank 0: n tested ni the act
+rank 0: n tested ni the cat
+rank 0: n tested nc tie hat
+rank 0: i tented ia the cst
+rank 0: i tented is the act
+rank 0: i tented is the cat
+rank 0: i tested in the act
+rank 0: i tested in the cat
+rank 0: s tented sh tie act
+rank 0: s tented sh tie cat
+rank 0: s tented si the act
+rank 0: s tented si the cat
+rank 0: s tented sc tie hat
+rank 0: c tented ch tie sat
+rank 0: c tented ca the sit
+rank 0: c tented ca tie hst
+rank 0: c tented ci the sat
+rank 0: c tented cs tie hat
+rank 0: c tested ch tie nat
+rank 0: c tested ch tie ant
+rank 0: c tested ci the nat
+rank 0: c tested ci the ant
+rank 0: c tested ca the int
+rank 0: c tested ca the nit
+rank 0: c deaden ch die std
+rank 0: c sensed ct she ais
+rank 0: c sensed ca she its
+rank 0: c sensed ci she ats
+
+real	0m0.203s
+user	0m0.087s
+sys	0m0.024s
+
+Parallel Output:
+rank 0: h tented ha tie cst 
+rank 0: h tented hs tie act 
+rank 0: h tented hs tie cat 
+rank 3: a tented ah tie cst 
+rank 3: a tented ai the cst 
+rank 3: a tented ac tie hst 
+rank 3: a tented ac the sit 
+rank 5: n tested nh tie act 
+rank 5: n tested nh tie cat 
+rank 5: n tested ni the act 
+rank 5: n tested ni the cat 
+rank 5: n tested nc tie hat 
+rank 3: a tested ac the int 
+rank 3: a tested ac the nit 
+rank 8: c tented ch tie sat 
+rank 8: c tented ca the sit 
+rank 8: c tented ca tie hst 
+rank 8: c tented ci the sat 
+rank 7: s tented sh tie act 
+rank 7: s tented sh tie cat 
+rank 7: s tented si the act 
+rank 7: s tented si the cat 
+rank 7: s tented sc tie hat 
+rank 8: c tented cs tie hat 
+rank 8: c tested ch tie nat 
+rank 8: c tested ch tie ant 
+rank 8: c tested ci the nat 
+rank 8: c tested ci the ant 
+rank 8: c tested ca the int 
+rank 8: c tested ca the nit 
+rank 6: i tented ia the cst 
+rank 6: i tented is the act 
+rank 6: i tented is the cat 
+rank 6: i tested in the act 
+rank 6: i tested in the cat 
+rank 8: c deaden ch die std 
+rank 1: t sensed ta she cis 
+rank 1: t sensed tc she ais 
+rank 8: c sensed ct she ais 
+rank 8: c sensed ca she its 
+rank 8: c sensed ci she ats 
+rank 3: a sensed at she cis 
+rank 3: a sensed ac she its 
+real 0.74
+user 0.89
+sys 1.14
+-------------------------------------------------------------------
+Run #17
+Input: i tested in the cat
+Input dictionary:      itesdnhca
+Encryption dictionary: inhdstcea
+Encrypted text:        i nhdnhs it nch ean
+Written to ciphertext.txt
+Serial Output:
+rank 0: i tested in the cat
+rank 0: i tested in the act
+rank 0: i tented is the cat
+rank 0: i tented is the act
+rank 0: i tented ia the cst
+rank 0: n tested ni the cat
+rank 0: n tested ni the act
+rank 0: n tested nc tie hat
+rank 0: n tested nh tie cat
+rank 0: n tested nh tie act
+rank 0: h tented hs tie cat
+rank 0: h tented hs tie act
+rank 0: h tented ha tie cst
+rank 0: s tented si the cat
+rank 0: s tented si the act
+rank 0: s tented sc tie hat
+rank 0: s tented sh tie cat
+rank 0: s tented sh tie act
+rank 0: t sensed tc she ais
+rank 0: t sensed ta she cis
+rank 0: c deaden ch die std
+rank 0: c sensed ci she ats
+rank 0: c sensed ct she ais
+rank 0: c sensed ca she its
+rank 0: c tested ch tie nat
+rank 0: c tested ch tie ant
+rank 0: c tested ci the nat
+rank 0: c tested ci the ant
+rank 0: c tested ca the nit
+rank 0: c tested ca the int
+rank 0: c tented cs tie hat
+rank 0: c tented ci the sat
+rank 0: c tented ch tie sat
+rank 0: c tented ca tie hst
+rank 0: c tented ca the sit
+rank 0: a sensed at she cis
+rank 0: a sensed ac she its
+rank 0: a tested ac the int
+rank 0: a tested ac the nit
+rank 0: a tented ai the cst
+rank 0: a tented ac tie hst
+rank 0: a tented ac the sit
+rank 0: a tented ah tie cst
+
+real	0m0.200s
+user	0m0.098s
+sys	0m0.013s
+
+Parallel Output:
+rank 1: n tested ni the cat 
+rank 1: n tested ni the act 
+rank 1: n tested nc tie hat 
+rank 1: n tested nh tie cat 
+rank 1: n tested nh tie act 
+rank 2: h tented hs tie cat 
+rank 2: h tented hs tie act 
+rank 2: h tented ha tie cst 
+rank 6: c deaden ch die std 
+rank 0: i tested in the cat 
+rank 0: i tested in the act 
+rank 0: i tented is the cat 
+rank 0: i tented is the act 
+rank 0: i tented ia the cst 
+rank 5: t sensed tc she ais 
+rank 5: t sensed ta she cis 
+rank 6: c sensed ci she ats 
+rank 6: c sensed ct she ais 
+rank 6: c sensed ca she its 
+rank 4: s tented si the cat 
+rank 4: s tented si the act 
+rank 4: s tented sc tie hat 
+rank 8: a sensed at she cis 
+rank 8: a sensed ac she its 
+rank 4: s tented sh tie cat 
+rank 4: s tented sh tie act 
+rank 6: c tested ch tie nat 
+rank 6: c tested ch tie ant 
+rank 6: c tested ci the nat 
+rank 6: c tested ci the ant 
+rank 6: c tested ca the nit 
+rank 6: c tested ca the int 
+rank 8: a tested ac the int 
+rank 8: a tested ac the nit 
+rank 6: c tented cs tie hat 
+rank 6: c tented ci the sat 
+rank 6: c tented ch tie sat 
+rank 6: c tented ca tie hst 
+rank 6: c tented ca the sit 
+rank 8: a tented ai the cst 
+rank 8: a tented ac tie hst 
+rank 8: a tented ac the sit 
+rank 8: a tented ah tie cst 
+real 0.74
+user 0.89
+sys 1.07
+-------------------------------------------------------------------
+Run #18
+Input: i tested in the cat
+Input dictionary:      itesdnhca
+Encryption dictionary: daisthnec
+Encrypted text:        d aisait dh ani eca
+Written to ciphertext.txt
+Serial Output:
+rank 0: a sensed at she cis
+rank 0: a sensed ac she its
+rank 0: a tested ac the int
+rank 0: a tested ac the nit
+rank 0: a tented ah tie cst
+rank 0: a tented ai the cst
+rank 0: a tented ac tie hst
+rank 0: a tented ac the sit
+rank 0: i tested in the act
+rank 0: i tested in the cat
+rank 0: i tented is the act
+rank 0: i tented is the cat
+rank 0: i tented ia the cst
+rank 0: s tented sh tie act
+rank 0: s tented sh tie cat
+rank 0: s tented si the act
+rank 0: s tented si the cat
+rank 0: s tented sc tie hat
+rank 0: t sensed ta she cis
+rank 0: t sensed tc she ais
+rank 0: h tented hs tie act
+rank 0: h tented hs tie cat
+rank 0: h tented ha tie cst
+rank 0: n tested ni the act
+rank 0: n tested ni the cat
+rank 0: n tested nh tie act
+rank 0: n tested nh tie cat
+rank 0: n tested nc tie hat
+rank 0: c deaden ch die std
+rank 0: c sensed ct she ais
+rank 0: c sensed ci she ats
+rank 0: c sensed ca she its
+rank 0: c tested ci the nat
+rank 0: c tested ci the ant
+rank 0: c tested ch tie nat
+rank 0: c tested ch tie ant
+rank 0: c tested ca the nit
+rank 0: c tested ca the int
+rank 0: c tented cs tie hat
+rank 0: c tented ch tie sat
+rank 0: c tented ci the sat
+rank 0: c tented ca the sit
+rank 0: c tented ca tie hst
+
+real	0m0.195s
+user	0m0.091s
+sys	0m0.016s
+
+Parallel Output:
+rank 8: c deaden ch die std 
+rank 1: a sensed at she cis 
+rank 1: a sensed ac she its 
+rank 4: t sensed ta she cis 
+rank 4: t sensed tc she ais 
+rank 1: a tested ac the int 
+rank 1: a tested ac the nit 
+rank 1: a tented ah tie cst 
+rank 1: a tented ai the cst 
+rank 1: a tented ac tie hst 
+rank 1: a tented ac the sit 
+rank 8: c sensed ct she ais 
+rank 8: c sensed ci she ats 
+rank 8: c sensed ca she its 
+rank 3: s tented sh tie act 
+rank 3: s tented sh tie cat 
+rank 3: s tented si the act 
+rank 3: s tented si the cat 
+rank 3: s tented sc tie hat 
+rank 2: i tested in the act 
+rank 2: i tested in the cat 
+rank 2: i tented is the act 
+rank 2: i tented is the cat 
+rank 2: i tented ia the cst 
+rank 5: h tented hs tie act 
+rank 5: h tented hs tie cat 
+rank 5: h tented ha tie cst 
+rank 8: c tested ci the nat 
+rank 8: c tested ci the ant 
+rank 8: c tested ch tie nat 
+rank 8: c tested ch tie ant 
+rank 8: c tested ca the nit 
+rank 8: c tested ca the int 
+rank 8: c tented cs tie hat 
+rank 8: c tented ch tie sat 
+rank 8: c tented ci the sat 
+rank 8: c tented ca the sit 
+rank 8: c tented ca tie hst 
+rank 6: n tested ni the act 
+rank 6: n tested ni the cat 
+rank 6: n tested nh tie act 
+rank 6: n tested nh tie cat 
+rank 6: n tested nc tie hat 
+real 0.65
+user 0.75
+sys 0.75
+-------------------------------------------------------------------
+Run #19
+Input: i tested in the cat
+Input dictionary:      itesdnhca
+Encryption dictionary: ecsainthd
+Encrypted text:        e csacsi en cts hdc
+Written to ciphertext.txt
+Serial Output:
+rank 0: c sensed ca she its
+rank 0: c sensed ct she ais
+rank 0: c sensed ci she ats
+rank 0: c tented ca the sit
+rank 0: c tented ca tie hst
+rank 0: c tented cs tie hat
+rank 0: c tented ch tie sat
+rank 0: c tented ci the sat
+rank 0: c tested ca the nit
+rank 0: c tested ca the int
+rank 0: c tested ch tie nat
+rank 0: c tested ch tie ant
+rank 0: c tested ci the ant
+rank 0: c tested ci the nat
+rank 0: c deaden ch die std
+rank 0: s tented sc tie hat
+rank 0: s tented sh tie act
+rank 0: s tented sh tie cat
+rank 0: s tented si the cat
+rank 0: s tented si the act
+rank 0: a sensed ac she its
+rank 0: a sensed at she cis
+rank 0: a tested ac the nit
+rank 0: a tested ac the int
+rank 0: a tented ac the sit
+rank 0: a tented ac tie hst
+rank 0: a tented ah tie cst
+rank 0: a tented ai the cst
+rank 0: i tested in the cat
+rank 0: i tested in the act
+rank 0: i tented is the cat
+rank 0: i tented is the act
+rank 0: i tented ia the cst
+rank 0: n tested ni the cat
+rank 0: n tested ni the act
+rank 0: n tested nc tie hat
+rank 0: n tested nh tie cat
+rank 0: n tested nh tie act
+rank 0: t sensed tc she ais
+rank 0: t sensed ta she cis
+rank 0: h tented hs tie cat
+rank 0: h tented hs tie act
+rank 0: h tented ha tie cst
+
+real	0m0.200s
+user	0m0.088s
+sys	0m0.017s
+
+Parallel Output:
+rank 1: c sensed ca she its 
+rank 1: c sensed ct she ais 
+rank 1: c sensed ci she ats 
+rank 6: t sensed tc she ais 
+rank 6: t sensed ta she cis 
+rank 3: a sensed ac she its 
+rank 3: a sensed at she cis 
+rank 4: i tested in the cat 
+rank 4: i tested in the act 
+rank 4: i tented is the cat 
+rank 4: i tented is the act 
+rank 4: i tented ia the cst 
+rank 1: c tented ca the sit 
+rank 1: c tented ca tie hst 
+rank 1: c tented cs tie hat 
+rank 1: c tented ch tie sat 
+rank 1: c tented ci the sat 
+rank 1: c tested ca the nit 
+rank 1: c tested ca the int 
+rank 1: c tested ch tie nat 
+rank 1: c tested ch tie ant 
+rank 1: c tested ci the ant 
+rank 1: c tested ci the nat 
+rank 3: a tested ac the nit 
+rank 3: a tested ac the int 
+rank 5: n tested ni the cat 
+rank 5: n tested ni the act 
+rank 5: n tested nc tie hat 
+rank 5: n tested nh tie cat 
+rank 5: n tested nh tie act 
+rank 3: a tented ac the sit 
+rank 3: a tented ac tie hst 
+rank 3: a tented ah tie cst 
+rank 3: a tented ai the cst 
+rank 7: h tented hs tie cat 
+rank 7: h tented hs tie act 
+rank 7: h tented ha tie cst 
+rank 2: s tented sc tie hat 
+rank 2: s tented sh tie act 
+rank 2: s tented sh tie cat 
+rank 2: s tented si the cat 
+rank 2: s tented si the act 
+rank 1: c deaden ch die std 
+real 0.67
+user 0.75
+sys 0.82
+-------------------------------------------------------------------
+Run #20
+Input: i tested in the cat
+Input dictionary:      itesdnhca
+Encryption dictionary: hcndeitsa
+Encrypted text:        h cndcne hi ctn sac
+Written to ciphertext.txt
+Serial Output:
+rank 0: h tented hs tie cat
+rank 0: h tented hs tie act
+rank 0: h tented ha tie cst
+rank 0: c deaden ch die std
+rank 0: c tented ci the sat
+rank 0: c tented ch tie sat
+rank 0: c tented cs tie hat
+rank 0: c tented ca the sit
+rank 0: c tented ca tie hst
+rank 0: c tested ci the nat
+rank 0: c tested ci the ant
+rank 0: c tested ch tie nat
+rank 0: c tested ch tie ant
+rank 0: c tested ca the nit
+rank 0: c tested ca the int
+rank 0: c sensed ci she ats
+rank 0: c sensed ct she ais
+rank 0: c sensed ca she its
+rank 0: n tested ni the cat
+rank 0: n tested ni the act
+rank 0: n tested nh tie cat
+rank 0: n tested nh tie act
+rank 0: n tested nc tie hat
+rank 0: i tented is the cat
+rank 0: i tented is the act
+rank 0: i tented ia the cst
+rank 0: i tested in the cat
+rank 0: i tested in the act
+rank 0: t sensed tc she ais
+rank 0: t sensed ta she cis
+rank 0: s tented sc tie hat
+rank 0: s tented si the cat
+rank 0: s tented si the act
+rank 0: s tented sh tie cat
+rank 0: s tented sh tie act
+rank 0: a tented ac tie hst
+rank 0: a tented ac the sit
+rank 0: a tented ai the cst
+rank 0: a tented ah tie cst
+rank 0: a tested ac the int
+rank 0: a tested ac the nit
+rank 0: a sensed ac she its
+rank 0: a sensed at she cis
+
+real	0m0.193s
+user	0m0.084s
+sys	0m0.023s
+
+Parallel Output:
+rank 1: c deaden ch die std 
+rank 1: c tented ci the sat 
+rank 1: c tented ch tie sat 
+rank 1: c tented cs tie hat 
+rank 1: c tented ca the sit 
+rank 1: c tented ca tie hst 
+rank 1: c tested ci the nat 
+rank 1: c tested ci the ant 
+rank 1: c tested ch tie nat 
+rank 1: c tested ch tie ant 
+rank 1: c tested ca the nit 
+rank 1: c tested ca the int 
+rank 1: c sensed ci she ats 
+rank 1: c sensed ct she ais 
+rank 1: c sensed ca she its 
+rank 7: s tented sc tie hat 
+rank 7: s tented si the cat 
+rank 7: s tented si the act 
+rank 7: s tented sh tie cat 
+rank 7: s tented sh tie act 
+rank 0: h tented hs tie cat 
+rank 0: h tented hs tie act 
+rank 0: h tented ha tie cst 
+rank 2: n tested ni the cat 
+rank 2: n tested ni the act 
+rank 2: n tested nh tie cat 
+rank 2: n tested nh tie act 
+rank 2: n tested nc tie hat 
+rank 5: i tented is the cat 
+rank 5: i tented is the act 
+rank 5: i tented ia the cst 
+rank 8: a tented ac tie hst 
+rank 8: a tented ac the sit 
+rank 5: i tested in the cat 
+rank 5: i tested in the act 
+rank 6: t sensed tc she ais 
+rank 8: a tented ai the cst 
+rank 6: t sensed ta she cis 
+rank 8: a tented ah tie cst 
+rank 8: a tested ac the int 
+rank 8: a tested ac the nit 
+rank 8: a sensed ac she its 
+rank 8: a sensed at she cis 
+real 0.68
+user 0.83
+sys 0.86
+-------------------------------------------------------------------
+Run #21
+Input: i tested in the cat
+Input dictionary:      itesdnhca
+Encryption dictionary: dhiscnate
+Encrypted text:        d hishic dn hai teh
+Written to ciphertext.txt
+Serial Output:
+rank 0: h tented hs tie cat
+rank 0: h tented hs tie act
+rank 0: h tented ha tie cst
+rank 0: i tested in the cat
+rank 0: i tested in the act
+rank 0: i tented is the cat
+rank 0: i tented is the act
+rank 0: i tented ia the cst
+rank 0: s tented si the cat
+rank 0: s tented si the act
+rank 0: s tented sc tie hat
+rank 0: s tented sh tie cat
+rank 0: s tented sh tie act
+rank 0: c deaden ch die std
+rank 0: c sensed ci she ats
+rank 0: c sensed ca she its
+rank 0: c sensed ct she ais
+rank 0: c tested ca the int
+rank 0: c tested ca the nit
+rank 0: c tested ci the nat
+rank 0: c tested ci the ant
+rank 0: c tested ch tie ant
+rank 0: c tested ch tie nat
+rank 0: c tented ci the sat
+rank 0: c tented ca tie hst
+rank 0: c tented ca the sit
+rank 0: c tented cs tie hat
+rank 0: c tented ch tie sat
+rank 0: n tested nc tie hat
+rank 0: n tested ni the cat
+rank 0: n tested ni the act
+rank 0: n tested nh tie act
+rank 0: n tested nh tie cat
+rank 0: a sensed ac she its
+rank 0: a sensed at she cis
+rank 0: a tested ac the int
+rank 0: a tested ac the nit
+rank 0: a tented ac tie hst
+rank 0: a tented ac the sit
+rank 0: a tented ai the cst
+rank 0: a tented ah tie cst
+rank 0: t sensed tc she ais
+rank 0: t sensed ta she cis
+
+real	0m0.204s
+user	0m0.100s
+sys	0m0.009s
+
+Parallel Output:
+rank 4: c deaden ch die std 
+rank 6: a sensed ac she its 
+rank 6: a sensed at she cis 
+rank 4: c sensed ci she ats 
+rank 4: c sensed ca she its 
+rank 4: c sensed ct she ais 
+rank 7: t sensed tc she ais 
+rank 7: t sensed ta she cis 
+rank 6: a tested ac the int 
+rank 6: a tested ac the nit 
+rank 6: a tented ac tie hst 
+rank 6: a tented ac the sit 
+rank 6: a tented ai the cst 
+rank 6: a tented ah tie cst 
+rank 2: i tested in the cat 
+rank 2: i tested in the act 
+rank 2: i tented is the cat 
+rank 2: i tented is the act 
+rank 2: i tented ia the cst 
+rank 5: n tested nc tie hat 
+rank 5: n tested ni the cat 
+rank 5: n tested ni the act 
+rank 5: n tested nh tie act 
+rank 5: n tested nh tie cat 
+rank 4: c tested ca the int 
+rank 4: c tested ca the nit 
+rank 4: c tested ci the nat 
+rank 4: c tested ci the ant 
+rank 4: c tested ch tie ant 
+rank 4: c tested ch tie nat 
+rank 1: h tented hs tie cat 
+rank 1: h tented hs tie act 
+rank 1: h tented ha tie cst 
+rank 4: c tented ci the sat 
+rank 4: c tented ca tie hst 
+rank 4: c tented ca the sit 
+rank 4: c tented cs tie hat 
+rank 4: c tented ch tie sat 
+rank 3: s tented si the cat 
+rank 3: s tented si the act 
+rank 3: s tented sc tie hat 
+rank 3: s tented sh tie cat 
+rank 3: s tented sh tie act 
+real 0.69
+user 0.76
+sys 1.00
+-------------------------------------------------------------------
+Run #22
+Input: i tested in the cat
+Input dictionary:      itesdnhca
+Encryption dictionary: atencihsd
+Encrypted text:        a tentec ai the sdt
+Written to ciphertext.txt
+Serial Output:
+rank 0: a tented ai the cst
+rank 0: a tented ah tie cst
+rank 0: a tented ac the sit
+rank 0: a tented ac tie hst
+rank 0: a tested ac the nit
+rank 0: a tested ac the int
+rank 0: a sensed at she cis
+rank 0: a sensed ac she its
+rank 0: t sensed ta she cis
+rank 0: t sensed tc she ais
+rank 0: n tested ni the act
+rank 0: n tested ni the cat
+rank 0: n tested nh tie act
+rank 0: n tested nh tie cat
+rank 0: n tested nc tie hat
+rank 0: c tented ci the sat
+rank 0: c tented ch tie sat
+rank 0: c tented cs tie hat
+rank 0: c tented ca the sit
+rank 0: c tented ca tie hst
+rank 0: c tested ci the ant
+rank 0: c tested ci the nat
+rank 0: c tested ch tie ant
+rank 0: c tested ch tie nat
+rank 0: c tested ca the int
+rank 0: c tested ca the nit
+rank 0: c sensed ci she ats
+rank 0: c sensed ca she its
+rank 0: c sensed ct she ais
+rank 0: c deaden ch die std
+rank 0: i tented is the cat
+rank 0: i tented is the act
+rank 0: i tented ia the cst
+rank 0: i tested in the act
+rank 0: i tested in the cat
+rank 0: h tented hs tie cat
+rank 0: h tented hs tie act
+rank 0: h tented ha tie cst
+rank 0: s tented sc tie hat
+rank 0: s tented si the cat
+rank 0: s tented si the act
+rank 0: s tented sh tie cat
+rank 0: s tented sh tie act
+
+real	0m0.204s
+user	0m0.088s
+sys	0m0.022s
+
+Parallel Output:
+rank 0: a tented ai the cst 
+rank 0: a tented ah tie cst 
+rank 0: a tented ac the sit 
+rank 0: a tented ac tie hst 
+rank 0: a tested ac the nit 
+rank 0: a tested ac the int 
+rank 3: n tested ni the act 
+rank 3: n tested ni the cat 
+rank 3: n tested nh tie act 
+rank 3: n tested nh tie cat 
+rank 3: n tested nc tie hat 
+rank 5: i tented is the cat 
+rank 5: i tented is the act 
+rank 5: i tented ia the cst 
+rank 6: h tented hs tie cat 
+rank 6: h tented hs tie act 
+rank 6: h tented ha tie cst 
+rank 5: i tested in the act 
+rank 5: i tested in the cat 
+rank 4: c tented ci the sat 
+rank 4: c tented ch tie sat 
+rank 4: c tented cs tie hat 
+rank 4: c tented ca the sit 
+rank 4: c tented ca tie hst 
+rank 4: c tested ci the ant 
+rank 4: c tested ci the nat 
+rank 4: c tested ch tie ant 
+rank 4: c tested ch tie nat 
+rank 4: c tested ca the int 
+rank 4: c tested ca the nit 
+rank 7: s tented sc tie hat 
+rank 7: s tented si the cat 
+rank 7: s tented si the act 
+rank 7: s tented sh tie cat 
+rank 7: s tented sh tie act 
+rank 1: t sensed ta she cis 
+rank 1: t sensed tc she ais 
+rank 0: a sensed at she cis 
+rank 0: a sensed ac she its 
+rank 4: c sensed ci she ats 
+rank 4: c sensed ca she its 
+rank 4: c sensed ct she ais 
+rank 4: c deaden ch die std 
+real 0.68
+user 0.80
+sys 0.88
+-------------------------------------------------------------------
+Run #23
+Input: i tested in the cat
+Input dictionary:      itesdnhca
+Encryption dictionary: hnacdsiet
+Encrypted text:        h nacnad hs nia etn
+Written to ciphertext.txt
+Serial Output:
+rank 0: h tented hs tie act
+rank 0: h tented hs tie cat
+rank 0: h tented ha tie cst
+rank 0: n tested nc tie hat
+rank 0: n tested ni the act
+rank 0: n tested ni the cat
+rank 0: n tested nh tie act
+rank 0: n tested nh tie cat
+rank 0: a sensed ac she its
+rank 0: a sensed at she cis
+rank 0: a tested ac the nit
+rank 0: a tested ac the int
+rank 0: a tented ai the cst
+rank 0: a tented ac tie hst
+rank 0: a tented ac the sit
+rank 0: a tented ah tie cst
+rank 0: c deaden ch die std
+rank 0: c sensed ci she ats
+rank 0: c sensed ca she its
+rank 0: c sensed ct she ais
+rank 0: c tested ca the nit
+rank 0: c tested ca the int
+rank 0: c tested ci the nat
+rank 0: c tested ci the ant
+rank 0: c tested ch tie nat
+rank 0: c tested ch tie ant
+rank 0: c tented cs tie hat
+rank 0: c tented ci the sat
+rank 0: c tented ca tie hst
+rank 0: c tented ca the sit
+rank 0: c tented ch tie sat
+rank 0: s tented sc tie hat
+rank 0: s tented si the act
+rank 0: s tented si the cat
+rank 0: s tented sh tie act
+rank 0: s tented sh tie cat
+rank 0: i tested in the cat
+rank 0: i tested in the act
+rank 0: i tented is the act
+rank 0: i tented is the cat
+rank 0: i tented ia the cst
+rank 0: t sensed tc she ais
+rank 0: t sensed ta she cis
+
+real	0m0.197s
+user	0m0.103s
+sys	0m0.005s
+
+Parallel Output:
+rank 3: c deaden ch die std 
+rank 3: c sensed ci she ats 
+rank 3: c sensed ca she its 
+rank 3: c sensed ct she ais 
+rank 2: a sensed ac she its 
+rank 2: a sensed at she cis 
+rank 8: t sensed tc she ais 
+rank 8: t sensed ta she cis 
+rank 1: n tested nc tie hat 
+rank 1: n tested ni the act 
+rank 1: n tested ni the cat 
+rank 1: n tested nh tie act 
+rank 1: n tested nh tie cat 
+rank 3: c tested ca the nit 
+rank 3: c tested ca the int 
+rank 3: c tested ci the nat 
+rank 3: c tested ci the ant 
+rank 3: c tested ch tie nat 
+rank 3: c tested ch tie ant 
+rank 3: c tented cs tie hat 
+rank 3: c tented ci the sat 
+rank 3: c tented ca tie hst 
+rank 3: c tented ca the sit 
+rank 3: c tented ch tie sat 
+rank 0: h tented hs tie act 
+rank 0: h tented hs tie cat 
+rank 0: h tented ha tie cst 
+rank 2: a tested ac the nit 
+rank 2: a tested ac the int 
+rank 2: a tented ai the cst 
+rank 2: a tented ac tie hst 
+rank 2: a tented ac the sit 
+rank 5: s tented sc tie hat 
+rank 5: s tented si the act 
+rank 5: s tented si the cat 
+rank 5: s tented sh tie act 
+rank 2: a tented ah tie cst 
+rank 5: s tented sh tie cat 
+rank 6: i tested in the cat 
+rank 6: i tested in the act 
+rank 6: i tented is the act 
+rank 6: i tented is the cat 
+rank 6: i tented ia the cst 
+real 0.70
+user 0.82
+sys 0.91
+-------------------------------------------------------------------
+Run #24
+Input: i tested in the cat
+Input dictionary:      itesdnhca
+Encryption dictionary: nacsdheti
+Encrypted text:        n acsacd nh aec tia
+Written to ciphertext.txt
+Serial Output:
+rank 0: n tested nh tie act
+rank 0: n tested nh tie cat
+rank 0: n tested nc tie hat
+rank 0: n tested ni the act
+rank 0: n tested ni the cat
+rank 0: a sensed ac she its
+rank 0: a sensed at she cis
+rank 0: a tested ac the nit
+rank 0: a tested ac the int
+rank 0: a tented ah tie cst
+rank 0: a tented ac the sit
+rank 0: a tented ac tie hst
+rank 0: a tented ai the cst
+rank 0: c sensed ca she its
+rank 0: c sensed ct she ais
+rank 0: c sensed ci she ats
+rank 0: c deaden ch die std
+rank 0: c tested ch tie nat
+rank 0: c tested ch tie ant
+rank 0: c tested ca the nit
+rank 0: c tested ca the int
+rank 0: c tested ci the nat
+rank 0: c tested ci the ant
+rank 0: c tented ch tie sat
+rank 0: c tented ca the sit
+rank 0: c tented ca tie hst
+rank 0: c tented cs tie hat
+rank 0: c tented ci the sat
+rank 0: s tented sh tie cat
+rank 0: s tented sh tie act
+rank 0: s tented sc tie hat
+rank 0: s tented si the cat
+rank 0: s tented si the act
+rank 0: h tented hs tie cat
+rank 0: h tented hs tie act
+rank 0: h tented ha tie cst
+rank 0: t sensed tc she ais
+rank 0: t sensed ta she cis
+rank 0: i tested in the act
+rank 0: i tested in the cat
+rank 0: i tented is the act
+rank 0: i tented is the cat
+rank 0: i tented ia the cst
+
+real	0m0.206s
+user	0m0.096s
+sys	0m0.018s
+
+Parallel Output:
+rank 2: c sensed ca she its 
+rank 2: c sensed ct she ais 
+rank 2: c sensed ci she ats 
+rank 1: a sensed ac she its 
+rank 1: a sensed at she cis 
+rank 2: c deaden ch die std 
+rank 7: t sensed tc she ais 
+rank 7: t sensed ta she cis 
+rank 0: n tested nh tie act 
+rank 0: n tested nh tie cat 
+rank 0: n tested nc tie hat 
+rank 0: n tested ni the act 
+rank 0: n tested ni the cat 
+rank 2: c tested ch tie nat 
+rank 2: c tested ch tie ant 
+rank 2: c tested ca the nit 
+rank 2: c tested ca the int 
+rank 2: c tested ci the nat 
+rank 2: c tested ci the ant 
+rank 2: c tented ch tie sat 
+rank 2: c tented ca the sit 
+rank 2: c tented ca tie hst 
+rank 2: c tented cs tie hat 
+rank 2: c tented ci the sat 
+rank 3: s tented sh tie cat 
+rank 3: s tented sh tie act 
+rank 3: s tented sc tie hat 
+rank 3: s tented si the cat 
+rank 3: s tented si the act 
+rank 1: a tested ac the nit 
+rank 1: a tested ac the int 
+rank 5: h tented hs tie cat 
+rank 5: h tented hs tie act 
+rank 5: h tented ha tie cst 
+rank 1: a tented ah tie cst 
+rank 1: a tented ac the sit 
+rank 1: a tented ac tie hst 
+rank 1: a tented ai the cst 
+rank 8: i tested in the act 
+rank 8: i tested in the cat 
+rank 8: i tented is the act 
+rank 8: i tented is the cat 
+rank 8: i tented ia the cst 
+real 0.68
+user 0.74
+sys 0.87
+-------------------------------------------------------------------
+Run #25
+Input: i tested in the cat
+Input dictionary:      itesdnhca
+Encryption dictionary: aseitcndh
+Encrypted text:        a seiset ac sne dhs
+Written to ciphertext.txt
+Serial Output:
+rank 0: a sensed ac she its
+rank 0: a sensed at she cis
+rank 0: a tested ac the int
+rank 0: a tested ac the nit
+rank 0: a tented ac tie hst
+rank 0: a tented ac the sit
+rank 0: a tented ai the cst
+rank 0: a tented ah tie cst
+rank 0: s tented sc tie hat
+rank 0: s tented si the act
+rank 0: s tented si the cat
+rank 0: s tented sh tie act
+rank 0: s tented sh tie cat
+rank 0: i tested in the act
+rank 0: i tested in the cat
+rank 0: i tented is the act
+rank 0: i tented is the cat
+rank 0: i tented ia the cst
+rank 0: t sensed tc she ais
+rank 0: t sensed ta she cis
+rank 0: c sensed ct she ais
+rank 0: c sensed ca she its
+rank 0: c sensed ci she ats
+rank 0: c tested ca the int
+rank 0: c tested ca the nit
+rank 0: c tested ci the ant
+rank 0: c tested ci the nat
+rank 0: c tested ch tie nat
+rank 0: c tested ch tie ant
+rank 0: c tented ca tie hst
+rank 0: c tented ca the sit
+rank 0: c tented cs tie hat
+rank 0: c tented ci the sat
+rank 0: c tented ch tie sat
+rank 0: c deaden ch die std
+rank 0: n tested nc tie hat
+rank 0: n tested ni the act
+rank 0: n tested ni the cat
+rank 0: n tested nh tie cat
+rank 0: n tested nh tie act
+rank 0: h tented ha tie cst
+rank 0: h tented hs tie act
+rank 0: h tented hs tie cat
+
+real	0m0.196s
+user	0m0.100s
+sys	0m0.006s
+
+Parallel Output:
+rank 0: a sensed ac she its 
+rank 0: a sensed at she cis 
+rank 5: c sensed ct she ais 
+rank 5: c sensed ca she its 
+rank 5: c sensed ci she ats 
+rank 4: t sensed tc she ais 
+rank 4: t sensed ta she cis 
+rank 3: i tested in the act 
+rank 3: i tested in the cat 
+rank 3: i tented is the act 
+rank 3: i tented is the cat 
+rank 3: i tented ia the cst 
+rank 0: a tested ac the int 
+rank 0: a tested ac the nit 
+rank 0: a tented ac tie hst 
+rank 0: a tented ac the sit 
+rank 0: a tented ai the cst 
+rank 0: a tented ah tie cst 
+rank 5: c tested ca the int 
+rank 5: c tested ca the nit 
+rank 5: c tested ci the ant 
+rank 5: c tested ci the nat 
+rank 5: c tested ch tie nat 
+rank 5: c tested ch tie ant 
+rank 5: c tented ca tie hst 
+rank 5: c tented ca the sit 
+rank 5: c tented cs tie hat 
+rank 5: c tented ci the sat 
+rank 5: c tented ch tie sat 
+rank 1: s tented sc tie hat 
+rank 1: s tented si the act 
+rank 1: s tented si the cat 
+rank 1: s tented sh tie act 
+rank 1: s tented sh tie cat 
+rank 8: h tented ha tie cst 
+rank 8: h tented hs tie act 
+rank 8: h tented hs tie cat 
+rank 6: n tested nc tie hat 
+rank 6: n tested ni the act 
+rank 6: n tested ni the cat 
+rank 6: n tested nh tie cat 
+rank 6: n tested nh tie act 
+rank 5: c deaden ch die std 
+real 0.70
+user 0.81
+sys 0.95
+-------------------------------------------------------------------
+Run #26
+Input: i tested in the cat
+Input dictionary:      itesdnhca
+Encryption dictionary: chdtaisne
+Encrypted text:        c hdthda ci hsd neh
+Written to ciphertext.txt
+Serial Output:
+rank 0: c deaden ch die std
+rank 0: c tested ci the nat
+rank 0: c tested ci the ant
+rank 0: c tested ch tie nat
+rank 0: c tested ch tie ant
+rank 0: c tested ca the nit
+rank 0: c tested ca the int
+rank 0: c tented ci the sat
+rank 0: c tented cs tie hat
+rank 0: c tented ch tie sat
+rank 0: c tented ca the sit
+rank 0: c tented ca tie hst
+rank 0: c sensed ci she ats
+rank 0: c sensed ct she ais
+rank 0: c sensed ca she its
+rank 0: h tented hs tie cat
+rank 0: h tented hs tie act
+rank 0: h tented ha tie cst
+rank 0: t sensed tc she ais
+rank 0: t sensed ta she cis
+rank 0: a tested ac the nit
+rank 0: a tested ac the int
+rank 0: a tented ai the cst
+rank 0: a tented ac tie hst
+rank 0: a tented ac the sit
+rank 0: a tented ah tie cst
+rank 0: a sensed ac she its
+rank 0: a sensed at she cis
+rank 0: i tested in the act
+rank 0: i tested in the cat
+rank 0: i tented ia the cst
+rank 0: i tented is the cat
+rank 0: i tented is the act
+rank 0: s tented si the cat
+rank 0: s tented si the act
+rank 0: s tented sc tie hat
+rank 0: s tented sh tie cat
+rank 0: s tented sh tie act
+rank 0: n tested ni the cat
+rank 0: n tested ni the act
+rank 0: n tested nc tie hat
+rank 0: n tested nh tie cat
+rank 0: n tested nh tie act
+
+real	0m0.211s
+user	0m0.105s
+sys	0m0.009s
+
+Parallel Output:
+rank 0: c deaden ch die std 
+rank 0: c tested ci the nat 
+rank 0: c tested ci the ant 
+rank 0: c tested ch tie nat 
+rank 0: c tested ch tie ant 
+rank 4: a tested ac the nit 
+rank 4: a tested ac the int 
+rank 0: c tested ca the nit 
+rank 0: c tested ca the int 
+rank 0: c tented ci the sat 
+rank 0: c tented cs tie hat 
+rank 0: c tented ch tie sat 
+rank 0: c tented ca the sit 
+rank 0: c tented ca tie hst 
+rank 4: a tented ai the cst 
+rank 4: a tented ac tie hst 
+rank 4: a tented ac the sit 
+rank 6: s tented si the cat 
+rank 6: s tented si the act 
+rank 6: s tented sc tie hat 
+rank 6: s tented sh tie cat 
+rank 6: s tented sh tie act 
+rank 4: a tented ah tie cst 
+rank 7: n tested ni the cat 
+rank 7: n tested ni the act 
+rank 7: n tested nc tie hat 
+rank 7: n tested nh tie cat 
+rank 7: n tested nh tie act 
+rank 1: h tented hs tie cat 
+rank 1: h tented hs tie act 
+rank 1: h tented ha tie cst 
+rank 5: i tested in the act 
+rank 5: i tested in the cat 
+rank 5: i tented ia the cst 
+rank 5: i tented is the cat 
+rank 5: i tented is the act 
+rank 3: t sensed tc she ais 
+rank 3: t sensed ta she cis 
+rank 4: a sensed ac she its 
+rank 4: a sensed at she cis 
+rank 0: c sensed ci she ats 
+rank 0: c sensed ct she ais 
+rank 0: c sensed ca she its 
+real 0.69
+user 0.79
+sys 0.92
+-------------------------------------------------------------------
+Run #27
+Input: i tested in the cat
+Input dictionary:      itesdnhca
+Encryption dictionary: hitnsedac
+Encrypted text:        h itnits he idt aci
+Written to ciphertext.txt
+Serial Output:
+rank 0: h tented hs tie act
+rank 0: h tented hs tie cat
+rank 0: h tented ha tie cst
+rank 0: i tented is the act
+rank 0: i tented is the cat
+rank 0: i tented ia the cst
+rank 0: i tested in the act
+rank 0: i tested in the cat
+rank 0: t sensed ta she cis
+rank 0: t sensed tc she ais
+rank 0: n tested ni the act
+rank 0: n tested ni the cat
+rank 0: n tested nh tie act
+rank 0: n tested nh tie cat
+rank 0: n tested nc tie hat
+rank 0: s tented si the act
+rank 0: s tented si the cat
+rank 0: s tented sh tie act
+rank 0: s tented sh tie cat
+rank 0: s tented sc tie hat
+rank 0: a tented ai the cst
+rank 0: a tented ah tie cst
+rank 0: a tented ac tie hst
+rank 0: a tented ac the sit
+rank 0: a tested ac the nit
+rank 0: a tested ac the int
+rank 0: a sensed at she cis
+rank 0: a sensed ac she its
+rank 0: c tented cs tie hat
+rank 0: c tented ci the sat
+rank 0: c tented ch tie sat
+rank 0: c tented ca tie hst
+rank 0: c tented ca the sit
+rank 0: c tested ch tie nat
+rank 0: c tested ch tie ant
+rank 0: c tested ci the nat
+rank 0: c tested ci the ant
+rank 0: c tested ca the nit
+rank 0: c tested ca the int
+rank 0: c sensed ci she ats
+rank 0: c sensed ct she ais
+rank 0: c sensed ca she its
+rank 0: c deaden ch die std
+
+real	0m0.200s
+user	0m0.089s
+sys	0m0.020s
+
+Parallel Output:
+rank 1: i tented is the act 
+rank 1: i tented is the cat 
+rank 1: i tented ia the cst 
+rank 1: i tested in the act 
+rank 1: i tested in the cat 
+rank 0: h tented hs tie act 
+rank 0: h tented hs tie cat 
+rank 0: h tented ha tie cst 
+rank 3: n tested ni the act 
+rank 3: n tested ni the cat 
+rank 7: a tented ai the cst 
+rank 7: a tented ah tie cst 
+rank 7: a tented ac tie hst 
+rank 7: a tented ac the sit 
+rank 7: a tested ac the nit 
+rank 7: a tested ac the int 
+rank 3: n tested nh tie act 
+rank 3: n tested nh tie cat 
+rank 4: s tented si the act 
+rank 4: s tented si the cat 
+rank 4: s tented sh tie act 
+rank 4: s tented sh tie cat 
+rank 4: s tented sc tie hat 
+rank 3: n tested nc tie hat 
+rank 8: c tented cs tie hat 
+rank 8: c tented ci the sat 
+rank 8: c tented ch tie sat 
+rank 8: c tented ca tie hst 
+rank 8: c tented ca the sit 
+rank 8: c tested ch tie nat 
+rank 8: c tested ch tie ant 
+rank 8: c tested ci the nat 
+rank 8: c tested ci the ant 
+rank 8: c tested ca the nit 
+rank 8: c tested ca the int 
+rank 2: t sensed ta she cis 
+rank 2: t sensed tc she ais 
+rank 7: a sensed at she cis 
+rank 7: a sensed ac she its 
+rank 8: c sensed ci she ats 
+rank 8: c sensed ct she ais 
+rank 8: c sensed ca she its 
+rank 8: c deaden ch die std 
+real 0.75
+user 0.97
+sys 0.99
+-------------------------------------------------------------------
+Run #28
+Input: i tested in the cat
+Input dictionary:      itesdnhca
+Encryption dictionary: dtainsech
+Encrypted text:        d taitan ds tea cht
+Written to ciphertext.txt
+Serial Output:
+rank 0: t sensed ta she cis
+rank 0: t sensed tc she ais
+rank 0: a tented ai the cst
+rank 0: a tented ac tie hst
+rank 0: a tented ac the sit
+rank 0: a tented ah tie cst
+rank 0: a tested ac the int
+rank 0: a tested ac the nit
+rank 0: a sensed at she cis
+rank 0: a sensed ac she its
+rank 0: i tented is the cat
+rank 0: i tented is the act
+rank 0: i tented ia the cst
+rank 0: i tested in the cat
+rank 0: i tested in the act
+rank 0: n tested ni the cat
+rank 0: n tested ni the act
+rank 0: n tested nc tie hat
+rank 0: n tested nh tie cat
+rank 0: n tested nh tie act
+rank 0: s tented si the cat
+rank 0: s tented si the act
+rank 0: s tented sc tie hat
+rank 0: s tented sh tie cat
+rank 0: s tented sh tie act
+rank 0: c deaden ch die std
+rank 0: c tented ca tie hst
+rank 0: c tented ca the sit
+rank 0: c tented cs tie hat
+rank 0: c tented ci the sat
+rank 0: c tented ch tie sat
+rank 0: c tested ca the int
+rank 0: c tested ca the nit
+rank 0: c tested ci the nat
+rank 0: c tested ci the ant
+rank 0: c tested ch tie ant
+rank 0: c tested ch tie nat
+rank 0: c sensed ca she its
+rank 0: c sensed ci she ats
+rank 0: c sensed ct she ais
+rank 0: h tented ha tie cst
+rank 0: h tented hs tie act
+rank 0: h tented hs tie cat
+
+real	0m0.210s
+user	0m0.095s
+sys	0m0.021s
+
+Parallel Output:
+rank 7: c deaden ch die std 
+rank 2: a tented ai the cst 
+rank 2: a tented ac tie hst 
+rank 2: a tented ac the sit 
+rank 2: a tented ah tie cst 
+rank 2: a tested ac the int 
+rank 2: a tested ac the nit 
+rank 4: n tested ni the cat 
+rank 4: n tested ni the act 
+rank 4: n tested nc tie hat 
+rank 4: n tested nh tie cat 
+rank 4: n tested nh tie act 
+rank 5: s tented si the cat 
+rank 5: s tented si the act 
+rank 5: s tented sc tie hat 
+rank 5: s tented sh tie cat 
+rank 5: s tented sh tie act 
+rank 8: h tented ha tie cst 
+rank 8: h tented hs tie act 
+rank 8: h tented hs tie cat 
+rank 3: i tented is the cat 
+rank 3: i tented is the act 
+rank 3: i tented ia the cst 
+rank 3: i tested in the cat 
+rank 3: i tested in the act 
+rank 7: c tented ca tie hst 
+rank 7: c tented ca the sit 
+rank 7: c tented cs tie hat 
+rank 7: c tented ci the sat 
+rank 7: c tented ch tie sat 
+rank 7: c tested ca the int 
+rank 7: c tested ca the nit 
+rank 7: c tested ci the nat 
+rank 7: c tested ci the ant 
+rank 7: c tested ch tie ant 
+rank 7: c tested ch tie nat 
+rank 2: a sensed at she cis 
+rank 2: a sensed ac she its 
+rank 1: t sensed ta she cis 
+rank 1: t sensed tc she ais 
+rank 7: c sensed ca she its 
+rank 7: c sensed ci she ats 
+rank 7: c sensed ct she ais 
+real 0.73
+user 0.80
+sys 1.20
+-------------------------------------------------------------------
+Run #29
+Input: i tested in the cat
+Input dictionary:      itesdnhca
+Encryption dictionary: aishctnde
+Encrypted text:        a ishisc at ins dei
+Written to ciphertext.txt
+Serial Output:
+rank 0: a sensed at she cis
+rank 0: a sensed ac she its
+rank 0: a tented ai the cst
+rank 0: a tented ah tie cst
+rank 0: a tented ac the sit
+rank 0: a tented ac tie hst
+rank 0: a tested ac the int
+rank 0: a tested ac the nit
+rank 0: i tented ia the cst
+rank 0: i tented is the cat
+rank 0: i tented is the act
+rank 0: i tested in the cat
+rank 0: i tested in the act
+rank 0: s tented sh tie cat
+rank 0: s tented sh tie act
+rank 0: s tented sc tie hat
+rank 0: s tented si the cat
+rank 0: s tented si the act
+rank 0: h tented ha tie cst
+rank 0: h tented hs tie cat
+rank 0: h tented hs tie act
+rank 0: c sensed ct she ais
+rank 0: c sensed ca she its
+rank 0: c sensed ci she ats
+rank 0: c tested ca the nit
+rank 0: c tested ca the int
+rank 0: c tested ch tie ant
+rank 0: c tested ch tie nat
+rank 0: c tested ci the nat
+rank 0: c tested ci the ant
+rank 0: c tented ca the sit
+rank 0: c tented ca tie hst
+rank 0: c tented cs tie hat
+rank 0: c tented ch tie sat
+rank 0: c tented ci the sat
+rank 0: c deaden ch die std
+rank 0: t sensed tc she ais
+rank 0: t sensed ta she cis
+rank 0: n tested nc tie hat
+rank 0: n tested nh tie cat
+rank 0: n tested nh tie act
+rank 0: n tested ni the act
+rank 0: n tested ni the cat
+
+real	0m0.191s
+user	0m0.088s
+sys	0m0.015s
+
+Parallel Output:
+rank 0: a sensed at she cis 
+rank 0: a sensed ac she its 
+rank 4: c sensed ct she ais 
+rank 4: c sensed ca she its 
+rank 4: c sensed ci she ats 
+rank 5: t sensed tc she ais 
+rank 5: t sensed ta she cis 
+rank 4: c tested ca the nit 
+rank 4: c tested ca the int 
+rank 4: c tested ch tie ant 
+rank 4: c tested ch tie nat 
+rank 4: c tested ci the nat 
+rank 4: c tested ci the ant 
+rank 4: c tented ca the sit 
+rank 4: c tented ca tie hst 
+rank 4: c tented cs tie hat 
+rank 4: c tented ch tie sat 
+rank 4: c tented ci the sat 
+rank 6: n tested nc tie hat 
+rank 6: n tested nh tie cat 
+rank 6: n tested nh tie act 
+rank 6: n tested ni the act 
+rank 6: n tested ni the cat 
+rank 3: h tented ha tie cst 
+rank 3: h tented hs tie cat 
+rank 3: h tented hs tie act 
+rank 1: i tented ia the cst 
+rank 1: i tented is the cat 
+rank 1: i tented is the act 
+rank 0: a tented ai the cst 
+rank 0: a tented ah tie cst 
+rank 0: a tented ac the sit 
+rank 0: a tented ac tie hst 
+rank 1: i tested in the cat 
+rank 1: i tested in the act 
+rank 4: c deaden ch die std 
+rank 0: a tested ac the int 
+rank 0: a tested ac the nit 
+rank 2: s tented sh tie cat 
+rank 2: s tented sh tie act 
+rank 2: s tented sc tie hat 
+rank 2: s tented si the cat 
+rank 2: s tented si the act 
+real 0.67
+user 0.77
+sys 0.89
+-------------------------------------------------------------------
+Run #30
+Input: i tested in the cat
+Input dictionary:      itesdnhca
+Encryption dictionary: hdnatcesi
+Encrypted text:        h dnadnt hc den sid
+Written to ciphertext.txt
+Serial Output:
+rank 0: h tented ha tie cst
+rank 0: h tented hs tie cat
+rank 0: h tented hs tie act
+rank 0: n tested nc tie hat
+rank 0: n tested nh tie act
+rank 0: n tested nh tie cat
+rank 0: n tested ni the act
+rank 0: n tested ni the cat
+rank 0: a tented ac the sit
+rank 0: a tented ac tie hst
+rank 0: a tented ah tie cst
+rank 0: a tented ai the cst
+rank 0: a tested ac the nit
+rank 0: a tested ac the int
+rank 0: a sensed ac she its
+rank 0: a sensed at she cis
+rank 0: t sensed tc she ais
+rank 0: t sensed ta she cis
+rank 0: c deaden ch die std
+rank 0: c tented ch tie sat
+rank 0: c tented ca the sit
+rank 0: c tented ca tie hst
+rank 0: c tented cs tie hat
+rank 0: c tented ci the sat
+rank 0: c tested ch tie nat
+rank 0: c tested ch tie ant
+rank 0: c tested ca the nit
+rank 0: c tested ca the int
+rank 0: c tested ci the nat
+rank 0: c tested ci the ant
+rank 0: c sensed ct she ais
+rank 0: c sensed ca she its
+rank 0: c sensed ci she ats
+rank 0: s tented sh tie act
+rank 0: s tented sh tie cat
+rank 0: s tented sc tie hat
+rank 0: s tented si the act
+rank 0: s tented si the cat
+rank 0: i tented ia the cst
+rank 0: i tented is the act
+rank 0: i tented is the cat
+rank 0: i tested in the act
+rank 0: i tested in the cat
+
+real	0m0.207s
+user	0m0.098s
+sys	0m0.009s
+
+Parallel Output:
+rank 5: c deaden ch die std 
+rank 3: a tented ac the sit 
+rank 3: a tented ac tie hst 
+rank 3: a tented ah tie cst 
+rank 3: a tented ai the cst 
+rank 3: a tested ac the nit 
+rank 3: a tested ac the int 
+rank 2: n tested nc tie hat 
+rank 2: n tested nh tie act 
+rank 2: n tested nh tie cat 
+rank 2: n tested ni the act 
+rank 2: n tested ni the cat 
+rank 5: c tented ch tie sat 
+rank 5: c tented ca the sit 
+rank 5: c tented ca tie hst 
+rank 5: c tented cs tie hat 
+rank 5: c tented ci the sat 
+rank 5: c tested ch tie nat 
+rank 5: c tested ch tie ant 
+rank 5: c tested ca the nit 
+rank 5: c tested ca the int 
+rank 5: c tested ci the nat 
+rank 5: c tested ci the ant 
+rank 8: i tented ia the cst 
+rank 8: i tented is the act 
+rank 8: i tented is the cat 
+rank 8: i tested in the act 
+rank 8: i tested in the cat 
+rank 0: h tented ha tie cst 
+rank 0: h tented hs tie cat 
+rank 0: h tented hs tie act 
+rank 7: s tented sh tie act 
+rank 7: s tented sh tie cat 
+rank 7: s tented sc tie hat 
+rank 7: s tented si the act 
+rank 7: s tented si the cat 
+rank 5: c sensed ct she ais 
+rank 5: c sensed ca she its 
+rank 5: c sensed ci she ats 
+rank 4: t sensed tc she ais 
+rank 4: t sensed ta she cis 
+rank 3: a sensed ac she its 
+rank 3: a sensed at she cis 
+real 0.68
+user 0.74
+sys 0.88
+-------------------------------------------------------------------

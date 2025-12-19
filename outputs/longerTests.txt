@@ -1,0 +1,220 @@
+Long Test 1
+Input: cat in the hat
+Input dictionary:      catinhe
+Encryption dictionary: neahcti
+Encrypted text:        nea hc ati tea
+Written to ciphertext.txt
+
+Serial Output:
+rank 0: nat ci the hat
+rank 0: nit ca the hit
+rank 0: nit ac the hit
+rank 0: ant he tic int
+rank 0: ant ch tie int
+rank 0: ant eh tic int
+rank 0: han ec nit ian
+rank 0: hat ci ten eat
+rank 0: hie an etc tie
+rank 0: hie nc eta tie
+rank 0: hie na etc tie
+rank 0: can eh nit ian
+rank 0: can he nit ian
+rank 0: can ie nth tan
+rank 0: cat ni the hat
+rank 0: cat hi ten eat
+rank 0: cat in the hat
+rank 0: che ni eta the
+rank 0: che in eta the
+rank 0: cia nh ate tia
+rank 0: tia nh ace cia
+rank 0: ian ec nth tan
+rank 0: ice nh eat ace
+
+Parallel Output:
+rank 2: ant he tic int 
+rank 2: ant ch tie int 
+rank 2: ant eh tic int 
+rank 3: han ec nit ian 
+rank 3: hat ci ten eat 
+rank 4: can eh nit ian 
+rank 4: can he nit ian 
+rank 4: can ie nth tan 
+rank 4: cat ni the hat 
+rank 4: cat hi ten eat 
+rank 0: nat ci the hat 
+rank 5: tia nh ace cia 
+rank 6: ian ec nth tan 
+rank 6: ice nh eat ace 
+rank 0: nit ca the hit 
+rank 0: nit ac the hit 
+rank 4: cat in the hat 
+rank 4: che ni eta the 
+rank 3: hie an etc tie 
+rank 3: hie nc eta tie 
+rank 3: hie na etc tie 
+rank 4: che in eta the 
+rank 4: cia nh ate tia 
+--------------------------------------------------------------------
+
+Long Test 2
+Input: fort is big
+Input dictionary:      fortisbg
+Encryption dictionary: sgofirtb
+Encrypted text:        sgof ir tib
+Written to ciphertext.txt
+
+Serial Output:
+rank 0: soft ir big
+rank 0: sort if big
+rank 0: sift or gob
+rank 0: sift or bog
+rank 0: stir of gob
+rank 0: stir of bog
+rank 0: stir ob fog
+rank 0: gobs ir fit
+rank 0: gobs it fir
+rank 0: gift rs orb
+rank 0: gift rb sro
+rank 0: gift or sob
+rank 0: gift os rob
+rank 0: gist or fob
+rank 0: gist of rob
+rank 0: gist ob for
+rank 0: gist rb fro
+rank 0: girt os fob
+rank 0: girt of sob
+rank 0: gris of bot
+rank 0: gris ot fob
+rank 0: grit os fob
+rank 0: grit of sob
+rank 0: orbs it fig
+rank 0: orbs it gif
+rank 0: fogs ir bit
+rank 0: fogs it rib
+rank 0: fort is big
+rank 0: fobs it rig
+rank 0: figs or bot
+rank 0: figs ot rob
+rank 0: figs ob tor
+rank 0: figs ob rot
+rank 0: fist or gob
+rank 0: fist or bog
+rank 0: firs ot gob
+rank 0: firs ot bog
+rank 0: firs ob tog
+rank 0: firs ob got
+rank 0: fits or gob
+rank 0: fits or bog
+rank 0: fibs or tog
+rank 0: fibs or got
+rank 0: frog is bit
+rank 0: frog tb its
+rank 0: frog bi tbs
+rank 0: rots if big
+rank 0: robs it fig
+rank 0: robs it gif
+rank 0: robt is fig
+rank 0: robt is gif
+rank 0: rigs of bot
+rank 0: rigs ot fob
+rank 0: rift os gob
+rank 0: rift os bog
+rank 0: ribs of tog
+rank 0: ribs of got
+rank 0: ribs ot fog
+rank 0: togs if rib
+rank 0: togs ir fib
+rank 0: togs rb fri
+rank 0: togs br fbi
+rank 0: tors if big
+rank 0: trig of sob
+rank 0: trig os fob
+rank 0: bogs ir fit
+rank 0: bogs it fir
+rank 0: borg ft ifs
+rank 0: borg if sit
+rank 0: borg is fit
+rank 0: bits or fog
+rank 0: bros it gif
+rank 0: bros it fig
+rank 0: brig of sot
+rank 0: brit os fog
+
+Parallel Output:
+rank 0: soft ir big 
+rank 0: sort if big 
+rank 6: togs if rib 
+rank 6: togs ir fib 
+rank 6: togs rb fri 
+rank 6: togs br fbi 
+rank 7: bogs ir fit 
+rank 7: bogs it fir 
+rank 6: tors if big 
+rank 7: borg ft ifs 
+rank 7: borg if sit 
+rank 7: borg is fit 
+rank 1: gobs ir fit 
+rank 1: gobs it fir 
+rank 7: bits or fog 
+rank 7: bros it gif 
+rank 7: bros it fig 
+rank 7: brig of sot 
+rank 7: brit os fog 
+rank 2: orbs it fig 
+rank 2: orbs it gif 
+rank 3: fogs ir bit 
+rank 3: fogs it rib 
+rank 3: fort is big 
+rank 3: fobs it rig 
+rank 3: figs or bot 
+rank 3: figs ot rob 
+rank 3: figs ob tor 
+rank 3: figs ob rot 
+rank 3: fist or gob 
+rank 3: fist or bog 
+rank 3: firs ot gob 
+rank 3: firs ot bog 
+rank 3: firs ob tog 
+rank 3: firs ob got 
+rank 3: fits or gob 
+rank 3: fits or bog 
+rank 3: fibs or tog 
+rank 3: fibs or got 
+rank 3: frog is bit 
+rank 3: frog tb its 
+rank 3: frog bi tbs 
+rank 5: rots if big 
+rank 5: robs it fig 
+rank 5: robs it gif 
+rank 5: robt is fig 
+rank 5: robt is gif 
+rank 5: rigs of bot 
+rank 5: rigs ot fob 
+rank 5: rift os gob 
+rank 5: rift os bog 
+rank 5: ribs of tog 
+rank 5: ribs of got 
+rank 5: ribs ot fog 
+rank 0: sift or gob 
+rank 0: sift or bog 
+rank 0: stir of gob 
+rank 0: stir of bog 
+rank 0: stir ob fog 
+rank 6: trig of sob 
+rank 6: trig os fob 
+rank 1: gift rs orb 
+rank 1: gift rb sro 
+rank 1: gift or sob 
+rank 1: gift os rob 
+rank 1: gist or fob 
+rank 1: gist of rob 
+rank 1: gist ob for 
+rank 1: gist rb fro 
+rank 1: girt os fob 
+rank 1: girt of sob 
+rank 1: gris of bot 
+rank 1: gris ot fob 
+rank 1: grit os fob 
+rank 1: grit of sob 
+--------------------------------------------------------------------
+

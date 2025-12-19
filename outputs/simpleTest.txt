@@ -1,0 +1,80 @@
+Simple Test 1
+Input: first
+Input dictionary:      first
+Encryption dictionary: rfits
+Encrypted text:        rfits
+Written to ciphertext.txt
+
+Serial Output:
+rank 0: rifts
+rank 0: first
+
+Parallel Output:
+rank 0: rifts 
+rank 1: first 
+--------------------------------------------------------------------
+
+Simple Test 2
+Input: task
+Input dictionary:      task
+Encryption dictionary: kast
+Encrypted text:        kast
+Written to ciphertext.txt
+
+Serial Output:
+rank 0: task
+
+Parallel Output:
+rank 3: task 
+--------------------------------------------------------------------
+
+Simple Test 3
+Input: begin
+Input dictionary:      begin
+Encryption dictionary: negib
+Encrypted text:        negib
+Written to ciphertext.txt
+
+Serial Output:
+rank 0: begin
+rank 0: being
+rank 0: binge
+
+Parallel Output:
+rank 4: begin 
+rank 4: being 
+rank 4: binge 
+--------------------------------------------------------------------
+
+Simple Test 4
+Input: iceboxes
+Input dictionary:      iceboxs
+Encryption dictionary: xceobis
+Encrypted text:        xceobies
+Written to ciphertext.txt
+
+Serial Output:
+rank 0: iceboxes
+
+Parallel Output:
+rank 5: iceboxes 
+--------------------------------------------------------------------
+
+Simple Test 5
+Input: the cat
+Input dictionary:      theca
+Encryption dictionary: chtea
+Encrypted text:        cht eac
+Written to ciphertext.txt
+
+Serial Output:
+rank 0: the cat
+rank 0: the act
+rank 0: eta che
+rank 0: eat che
+
+Parallel Output:
+rank 2: the cat 
+rank 2: the act 
+rank 3: eta che 
+rank 3: eat che 

@@ -1,0 +1,632 @@
+Three Unique Character Performance analysis: 
+
+Run #1
+Input: cat
+Input dictionary:      cat
+Encryption dictionary: cat
+Encrypted text:        cat
+Written to ciphertext.txt
+Serial Output:
+rank 0: cat
+rank 0: act
+
+real	0m0.111s
+user	0m0.022s
+sys	0m0.012s
+
+Parallel Output:
+rank 0: cat 
+rank 1: act 
+real 0.51
+user 0.15
+sys 0.22
+-------------------------------------------------------------------
+Run #2
+Input: cat
+Input dictionary:      cat
+Encryption dictionary: atc
+Encrypted text:        atc
+Written to ciphertext.txt
+Serial Output:
+rank 0: act
+rank 0: cat
+
+real	0m0.116s
+user	0m0.014s
+sys	0m0.022s
+
+Parallel Output:
+rank 0: act 
+rank 2: cat 
+real 0.49
+user 0.10
+sys 0.24
+-------------------------------------------------------------------
+Run #3
+Input: cat
+Input dictionary:      cat
+Encryption dictionary: act
+Encrypted text:        act
+Written to ciphertext.txt
+Serial Output:
+rank 0: act
+rank 0: cat
+
+real	0m0.115s
+user	0m0.019s
+sys	0m0.019s
+
+Parallel Output:
+rank 1: cat 
+rank 0: act 
+real 0.50
+user 0.14
+sys 0.23
+-------------------------------------------------------------------
+Run #4
+Input: cat
+Input dictionary:      cat
+Encryption dictionary: atc
+Encrypted text:        atc
+Written to ciphertext.txt
+Serial Output:
+rank 0: act
+rank 0: cat
+
+real	0m0.115s
+user	0m0.019s
+sys	0m0.014s
+
+Parallel Output:
+rank 0: act 
+rank 2: cat 
+real 0.49
+user 0.13
+sys 0.23
+-------------------------------------------------------------------
+Run #5
+Input: cat
+Input dictionary:      cat
+Encryption dictionary: atc
+Encrypted text:        atc
+Written to ciphertext.txt
+Serial Output:
+rank 0: act
+rank 0: cat
+
+real	0m0.109s
+user	0m0.022s
+sys	0m0.011s
+
+Parallel Output:
+rank 0: act 
+rank 2: cat 
+real 0.51
+user 0.12
+sys 0.26
+-------------------------------------------------------------------
+Run #6
+Input: cat
+Input dictionary:      cat
+Encryption dictionary: cat
+Encrypted text:        cat
+Written to ciphertext.txt
+Serial Output:
+rank 0: cat
+rank 0: act
+
+real	0m0.109s
+user	0m0.018s
+sys	0m0.015s
+
+Parallel Output:
+rank 0: cat 
+rank 1: act 
+real 0.50
+user 0.16
+sys 0.20
+-------------------------------------------------------------------
+Run #7
+Input: cat
+Input dictionary:      cat
+Encryption dictionary: cat
+Encrypted text:        cat
+Written to ciphertext.txt
+Serial Output:
+rank 0: cat
+rank 0: act
+
+real	0m0.111s
+user	0m0.013s
+sys	0m0.021s
+
+Parallel Output:
+rank 1: act 
+rank 0: cat 
+real 0.50
+user 0.12
+sys 0.24
+-------------------------------------------------------------------
+Run #8
+Input: cat
+Input dictionary:      cat
+Encryption dictionary: cat
+Encrypted text:        cat
+Written to ciphertext.txt
+Serial Output:
+rank 0: cat
+rank 0: act
+
+real	0m0.107s
+user	0m0.014s
+sys	0m0.019s
+
+Parallel Output:
+rank 1: act 
+rank 0: cat 
+real 0.50
+user 0.13
+sys 0.24
+-------------------------------------------------------------------
+Run #9
+Input: cat
+Input dictionary:      cat
+Encryption dictionary: atc
+Encrypted text:        atc
+Written to ciphertext.txt
+Serial Output:
+rank 0: act
+rank 0: cat
+
+real	0m0.114s
+user	0m0.019s
+sys	0m0.016s
+
+Parallel Output:
+rank 0: act 
+rank 2: cat 
+real 0.49
+user 0.07
+sys 0.27
+-------------------------------------------------------------------
+Run #10
+Input: cat
+Input dictionary:      cat
+Encryption dictionary: cta
+Encrypted text:        cta
+Written to ciphertext.txt
+Serial Output:
+rank 0: cat
+rank 0: act
+
+real	0m0.117s
+user	0m0.021s
+sys	0m0.017s
+
+Parallel Output:
+rank 2: act 
+rank 0: cat 
+real 0.50
+user 0.13
+sys 0.25
+-------------------------------------------------------------------
+Run #11
+Input: cat
+Input dictionary:      cat
+Encryption dictionary: atc
+Encrypted text:        atc
+Written to ciphertext.txt
+Serial Output:
+rank 0: act
+rank 0: cat
+
+real	0m0.109s
+user	0m0.020s
+sys	0m0.012s
+
+Parallel Output:
+rank 2: cat 
+rank 0: act 
+real 0.51
+user 0.13
+sys 0.25
+-------------------------------------------------------------------
+Run #12
+Input: cat
+Input dictionary:      cat
+Encryption dictionary: atc
+Encrypted text:        atc
+Written to ciphertext.txt
+Serial Output:
+rank 0: act
+rank 0: cat
+
+real	0m0.106s
+user	0m0.018s
+sys	0m0.014s
+
+Parallel Output:
+rank 0: act 
+rank 2: cat 
+real 0.50
+user 0.10
+sys 0.25
+-------------------------------------------------------------------
+Run #13
+Input: cat
+Input dictionary:      cat
+Encryption dictionary: atc
+Encrypted text:        atc
+Written to ciphertext.txt
+Serial Output:
+rank 0: act
+rank 0: cat
+
+real	0m0.121s
+user	0m0.022s
+sys	0m0.016s
+
+Parallel Output:
+rank 2: cat 
+rank 0: act 
+real 0.50
+user 0.11
+sys 0.26
+-------------------------------------------------------------------
+Run #14
+Input: cat
+Input dictionary:      cat
+Encryption dictionary: act
+Encrypted text:        act
+Written to ciphertext.txt
+Serial Output:
+rank 0: act
+rank 0: cat
+
+real	0m0.103s
+user	0m0.004s
+sys	0m0.027s
+
+Parallel Output:
+rank 0: act 
+rank 1: cat 
+real 0.51
+user 0.14
+sys 0.24
+-------------------------------------------------------------------
+Run #15
+Input: cat
+Input dictionary:      cat
+Encryption dictionary: cat
+Encrypted text:        cat
+Written to ciphertext.txt
+Serial Output:
+rank 0: cat
+rank 0: act
+
+real	0m0.106s
+user	0m0.016s
+sys	0m0.017s
+
+Parallel Output:
+rank 0: cat 
+rank 1: act 
+real 0.49
+user 0.11
+sys 0.23
+-------------------------------------------------------------------
+Run #16
+Input: cat
+Input dictionary:      cat
+Encryption dictionary: cat
+Encrypted text:        cat
+Written to ciphertext.txt
+Serial Output:
+rank 0: cat
+rank 0: act
+
+real	0m0.110s
+user	0m0.021s
+sys	0m0.014s
+
+Parallel Output:
+rank 0: cat 
+rank 1: act 
+real 0.49
+user 0.11
+sys 0.25
+-------------------------------------------------------------------
+Run #17
+Input: cat
+Input dictionary:      cat
+Encryption dictionary: atc
+Encrypted text:        atc
+Written to ciphertext.txt
+Serial Output:
+rank 0: act
+rank 0: cat
+
+real	0m0.117s
+user	0m0.028s
+sys	0m0.006s
+
+Parallel Output:
+rank 2: cat 
+rank 0: act 
+real 0.50
+user 0.12
+sys 0.22
+-------------------------------------------------------------------
+Run #18
+Input: cat
+Input dictionary:      cat
+Encryption dictionary: tac
+Encrypted text:        tac
+Written to ciphertext.txt
+Serial Output:
+rank 0: act
+rank 0: cat
+
+real	0m0.111s
+user	0m0.011s
+sys	0m0.022s
+
+Parallel Output:
+rank 1: act 
+rank 2: cat 
+real 0.49
+user 0.12
+sys 0.22
+-------------------------------------------------------------------
+Run #19
+Input: cat
+Input dictionary:      cat
+Encryption dictionary: cta
+Encrypted text:        cta
+Written to ciphertext.txt
+Serial Output:
+rank 0: cat
+rank 0: act
+
+real	0m0.114s
+user	0m0.019s
+sys	0m0.015s
+
+Parallel Output:
+rank 0: cat 
+rank 2: act 
+real 0.51
+user 0.13
+sys 0.25
+-------------------------------------------------------------------
+Run #20
+Input: cat
+Input dictionary:      cat
+Encryption dictionary: cta
+Encrypted text:        cta
+Written to ciphertext.txt
+Serial Output:
+rank 0: cat
+rank 0: act
+
+real	0m0.113s
+user	0m0.016s
+sys	0m0.017s
+
+Parallel Output:
+rank 0: cat 
+rank 2: act 
+real 0.51
+user 0.16
+sys 0.22
+-------------------------------------------------------------------
+Run #21
+Input: cat
+Input dictionary:      cat
+Encryption dictionary: cat
+Encrypted text:        cat
+Written to ciphertext.txt
+Serial Output:
+rank 0: cat
+rank 0: act
+
+real	0m0.121s
+user	0m0.019s
+sys	0m0.016s
+
+Parallel Output:
+rank 0: cat 
+rank 1: act 
+real 0.50
+user 0.14
+sys 0.22
+-------------------------------------------------------------------
+Run #22
+Input: cat
+Input dictionary:      cat
+Encryption dictionary: act
+Encrypted text:        act
+Written to ciphertext.txt
+Serial Output:
+rank 0: act
+rank 0: cat
+
+real	0m0.105s
+user	0m0.013s
+sys	0m0.020s
+
+Parallel Output:
+rank 0: act 
+rank 1: cat 
+real 0.51
+user 0.14
+sys 0.24
+-------------------------------------------------------------------
+Run #23
+Input: cat
+Input dictionary:      cat
+Encryption dictionary: act
+Encrypted text:        act
+Written to ciphertext.txt
+Serial Output:
+rank 0: act
+rank 0: cat
+
+real	0m0.108s
+user	0m0.023s
+sys	0m0.008s
+
+Parallel Output:
+rank 1: cat 
+rank 0: act 
+real 0.50
+user 0.12
+sys 0.23
+-------------------------------------------------------------------
+Run #24
+Input: cat
+Input dictionary:      cat
+Encryption dictionary: act
+Encrypted text:        act
+Written to ciphertext.txt
+Serial Output:
+rank 0: act
+rank 0: cat
+
+real	0m0.104s
+user	0m0.012s
+sys	0m0.019s
+
+Parallel Output:
+rank 0: act 
+rank 1: cat 
+real 0.50
+user 0.14
+sys 0.21
+-------------------------------------------------------------------
+Run #25
+Input: cat
+Input dictionary:      cat
+Encryption dictionary: cat
+Encrypted text:        cat
+Written to ciphertext.txt
+Serial Output:
+rank 0: cat
+rank 0: act
+
+real	0m0.099s
+user	0m0.022s
+sys	0m0.008s
+
+Parallel Output:
+rank 1: act 
+rank 0: cat 
+real 0.51
+user 0.17
+sys 0.22
+-------------------------------------------------------------------
+Run #26
+Input: cat
+Input dictionary:      cat
+Encryption dictionary: cta
+Encrypted text:        cta
+Written to ciphertext.txt
+Serial Output:
+rank 0: cat
+rank 0: act
+
+real	0m0.115s
+user	0m0.019s
+sys	0m0.014s
+
+Parallel Output:
+rank 0: cat 
+rank 2: act 
+real 0.49
+user 0.09
+sys 0.25
+-------------------------------------------------------------------
+Run #27
+Input: cat
+Input dictionary:      cat
+Encryption dictionary: cta
+Encrypted text:        cta
+Written to ciphertext.txt
+Serial Output:
+rank 0: cat
+rank 0: act
+
+real	0m0.114s
+user	0m0.019s
+sys	0m0.015s
+
+Parallel Output:
+rank 2: act 
+rank 0: cat 
+real 0.51
+user 0.20
+sys 0.17
+-------------------------------------------------------------------
+Run #28
+Input: cat
+Input dictionary:      cat
+Encryption dictionary: tac
+Encrypted text:        tac
+Written to ciphertext.txt
+Serial Output:
+rank 0: act
+rank 0: cat
+
+real	0m0.112s
+user	0m0.022s
+sys	0m0.009s
+
+Parallel Output:
+rank 1: act 
+rank 2: cat 
+real 0.50
+user 0.13
+sys 0.24
+-------------------------------------------------------------------
+Run #29
+Input: cat
+Input dictionary:      cat
+Encryption dictionary: cat
+Encrypted text:        cat
+Written to ciphertext.txt
+Serial Output:
+rank 0: cat
+rank 0: act
+
+real	0m0.113s
+user	0m0.021s
+sys	0m0.011s
+
+Parallel Output:
+rank 1: act 
+rank 0: cat 
+real 0.49
+user 0.13
+sys 0.21
+-------------------------------------------------------------------
+Run #30
+Input: cat
+Input dictionary:      cat
+Encryption dictionary: cat
+Encrypted text:        cat
+Written to ciphertext.txt
+Serial Output:
+rank 0: cat
+rank 0: act
+
+real	0m0.108s
+user	0m0.010s
+sys	0m0.021s
+
+Parallel Output:
+rank 0: cat 
+rank 1: act 
+real 0.48
+user 0.11
+sys 0.22
+-------------------------------------------------------------------

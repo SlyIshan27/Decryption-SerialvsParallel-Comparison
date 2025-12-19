@@ -1,0 +1,647 @@
+Eleven Unique Character Performance analysis: 
+
+Run #1
+Input: i tested subject in cat
+Input dictionary:      itesdubjcna
+Encryption dictionary: ijcusnabdte
+Encrypted text:        i jcujcs unabcdj it dej
+Written to ciphertext.txt
+Serial Output:
+rank 0: i tested subject in cat
+rank 0: n tested subject ni cat
+
+real	0m8.404s
+user	0m8.321s
+sys	0m0.012s
+
+Parallel Output:
+rank 5: n tested subject ni cat 
+rank 0: i tested subject in cat 
+real 3.60
+user 32.01
+sys 1.38
+-------------------------------------------------------------------
+Run #2
+Input: i tested subject in cat
+Input dictionary:      itesdubjcna
+Encryption dictionary: sjnctdabieu
+Encrypted text:        s jncjnt cdabnij se iuj
+Written to ciphertext.txt
+Serial Output:
+rank 0: n tested subject ni cat
+rank 0: i tested subject in cat
+
+real	0m8.322s
+user	0m8.229s
+sys	0m0.012s
+
+Parallel Output:
+rank 2: n tested subject ni cat 
+rank 8: i tested subject in cat 
+real 3.67
+user 32.36
+sys 1.56
+-------------------------------------------------------------------
+Run #3
+Input: i tested subject in cat
+Input dictionary:      itesdubjcna
+Encryption dictionary: tibedusajnc
+Encrypted text:        t ibeibd eusabji tn jci
+Written to ciphertext.txt
+Serial Output:
+rank 0: i tested subject in cat
+rank 0: n tested subject ni cat
+
+real	0m8.052s
+user	0m7.945s
+sys	0m0.029s
+
+Parallel Output:
+rank 1: i tested subject in cat 
+rank 9: n tested subject ni cat 
+real 3.51
+user 31.19
+sys 1.37
+-------------------------------------------------------------------
+Run #4
+Input: i tested subject in cat
+Input dictionary:      itesdubjcna
+Encryption dictionary: abjundcseti
+Encrypted text:        a bjubjn udcsjeb at eib
+Written to ciphertext.txt
+Serial Output:
+rank 0: n tested subject ni cat
+rank 0: i tested subject in cat
+
+real	0m9.127s
+user	0m9.033s
+sys	0m0.021s
+
+Parallel Output:
+rank 4: n tested subject ni cat 
+rank 10: i tested subject in cat 
+real 3.74
+user 33.17
+sys 1.59
+-------------------------------------------------------------------
+Run #5
+Input: i tested subject in cat
+Input dictionary:      itesdubjcna
+Encryption dictionary: baitscndeju
+Encrypted text:        b aitais tcndiea bj eua
+Written to ciphertext.txt
+Serial Output:
+rank 0: i tested subject in cat
+rank 0: n tested subject ni cat
+
+real	0m8.204s
+user	0m8.110s
+sys	0m0.013s
+
+Parallel Output:
+rank 2: i tested subject in cat 
+rank 6: n tested subject ni cat 
+real 3.73
+user 32.85
+sys 1.43
+-------------------------------------------------------------------
+Run #6
+Input: i tested subject in cat
+Input dictionary:      itesdubjcna
+Encryption dictionary: nicusteabdj
+Encrypted text:        n icuics uteacbi nd bji
+Written to ciphertext.txt
+Serial Output:
+rank 0: n tested subject ni cat
+rank 0: i tested subject in cat
+
+real	0m8.000s
+user	0m7.892s
+sys	0m0.029s
+
+Parallel Output:
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that process rank 2 with PID 0 on node cis3090 exited on signal 13 (Broken pipe).
+--------------------------------------------------------------------------
+real 1.17
+user 0.02
+sys 0.15
+-------------------------------------------------------------------
+Run #7
+Input: i tested subject in cat
+Input dictionary:      itesdubjcna
+Encryption dictionary: beadcinjtsu
+Encrypted text:        b eadeac dinjate bs tue
+Written to ciphertext.txt
+Serial Output:
+rank 0: i tested subject in cat
+rank 0: n tested subject ni cat
+
+real	0m8.551s
+user	0m8.466s
+sys	0m0.009s
+
+Parallel Output:
+rank 6: n tested subject ni cat 
+rank 5: i tested subject in cat 
+real 3.58
+user 31.41
+sys 1.54
+-------------------------------------------------------------------
+Run #8
+Input: i tested subject in cat
+Input dictionary:      itesdubjcna
+Encryption dictionary: eauisdtbnjc
+Encrypted text:        e auiaus idtbuna ej nca
+Written to ciphertext.txt
+Serial Output:
+rank 0: i tested subject in cat
+rank 0: n tested subject ni cat
+
+real	0m8.533s
+user	0m8.439s
+sys	0m0.013s
+
+Parallel Output:
+rank 3: i tested subject in cat 
+rank 8: n tested subject ni cat 
+real 3.75
+user 33.34
+sys 1.46
+-------------------------------------------------------------------
+Run #9
+Input: i tested subject in cat
+Input dictionary:      itesdubjcna
+Encryption dictionary: iubcjndaste
+Encrypted text:        i ubcubj cndabsu it seu
+Written to ciphertext.txt
+Serial Output:
+rank 0: i tested subject in cat
+rank 0: n tested subject ni cat
+
+real	0m8.503s
+user	0m8.428s
+sys	0m0.005s
+
+Parallel Output:
+rank 5: n tested subject ni cat 
+rank 0: i tested subject in cat 
+real 3.86
+user 34.10
+sys 1.56
+-------------------------------------------------------------------
+Run #10
+Input: i tested subject in cat
+Input dictionary:      itesdubjcna
+Encryption dictionary: csauditebnj
+Encrypted text:        c sausad uiteabs cn bjs
+Written to ciphertext.txt
+Serial Output:
+rank 0: i tested subject in cat
+rank 0: n tested subject ni cat
+
+real	0m9.417s
+user	0m9.323s
+sys	0m0.017s
+
+Parallel Output:
+rank 5: i tested subject in cat 
+rank 9: n tested subject ni cat 
+real 3.76
+user 32.70
+sys 1.81
+-------------------------------------------------------------------
+Run #11
+Input: i tested subject in cat
+Input dictionary:      itesdubjcna
+Encryption dictionary: neusicdjtba
+Encrypted text:        n euseui scdjute nb tae
+Written to ciphertext.txt
+Serial Output:
+rank 0: n tested subject ni cat
+rank 0: i tested subject in cat
+
+real	0m8.418s
+user	0m8.319s
+sys	0m0.021s
+
+Parallel Output:
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that process rank 8 with PID 0 on node cis3090 exited on signal 13 (Broken pipe).
+--------------------------------------------------------------------------
+real 1.24
+user 0.02
+sys 0.17
+-------------------------------------------------------------------
+Run #12
+Input: i tested subject in cat
+Input dictionary:      itesdubjcna
+Encryption dictionary: usidtnejbac
+Encrypted text:        u sidsit dnejibs ua bcs
+Written to ciphertext.txt
+Serial Output:
+rank 0: i tested subject in cat
+rank 0: n tested subject ni cat
+
+real	0m8.511s
+user	0m8.411s
+sys	0m0.025s
+
+Parallel Output:
+rank 2: i tested subject in cat 
+rank 5: n tested subject ni cat 
+real 4.05
+user 34.99
+sys 2.34
+-------------------------------------------------------------------
+Run #13
+Input: i tested subject in cat
+Input dictionary:      itesdubjcna
+Encryption dictionary: esbjuantdic
+Encrypted text:        e sbjsbu jantbds ei dcs
+Written to ciphertext.txt
+Serial Output:
+rank 0: n tested subject ni cat
+rank 0: i tested subject in cat
+
+real	0m8.410s
+user	0m8.316s
+sys	0m0.009s
+
+Parallel Output:
+rank 6: n tested subject ni cat 
+rank 9: i tested subject in cat 
+real 3.59
+user 31.45
+sys 1.72
+-------------------------------------------------------------------
+Run #14
+Input: i tested subject in cat
+Input dictionary:      itesdubjcna
+Encryption dictionary: bcsajuedint
+Encrypted text:        b csacsj auedsic bn itc
+Written to ciphertext.txt
+Serial Output:
+rank 0: i tested subject in cat
+rank 0: n tested subject ni cat
+
+real	0m8.606s
+user	0m8.524s
+sys	0m0.009s
+
+Parallel Output:
+rank 9: n tested subject ni cat 
+rank 8: i tested subject in cat 
+real 3.64
+user 31.73
+sys 1.62
+-------------------------------------------------------------------
+Run #15
+Input: i tested subject in cat
+Input dictionary:      itesdubjcna
+Encryption dictionary: ctesijbanud
+Encrypted text:        c testei sjbaent cu ndt
+Written to ciphertext.txt
+Serial Output:
+rank 0: i tested subject in cat
+rank 0: n tested subject ni cat
+
+real	0m8.214s
+user	0m8.118s
+sys	0m0.024s
+
+Parallel Output:
+rank 4: i tested subject in cat 
+rank 8: n tested subject ni cat 
+real 3.53
+user 31.44
+sys 1.44
+-------------------------------------------------------------------
+Run #16
+Input: i tested subject in cat
+Input dictionary:      itesdubjcna
+Encryption dictionary: ubcatisjedn
+Encrypted text:        u bcabct aisjceb ud enb
+Written to ciphertext.txt
+Serial Output:
+rank 0: i tested subject in cat
+rank 0: n tested subject ni cat
+
+real	0m8.845s
+user	0m8.762s
+sys	0m0.009s
+
+Parallel Output:
+rank 5: i tested subject in cat 
+rank 10: n tested subject ni cat 
+real 3.59
+user 31.81
+sys 1.35
+-------------------------------------------------------------------
+Run #17
+Input: i tested subject in cat
+Input dictionary:      itesdubjcna
+Encryption dictionary: sancdetjibu
+Encrypted text:        s ancand cetjnia sb iua
+Written to ciphertext.txt
+Serial Output:
+rank 0: n tested subject ni cat
+rank 0: i tested subject in cat
+
+real	0m8.778s
+user	0m8.692s
+sys	0m0.009s
+
+Parallel Output:
+rank 2: n tested subject ni cat 
+rank 8: i tested subject in cat 
+real 3.64
+user 32.48
+sys 1.51
+-------------------------------------------------------------------
+Run #18
+Input: i tested subject in cat
+Input dictionary:      itesdubjcna
+Encryption dictionary: adcbutseinj
+Encrypted text:        a dcbdcu btsecid an ijd
+Written to ciphertext.txt
+Serial Output:
+rank 0: i tested subject in cat
+rank 0: n tested subject ni cat
+
+real	0m8.381s
+user	0m8.291s
+sys	0m0.017s
+
+Parallel Output:
+rank 9: n tested subject ni cat 
+rank 8: i tested subject in cat 
+real 3.55
+user 31.70
+sys 1.31
+-------------------------------------------------------------------
+Run #19
+Input: i tested subject in cat
+Input dictionary:      itesdubjcna
+Encryption dictionary: cnueabjidts
+Encrypted text:        c nuenua ebjiudn ct dsn
+Written to ciphertext.txt
+Serial Output:
+rank 0: n tested subject ni cat
+rank 0: i tested subject in cat
+
+real	0m8.553s
+user	0m8.469s
+sys	0m0.005s
+
+Parallel Output:
+rank 1: n tested subject ni cat 
+rank 7: i tested subject in cat 
+real 3.61
+user 31.67
+sys 1.54
+-------------------------------------------------------------------
+Run #20
+Input: i tested subject in cat
+Input dictionary:      itesdubjcna
+Encryption dictionary: tcbsdanuiej
+Encrypted text:        t cbscbd sanubic te ijc
+Written to ciphertext.txt
+Serial Output:
+rank 0: n tested subject ni cat
+rank 0: i tested subject in cat
+
+real	0m8.865s
+user	0m8.786s
+sys	0m0.013s
+
+Parallel Output:
+rank 6: n tested subject ni cat 
+rank 8: i tested subject in cat 
+real 3.55
+user 31.73
+sys 1.60
+-------------------------------------------------------------------
+Run #21
+Input: i tested subject in cat
+Input dictionary:      itesdubjcna
+Encryption dictionary: cebuntjadsi
+Encrypted text:        c ebuebn utjabde cs die
+Written to ciphertext.txt
+Serial Output:
+rank 0: n tested subject ni cat
+rank 0: i tested subject in cat
+
+real	0m8.440s
+user	0m8.341s
+sys	0m0.015s
+
+Parallel Output:
+rank 4: n tested subject ni cat 
+rank 10: i tested subject in cat 
+real 3.51
+user 31.35
+sys 1.40
+-------------------------------------------------------------------
+Run #22
+Input: i tested subject in cat
+Input dictionary:      itesdubjcna
+Encryption dictionary: ijteasndcub
+Encrypted text:        i jtejta esndtcj iu cbj
+Written to ciphertext.txt
+Serial Output:
+rank 0: i tested subject in cat
+rank 0: n tested subject ni cat
+
+real	0m8.481s
+user	0m8.389s
+sys	0m0.016s
+
+Parallel Output:
+rank 0: i tested subject in cat 
+rank 6: n tested subject ni cat 
+real 3.64
+user 32.14
+sys 1.47
+-------------------------------------------------------------------
+Run #23
+Input: i tested subject in cat
+Input dictionary:      itesdubjcna
+Encryption dictionary: sbdauectinj
+Encrypted text:        s bdabdu aectdib sn ijb
+Written to ciphertext.txt
+Serial Output:
+rank 0: i tested subject in cat
+rank 0: n tested subject ni cat
+
+real	0m8.626s
+user	0m8.525s
+sys	0m0.019s
+
+Parallel Output:
+rank 9: n tested subject ni cat 
+rank 8: i tested subject in cat 
+real 3.53
+user 31.23
+sys 1.23
+-------------------------------------------------------------------
+Run #24
+Input: i tested subject in cat
+Input dictionary:      itesdubjcna
+Encryption dictionary: tbunaijcsde
+Encrypted text:        t bunbua nijcusb td seb
+Written to ciphertext.txt
+Serial Output:
+rank 0: n tested subject ni cat
+rank 0: i tested subject in cat
+
+real	0m8.191s
+user	0m8.100s
+sys	0m0.012s
+
+Parallel Output:
+rank 3: n tested subject ni cat 
+rank 5: i tested subject in cat 
+real 3.73
+user 32.13
+sys 1.88
+-------------------------------------------------------------------
+Run #25
+Input: i tested subject in cat
+Input dictionary:      itesdubjcna
+Encryption dictionary: aibjcentuds
+Encrypted text:        a ibjibc jentbui ad usi
+Written to ciphertext.txt
+Serial Output:
+rank 0: i tested subject in cat
+rank 0: n tested subject ni cat
+
+real	0m8.209s
+user	0m8.122s
+sys	0m0.012s
+
+Parallel Output:
+rank 6: n tested subject ni cat 
+rank 1: i tested subject in cat 
+real 3.61
+user 31.68
+sys 1.58
+-------------------------------------------------------------------
+Run #26
+Input: i tested subject in cat
+Input dictionary:      itesdubjcna
+Encryption dictionary: eusanjbditc
+Encrypted text:        e usausn ajbdsiu et icu
+Written to ciphertext.txt
+Serial Output:
+rank 0: n tested subject ni cat
+rank 0: i tested subject in cat
+
+real	0m8.954s
+user	0m8.869s
+sys	0m0.005s
+
+Parallel Output:
+rank 4: n tested subject ni cat 
+rank 8: i tested subject in cat 
+real 3.82
+user 33.03
+sys 1.80
+-------------------------------------------------------------------
+Run #27
+Input: i tested subject in cat
+Input dictionary:      itesdubjcna
+Encryption dictionary: dnjeasucbit
+Encrypted text:        d njenja esucjbn di btn
+Written to ciphertext.txt
+Serial Output:
+rank 0: n tested subject ni cat
+rank 0: i tested subject in cat
+
+real	0m8.346s
+user	0m8.248s
+sys	0m0.020s
+
+Parallel Output:
+rank 1: n tested subject ni cat 
+rank 9: i tested subject in cat 
+real 4.27
+user 39.20
+sys 1.62
+-------------------------------------------------------------------
+Run #28
+Input: i tested subject in cat
+Input dictionary:      itesdubjcna
+Encryption dictionary: beiuctdjasn
+Encrypted text:        b eiueic utdjiae bs ane
+Written to ciphertext.txt
+Serial Output:
+rank 0: i tested subject in cat
+rank 0: n tested subject ni cat
+
+real	0m8.333s
+user	0m8.252s
+sys	0m0.009s
+
+Parallel Output:
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that process rank 8 with PID 0 on node cis3090 exited on signal 13 (Broken pipe).
+--------------------------------------------------------------------------
+real 1.24
+user 0.03
+sys 0.18
+-------------------------------------------------------------------
+Run #29
+Input: i tested subject in cat
+Input dictionary:      itesdubjcna
+Encryption dictionary: jnebsidtauc
+Encrypted text:        j nebnes bidtean ju acn
+Written to ciphertext.txt
+Serial Output:
+rank 0: n tested subject ni cat
+rank 0: i tested subject in cat
+
+real	0m9.442s
+user	0m9.348s
+sys	0m0.013s
+
+Parallel Output:
+rank 1: n tested subject ni cat 
+rank 5: i tested subject in cat 
+real 6.35
+user 58.94
+sys 2.54
+-------------------------------------------------------------------
+Run #30
+Input: i tested subject in cat
+Input dictionary:      itesdubjcna
+Encryption dictionary: ibeuatdjscn
+Encrypted text:        i beubea utdjesb ic snb
+Written to ciphertext.txt
+Serial Output:
+rank 0: i tested subject in cat
+rank 0: n tested subject ni cat
+
+real	0m10.481s
+user	0m10.336s
+sys	0m0.033s
+
+Parallel Output:
+rank 0: i tested subject in cat 
+rank 10: n tested subject ni cat 
+real 6.16
+user 58.48
+sys 1.97
+-------------------------------------------------------------------

@@ -1,0 +1,711 @@
+Thirteen Unique Character Performance analysis: 
+
+Run #1
+Input: peter piper picked a peck of pickled peppers
+Input dictionary:      petrickdaofls
+Encryption dictionary: eirfkoldcpsta
+Encrypted text:        eirif ekeif ekolid c eiol ps ekoltid eieeifa
+Written to ciphertext.txt
+Serial Output:
+
+real	5m0.000s
+user	4m59.892s
+sys	0m0.024s
+>>> TIMEOUT (Serial) <<<
+
+Parallel Output:
+rank 9: peter piper picked o peck fa pickled peppers 
+rank 9: peter piper picked o peck af pickled peppers 
+rank 9: peter piper picked a peck of pickled peppers 
+
+real	5m1.028s
+user	0m0.043s
+sys	0m0.151s
+>>> TIMEOUT (Parallel) <<<
+-------------------------------------------------------------------
+Run #2
+Input: peter piper picked a peck of pickled peppers
+Input dictionary:      petrickdaofls
+Encryption dictionary: isceoaklptrdf
+Encrypted text:        iscse ioise ioaksl p isak tr ioakdsl isiisef
+Written to ciphertext.txt
+Serial Output:
+
+real	5m0.005s
+user	4m59.918s
+sys	0m0.017s
+>>> TIMEOUT (Serial) <<<
+
+Parallel Output:
+rank 8: peter piper picked o peck af pickled peppers 
+rank 8: peter piper picked o peck fa pickled peppers 
+rank 8: peter piper picked a peck of pickled peppers 
+mpirun: Forwarding signal 18 to job
+
+real	5m1.036s
+user	0m0.038s
+sys	0m0.131s
+>>> TIMEOUT (Parallel) <<<
+-------------------------------------------------------------------
+Run #3
+Input: peter piper picked a peck of pickled peppers
+Input dictionary:      petrickdaofls
+Encryption dictionary: opiksreftclda
+Encrypted text:        opipk osopk osrepf t opre cl osredpf opoopka
+Written to ciphertext.txt
+Serial Output:
+rank 0: peter piper picked o peck fa pickled peppers
+rank 0: peter piper picked o peck af pickled peppers
+rank 0: peter piper picked a peck of pickled peppers
+
+real	5m0.003s
+user	4m59.895s
+sys	0m0.021s
+>>> TIMEOUT (Serial) <<<
+
+Parallel Output:
+rank 1: peter piper picked o peck fa pickled peppers 
+rank 1: peter piper picked o peck af pickled peppers 
+rank 1: peter piper picked a peck of pickled peppers 
+mpirun: Forwarding signal 18 to job
+
+real	5m1.037s
+user	0m0.024s
+sys	0m0.154s
+>>> TIMEOUT (Parallel) <<<
+-------------------------------------------------------------------
+Run #4
+Input: peter piper picked a peck of pickled peppers
+Input dictionary:      petrickdaofls
+Encryption dictionary: ektflsporacdi
+Encrypted text:        ektkf elekf elspko r eksp ac elspdko ekeekfi
+Written to ciphertext.txt
+Serial Output:
+
+real	5m0.005s
+user	4m59.899s
+sys	0m0.027s
+>>> TIMEOUT (Serial) <<<
+
+Parallel Output:
+rank 6: peter piper picked a peck of pickled peppers 
+rank 6: peter piper picked o peck af pickled peppers 
+rank 6: peter piper picked o peck fa pickled peppers 
+
+real	5m1.024s
+user	0m0.017s
+sys	0m0.145s
+>>> TIMEOUT (Parallel) <<<
+-------------------------------------------------------------------
+Run #5
+Input: peter piper picked a peck of pickled peppers
+Input dictionary:      petrickdaofls
+Encryption dictionary: kfsocrteapdil
+Encrypted text:        kfsfo kckfo kcrtfe a kfrt pd kcrtife kfkkfol
+Written to ciphertext.txt
+Serial Output:
+
+real	5m0.005s
+user	4m59.914s
+sys	0m0.013s
+>>> TIMEOUT (Serial) <<<
+
+Parallel Output:
+rank 9: peter piper picked a peck of pickled peppers 
+rank 9: peter piper picked o peck af pickled peppers 
+rank 9: peter piper picked o peck fa pickled peppers 
+mpirun: Forwarding signal 18 to job
+
+real	5m1.035s
+user	0m0.027s
+sys	0m0.134s
+>>> TIMEOUT (Parallel) <<<
+-------------------------------------------------------------------
+Run #6
+Input: peter piper picked a peck of pickled peppers
+Input dictionary:      petrickdaofls
+Encryption dictionary: ldkraestpicfo
+Encrypted text:        ldkdr laldr laesdt p ldes ic laesfdt ldlldro
+Written to ciphertext.txt
+Serial Output:
+
+real	5m0.004s
+user	4m59.915s
+sys	0m0.012s
+>>> TIMEOUT (Serial) <<<
+
+Parallel Output:
+rank 8: peter piper picked a peck of pickled peppers 
+rank 8: peter piper picked o peck af pickled peppers 
+rank 8: peter piper picked o peck fa pickled peppers 
+mpirun: Forwarding signal 18 to job
+
+real	5m1.025s
+user	0m0.036s
+sys	0m0.121s
+>>> TIMEOUT (Parallel) <<<
+-------------------------------------------------------------------
+Run #7
+Input: peter piper picked a peck of pickled peppers
+Input dictionary:      petrickdaofls
+Encryption dictionary: ofedrpcakilst
+Encrypted text:        ofefd orofd orpcfa k ofpc il orpcsfa ofoofdt
+Written to ciphertext.txt
+Serial Output:
+
+real	5m0.001s
+user	4m59.888s
+sys	0m0.017s
+>>> TIMEOUT (Serial) <<<
+
+Parallel Output:
+rank 5: peter piper picked o peck af pickled peppers 
+rank 5: peter piper picked o peck fa pickled peppers 
+rank 5: peter piper picked a peck of pickled peppers 
+
+real	5m1.031s
+user	0m0.018s
+sys	0m0.168s
+>>> TIMEOUT (Parallel) <<<
+-------------------------------------------------------------------
+Run #8
+Input: peter piper picked a peck of pickled peppers
+Input dictionary:      petrickdaofls
+Encryption dictionary: spdocelratkfi
+Encrypted text:        spdpo scspo scelpr a spel tk scelfpr spsspoi
+Written to ciphertext.txt
+Serial Output:
+rank 0: peter piper picked a peck of pickled peppers
+rank 0: peter piper picked o peck af pickled peppers
+rank 0: peter piper picked o peck fa pickled peppers
+
+real	5m0.005s
+user	4m59.910s
+sys	0m0.015s
+>>> TIMEOUT (Serial) <<<
+
+Parallel Output:
+rank 1: peter piper picked a peck of pickled peppers 
+rank 1: peter piper picked o peck af pickled peppers 
+rank 1: peter piper picked o peck fa pickled peppers 
+
+real	5m0.009s
+user	0m0.019s
+sys	0m0.139s
+>>> TIMEOUT (Parallel) <<<
+-------------------------------------------------------------------
+Run #9
+Input: peter piper picked a peck of pickled peppers
+Input dictionary:      petrickdaofls
+Encryption dictionary: pftioacresdlk
+Encrypted text:        pftfi popfi poacfr e pfac sd poaclfr pfppfik
+Written to ciphertext.txt
+Serial Output:
+rank 0: peter piper picked o peck fa pickled peppers
+rank 0: peter piper picked o peck af pickled peppers
+rank 0: peter piper picked a peck of pickled peppers
+
+real	5m0.003s
+user	4m59.899s
+sys	0m0.016s
+>>> TIMEOUT (Serial) <<<
+
+Parallel Output:
+rank 0: peter piper picked o peck fa pickled peppers 
+rank 0: peter piper picked o peck af pickled peppers 
+rank 0: peter piper picked a peck of pickled peppers 
+
+real	5m1.027s
+user	0m0.022s
+sys	0m0.149s
+>>> TIMEOUT (Parallel) <<<
+-------------------------------------------------------------------
+Run #10
+Input: peter piper picked a peck of pickled peppers
+Input dictionary:      petrickdaofls
+Encryption dictionary: ldkrefaptsoci
+Encrypted text:        ldkdr leldr lefadp t ldfa so lefacdp ldlldri
+Written to ciphertext.txt
+Serial Output:
+
+real	5m0.006s
+user	4m59.923s
+sys	0m0.005s
+>>> TIMEOUT (Serial) <<<
+
+Parallel Output:
+rank 7: peter piper picked a peck of pickled peppers 
+rank 7: peter piper picked o peck af pickled peppers 
+rank 7: peter piper picked o peck fa pickled peppers 
+
+real	5m1.029s
+user	0m0.013s
+sys	0m0.161s
+>>> TIMEOUT (Parallel) <<<
+-------------------------------------------------------------------
+Run #11
+Input: peter piper picked a peck of pickled peppers
+Input dictionary:      petrickdaofls
+Encryption dictionary: rflskptoiaedc
+Encrypted text:        rflfs rkrfs rkptfo i rfpt ae rkptdfo rfrrfsc
+Written to ciphertext.txt
+Serial Output:
+
+real	5m0.005s
+user	4m59.902s
+sys	0m0.028s
+>>> TIMEOUT (Serial) <<<
+
+Parallel Output:
+mpirun: Forwarding signal 18 to job
+
+real	5m1.040s
+user	0m0.028s
+sys	0m0.140s
+>>> TIMEOUT (Parallel) <<<
+-------------------------------------------------------------------
+Run #12
+Input: peter piper picked a peck of pickled peppers
+Input dictionary:      petrickdaofls
+Encryption dictionary: teolckaiprsdf
+Encrypted text:        teoel tctel tckaei p teka rs tckadei tettelf
+Written to ciphertext.txt
+Serial Output:
+
+real	5m0.002s
+user	4m59.913s
+sys	0m0.021s
+>>> TIMEOUT (Serial) <<<
+
+Parallel Output:
+rank 8: peter piper picked o peck af pickled peppers 
+rank 8: peter piper picked o peck fa pickled peppers 
+rank 8: peter piper picked a peck of pickled peppers 
+mpirun: Forwarding signal 18 to job
+
+real	5m1.030s
+user	0m0.033s
+sys	0m0.140s
+>>> TIMEOUT (Parallel) <<<
+-------------------------------------------------------------------
+Run #13
+Input: peter piper picked a peck of pickled peppers
+Input dictionary:      petrickdaofls
+Encryption dictionary: crsadpfoeiklt
+Encrypted text:        crsra cdcra cdpfro e crpf ik cdpflro crccrat
+Written to ciphertext.txt
+Serial Output:
+
+real	5m0.005s
+user	4m59.918s
+sys	0m0.013s
+>>> TIMEOUT (Serial) <<<
+
+Parallel Output:
+
+real	5m1.033s
+user	0m0.037s
+sys	0m0.140s
+>>> TIMEOUT (Parallel) <<<
+-------------------------------------------------------------------
+Run #14
+Input: peter piper picked a peck of pickled peppers
+Input dictionary:      petrickdaofls
+Encryption dictionary: fspdtliaokecr
+Encrypted text:        fspsd ftfsd ftlisa o fsli ke ftlicsa fsffsdr
+Written to ciphertext.txt
+Serial Output:
+rank 0: peter piper picked o peck fa pickled peppers
+rank 0: peter piper picked o peck af pickled peppers
+rank 0: peter piper picked a peck of pickled peppers
+
+real	5m0.005s
+user	4m59.910s
+sys	0m0.021s
+>>> TIMEOUT (Serial) <<<
+
+Parallel Output:
+mpirun: Forwarding signal 18 to job
+
+real	5m1.038s
+user	0m0.025s
+sys	0m0.144s
+>>> TIMEOUT (Parallel) <<<
+-------------------------------------------------------------------
+Run #15
+Input: peter piper picked a peck of pickled peppers
+Input dictionary:      petrickdaofls
+Encryption dictionary: tfikpaerdcsol
+Encrypted text:        tfifk tptfk tpaefr d tfae cs tpaeofr tfttfkl
+Written to ciphertext.txt
+Serial Output:
+
+real	5m0.006s
+user	4m59.923s
+sys	0m0.007s
+>>> TIMEOUT (Serial) <<<
+
+Parallel Output:
+rank 4: peter piper picked a peck of pickled peppers 
+rank 4: peter piper picked o peck af pickled peppers 
+rank 4: peter piper picked o peck fa pickled peppers 
+
+real	5m1.029s
+user	0m0.019s
+sys	0m0.156s
+>>> TIMEOUT (Parallel) <<<
+-------------------------------------------------------------------
+Run #16
+Input: peter piper picked a peck of pickled peppers
+Input dictionary:      petrickdaofls
+Encryption dictionary: detfsroickapl
+Encrypted text:        detef dsdef dsroei c dero ka dsropei deddefl
+Written to ciphertext.txt
+Serial Output:
+
+real	5m0.006s
+user	4m59.914s
+sys	0m0.013s
+>>> TIMEOUT (Serial) <<<
+
+Parallel Output:
+rank 11: peter piper picked o peck fa pickled peppers 
+rank 11: peter piper picked o peck af pickled peppers 
+rank 11: peter piper picked a peck of pickled peppers 
+
+real	5m1.035s
+user	0m0.019s
+sys	0m0.160s
+>>> TIMEOUT (Parallel) <<<
+-------------------------------------------------------------------
+Run #17
+Input: peter piper picked a peck of pickled peppers
+Input dictionary:      petrickdaofls
+Encryption dictionary: kisapreflctdo
+Encrypted text:        kisia kpkia kpreif l kire ct kpredif kikkiao
+Written to ciphertext.txt
+Serial Output:
+
+real	5m0.005s
+user	4m59.929s
+sys	0m0.009s
+>>> TIMEOUT (Serial) <<<
+
+Parallel Output:
+rank 4: peter piper picked a peck of pickled peppers 
+rank 4: peter piper picked o peck af pickled peppers 
+rank 4: peter piper picked o peck fa pickled peppers 
+
+real	5m1.033s
+user	0m0.032s
+sys	0m0.150s
+>>> TIMEOUT (Parallel) <<<
+-------------------------------------------------------------------
+Run #18
+Input: peter piper picked a peck of pickled peppers
+Input dictionary:      petrickdaofls
+Encryption dictionary: lepdofkitacsr
+Encrypted text:        leped loled lofkei t lefk ac lofksei lelledr
+Written to ciphertext.txt
+Serial Output:
+rank 0: peter piper picked a peck of pickled peppers
+rank 0: peter piper picked o peck af pickled peppers
+rank 0: peter piper picked o peck fa pickled peppers
+
+real	5m0.005s
+user	4m59.903s
+sys	0m0.025s
+>>> TIMEOUT (Serial) <<<
+
+Parallel Output:
+rank 2: peter piper picked a peck of pickled peppers 
+rank 2: peter piper picked o peck af pickled peppers 
+rank 2: peter piper picked o peck fa pickled peppers 
+
+real	5m1.032s
+user	0m0.047s
+sys	0m0.136s
+>>> TIMEOUT (Parallel) <<<
+-------------------------------------------------------------------
+Run #19
+Input: peter piper picked a peck of pickled peppers
+Input dictionary:      petrickdaofls
+Encryption dictionary: eraodclikspft
+Encrypted text:        eraro edero edclri k ercl sp edclfri ereerot
+Written to ciphertext.txt
+Serial Output:
+
+real	5m0.001s
+user	4m59.915s
+sys	0m0.007s
+>>> TIMEOUT (Serial) <<<
+
+Parallel Output:
+rank 10: peter piper picked o peck fa pickled peppers 
+rank 10: peter piper picked o peck af pickled peppers 
+rank 10: peter piper picked a peck of pickled peppers 
+
+real	5m1.040s
+user	0m0.032s
+sys	0m0.144s
+>>> TIMEOUT (Parallel) <<<
+-------------------------------------------------------------------
+Run #20
+Input: peter piper picked a peck of pickled peppers
+Input dictionary:      petrickdaofls
+Encryption dictionary: kspatdleofirc
+Encrypted text:        kspsa ktksa ktdlse o ksdl fi ktdlrse kskksac
+Written to ciphertext.txt
+Serial Output:
+rank 0: peter piper picked o peck fa pickled peppers
+rank 0: peter piper picked o peck af pickled peppers
+rank 0: peter piper picked a peck of pickled peppers
+
+real	5m0.004s
+user	4m59.908s
+sys	0m0.020s
+>>> TIMEOUT (Serial) <<<
+
+Parallel Output:
+rank 2: peter piper picked o peck fa pickled peppers 
+rank 2: peter piper picked o peck af pickled peppers 
+rank 2: peter piper picked a peck of pickled peppers 
+mpirun: Forwarding signal 18 to job
+
+real	5m1.025s
+user	0m0.039s
+sys	0m0.129s
+>>> TIMEOUT (Parallel) <<<
+-------------------------------------------------------------------
+Run #21
+Input: peter piper picked a peck of pickled peppers
+Input dictionary:      petrickdaofls
+Encryption dictionary: irlsoptacekfd
+Encrypted text:        irlrs ioirs ioptra c irpt ek ioptfra iriirsd
+Written to ciphertext.txt
+Serial Output:
+
+real	5m0.002s
+user	4m59.908s
+sys	0m0.012s
+>>> TIMEOUT (Serial) <<<
+
+Parallel Output:
+
+real	5m1.026s
+user	0m0.035s
+sys	0m0.136s
+>>> TIMEOUT (Parallel) <<<
+-------------------------------------------------------------------
+Run #22
+Input: peter piper picked a peck of pickled peppers
+Input dictionary:      petrickdaofls
+Encryption dictionary: rkflaeposdtci
+Encrypted text:        rkfkl rarkl raepko s rkep dt raepcko rkrrkli
+Written to ciphertext.txt
+Serial Output:
+
+real	5m0.003s
+user	4m59.887s
+sys	0m0.036s
+>>> TIMEOUT (Serial) <<<
+
+Parallel Output:
+rank 6: peter piper picked o peck fa pickled peppers 
+rank 6: peter piper picked o peck af pickled peppers 
+rank 6: peter piper picked a peck of pickled peppers 
+
+real	5m1.031s
+user	0m0.020s
+sys	0m0.157s
+>>> TIMEOUT (Parallel) <<<
+-------------------------------------------------------------------
+Run #23
+Input: peter piper picked a peck of pickled peppers
+Input dictionary:      petrickdaofls
+Encryption dictionary: eracltdpfosik
+Encrypted text:        erarc elerc eltdrp f ertd os eltdirp ereerck
+Written to ciphertext.txt
+Serial Output:
+
+real	5m0.003s
+user	4m59.887s
+sys	0m0.029s
+>>> TIMEOUT (Serial) <<<
+
+Parallel Output:
+rank 7: peter piper picked o peck fa pickled peppers 
+rank 7: peter piper picked o peck af pickled peppers 
+rank 7: peter piper picked a peck of pickled peppers 
+
+real	5m1.037s
+user	0m0.029s
+sys	0m0.146s
+>>> TIMEOUT (Parallel) <<<
+-------------------------------------------------------------------
+Run #24
+Input: peter piper picked a peck of pickled peppers
+Input dictionary:      petrickdaofls
+Encryption dictionary: lcpdorisetfak
+Encrypted text:        lcpcd lolcd lorics e lcri tf loriacs lcllcdk
+Written to ciphertext.txt
+Serial Output:
+rank 0: peter piper picked a peck of pickled peppers
+rank 0: peter piper picked o peck fa pickled peppers
+rank 0: peter piper picked o peck af pickled peppers
+
+real	5m0.003s
+user	4m59.905s
+sys	0m0.021s
+>>> TIMEOUT (Serial) <<<
+
+Parallel Output:
+rank 2: peter piper picked a peck of pickled peppers 
+rank 2: peter piper picked o peck fa pickled peppers 
+rank 2: peter piper picked o peck af pickled peppers 
+mpirun: Forwarding signal 18 to job
+
+real	5m1.038s
+user	0m0.036s
+sys	0m0.135s
+>>> TIMEOUT (Parallel) <<<
+-------------------------------------------------------------------
+Run #25
+Input: peter piper picked a peck of pickled peppers
+Input dictionary:      petrickdaofls
+Encryption dictionary: frolstkepicad
+Encrypted text:        frorl fsfrl fstkre p frtk ic fstkare frffrld
+Written to ciphertext.txt
+Serial Output:
+
+real	5m0.006s
+user	4m59.900s
+sys	0m0.021s
+>>> TIMEOUT (Serial) <<<
+
+Parallel Output:
+rank 8: peter piper picked a peck of pickled peppers 
+rank 8: peter piper picked o peck af pickled peppers 
+rank 8: peter piper picked o peck fa pickled peppers 
+
+real	5m1.035s
+user	0m0.025s
+sys	0m0.152s
+>>> TIMEOUT (Parallel) <<<
+-------------------------------------------------------------------
+Run #26
+Input: peter piper picked a peck of pickled peppers
+Input dictionary:      petrickdaofls
+Encryption dictionary: tsaodlrfpikce
+Encrypted text:        tsaso tdtso tdlrsf p tslr ik tdlrcsf tsttsoe
+Written to ciphertext.txt
+Serial Output:
+
+real	5m0.006s
+user	4m59.929s
+sys	0m0.008s
+>>> TIMEOUT (Serial) <<<
+
+Parallel Output:
+mpirun: Forwarding signal 18 to job
+
+real	5m1.033s
+user	0m0.045s
+sys	0m0.130s
+>>> TIMEOUT (Parallel) <<<
+-------------------------------------------------------------------
+Run #27
+Input: peter piper picked a peck of pickled peppers
+Input dictionary:      petrickdaofls
+Encryption dictionary: drsacitolekpf
+Encrypted text:        drsra dcdra dcitro l drit ek dcitpro drddraf
+Written to ciphertext.txt
+Serial Output:
+
+real	5m0.006s
+user	4m59.921s
+sys	0m0.017s
+>>> TIMEOUT (Serial) <<<
+
+Parallel Output:
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that process rank 1 with PID 0 on node cis3090 exited on signal 13 (Broken pipe).
+--------------------------------------------------------------------------
+
+real	0m1.248s
+user	0m0.026s
+sys	0m0.182s
+-------------------------------------------------------------------
+Run #28
+Input: peter piper picked a peck of pickled peppers
+Input dictionary:      petrickdaofls
+Encryption dictionary: cdaslrefioktp
+Encrypted text:        cdads clcds clredf i cdre ok clretdf cdccdsp
+Written to ciphertext.txt
+Serial Output:
+
+real	5m0.005s
+user	4m59.921s
+sys	0m0.011s
+>>> TIMEOUT (Serial) <<<
+
+Parallel Output:
+rank 12: peter piper picked o peck fa pickled peppers 
+rank 12: peter piper picked o peck af pickled peppers 
+rank 12: peter piper picked a peck of pickled peppers 
+
+real	5m1.032s
+user	0m0.020s
+sys	0m0.154s
+>>> TIMEOUT (Parallel) <<<
+-------------------------------------------------------------------
+Run #29
+Input: peter piper picked a peck of pickled peppers
+Input dictionary:      petrickdaofls
+Encryption dictionary: aociestpldkfr
+Encrypted text:        aocoi aeaoi aestop l aost dk aestfop aoaaoir
+Written to ciphertext.txt
+Serial Output:
+
+real	5m0.005s
+user	4m59.904s
+sys	0m0.020s
+>>> TIMEOUT (Serial) <<<
+
+Parallel Output:
+rank 7: peter piper picked o peck fa pickled peppers 
+rank 7: peter piper picked o peck af pickled peppers 
+rank 7: peter piper picked a peck of pickled peppers 
+
+real	5m1.025s
+user	0m0.031s
+sys	0m0.136s
+>>> TIMEOUT (Parallel) <<<
+-------------------------------------------------------------------
+Run #30
+Input: peter piper picked a peck of pickled peppers
+Input dictionary:      petrickdaofls
+Encryption dictionary: dkorsetflciap
+Encrypted text:        dkokr dsdkr dsetkf l dket ci dsetakf dkddkrp
+Written to ciphertext.txt
+Serial Output:
+
+real	5m0.004s
+user	4m59.903s
+sys	0m0.025s
+>>> TIMEOUT (Serial) <<<
+
+Parallel Output:
+rank 12: peter piper picked o peck fa pickled peppers 
+rank 12: peter piper picked o peck af pickled peppers 
+rank 12: peter piper picked a peck of pickled peppers 
+
+real	5m1.029s
+user	0m0.031s
+sys	0m0.140s
+>>> TIMEOUT (Parallel) <<<
+-------------------------------------------------------------------

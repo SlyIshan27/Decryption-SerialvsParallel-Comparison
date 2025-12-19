@@ -1,0 +1,752 @@
+Twelve Unique Character Performance analysis: 
+
+Run #1
+Input: chat bird quentin
+Input dictionary:      chatbirdquen
+Encryption dictionary: nctdaiehqurb
+Encrypted text:        nctd aieh qurbdib
+Written to ciphertext.txt
+Serial Output:
+rank 0: chat bird quentin
+rank 0: chit bend quarter
+rank 0: quit bend charter
+rank 0: quid tech branden
+
+real	1m0.469s
+user	1m0.353s
+sys	0m0.020s
+
+Parallel Output:
+rank 1: chat bird quentin 
+rank 1: chit bend quarter 
+rank 8: quit bend charter 
+rank 8: quid tech branden 
+real 22.58
+user 259.67
+sys 3.10
+-------------------------------------------------------------------
+Run #2
+Input: chat bird quentin
+Input dictionary:      chatbirdquen
+Encryption dictionary: aqbtdciurhen
+Encrypted text:        aqbt dciu rhentcn
+Written to ciphertext.txt
+Serial Output:
+rank 0: quit bend charter
+rank 0: quid tech branden
+rank 0: chit bend quarter
+rank 0: chat bird quentin
+
+real	0m59.452s
+user	0m59.362s
+sys	0m0.016s
+
+Parallel Output:
+rank 1: quit bend charter 
+rank 1: quid tech branden 
+rank 5: chit bend quarter 
+rank 5: chat bird quentin 
+real 23.36
+user 268.24
+sys 3.07
+-------------------------------------------------------------------
+Run #3
+Input: chat bird quentin
+Input dictionary:      chatbirdquen
+Encryption dictionary: inebdacuhqtr
+Encrypted text:        ineb dacu hqtrbar
+Written to ciphertext.txt
+Serial Output:
+rank 0: chat bird quentin
+rank 0: chit bend quarter
+rank 0: quid tech branden
+rank 0: quit bend charter
+
+real	1m4.325s
+user	1m4.187s
+sys	0m0.032s
+
+Parallel Output:
+rank 6: chat bird quentin 
+rank 9: quid tech branden 
+rank 9: quit bend charter 
+rank 6: chit bend quarter 
+real 30.95
+user 356.93
+sys 3.99
+-------------------------------------------------------------------
+Run #4
+Input: chat bird quentin
+Input dictionary:      chatbirdquen
+Encryption dictionary: rqdtubncahie
+Encrypted text:        rqdt ubnc ahietbe
+Written to ciphertext.txt
+Serial Output:
+rank 0: quit bend charter
+rank 0: quid tech branden
+rank 0: chat bird quentin
+rank 0: chit bend quarter
+
+real	1m4.637s
+user	1m4.546s
+sys	0m0.008s
+
+Parallel Output:
+rank 1: quit bend charter 
+rank 1: quid tech branden 
+rank 7: chat bird quentin 
+rank 7: chit bend quarter 
+real 33.21
+user 387.31
+sys 3.13
+-------------------------------------------------------------------
+Run #5
+Input: chat bird quentin
+Input dictionary:      chatbirdquen
+Encryption dictionary: dturacnqbehi
+Encrypted text:        dtur acnq behirci
+Written to ciphertext.txt
+Serial Output:
+rank 0: chat bird quentin
+rank 0: chit bend quarter
+rank 0: quid tech branden
+rank 0: quit bend charter
+
+real	1m8.895s
+user	1m8.777s
+sys	0m0.029s
+
+Parallel Output:
+rank 7: quid tech branden 
+rank 7: quit bend charter 
+rank 5: chat bird quentin 
+rank 5: chit bend quarter 
+real 34.90
+user 405.00
+sys 3.97
+-------------------------------------------------------------------
+Run #6
+Input: chat bird quentin
+Input dictionary:      chatbirdquen
+Encryption dictionary: bqcandtuehir
+Encrypted text:        bqca ndtu ehiradr
+Written to ciphertext.txt
+Serial Output:
+rank 0: quid tech branden
+rank 0: quit bend charter
+rank 0: chat bird quentin
+rank 0: chit bend quarter
+
+real	1m0.899s
+user	1m0.791s
+sys	0m0.025s
+
+Parallel Output:
+rank 1: quid tech branden 
+rank 1: quit bend charter 
+rank 2: chat bird quentin 
+rank 2: chit bend quarter 
+real 23.12
+user 262.45
+sys 4.15
+-------------------------------------------------------------------
+Run #7
+Input: chat bird quentin
+Input dictionary:      chatbirdquen
+Encryption dictionary: retqhdinbcua
+Encrypted text:        retq hdin bcuaqda
+Written to ciphertext.txt
+Serial Output:
+rank 0: quit bend charter
+rank 0: quid tech branden
+rank 0: chit bend quarter
+rank 0: chat bird quentin
+
+real	1m0.430s
+user	1m0.334s
+sys	0m0.008s
+
+Parallel Output:
+rank 9: chit bend quarter 
+rank 9: chat bird quentin 
+rank 3: quit bend charter 
+rank 3: quid tech branden 
+real 22.95
+user 264.64
+sys 1.90
+-------------------------------------------------------------------
+Run #8
+Input: chat bird quentin
+Input dictionary:      chatbirdquen
+Encryption dictionary: dhcnearbuqit
+Encrypted text:        dhcn earb uqitnat
+Written to ciphertext.txt
+Serial Output:
+rank 0: chat bird quentin
+rank 0: chit bend quarter
+rank 0: quid tech branden
+rank 0: quit bend charter
+
+real	1m4.309s
+user	1m4.213s
+sys	0m0.017s
+
+Parallel Output:
+rank 2: chat bird quentin 
+rank 2: chit bend quarter 
+rank 9: quid tech branden 
+rank 9: quit bend charter 
+real 33.40
+user 380.22
+sys 6.22
+-------------------------------------------------------------------
+Run #9
+Input: chat bird quentin
+Input dictionary:      chatbirdquen
+Encryption dictionary: bdntahuqirec
+Encrypted text:        bdnt ahuq irecthc
+Written to ciphertext.txt
+Serial Output:
+rank 0: quit bend charter
+rank 0: quid tech branden
+rank 0: chat bird quentin
+rank 0: chit bend quarter
+
+real	0m59.898s
+user	0m59.788s
+sys	0m0.025s
+
+Parallel Output:
+rank 11: chat bird quentin 
+rank 11: chit bend quarter 
+rank 7: quit bend charter 
+rank 7: quid tech branden 
+real 22.62
+user 260.83
+sys 2.18
+-------------------------------------------------------------------
+Run #10
+Input: chat bird quentin
+Input dictionary:      chatbirdquen
+Encryption dictionary: dnaqhuitbrce
+Encrypted text:        dnaq huit brceque
+Written to ciphertext.txt
+Serial Output:
+rank 0: quid tech branden
+rank 0: quit bend charter
+rank 0: chat bird quentin
+rank 0: chit bend quarter
+
+real	1m2.061s
+user	1m1.978s
+sys	0m0.013s
+
+Parallel Output:
+rank 10: chat bird quentin 
+rank 3: quid tech branden 
+rank 3: quit bend charter 
+rank 10: chit bend quarter 
+real 23.23
+user 268.17
+sys 2.82
+-------------------------------------------------------------------
+Run #11
+Input: chat bird quentin
+Input dictionary:      chatbirdquen
+Encryption dictionary: inabrucdethq
+Encrypted text:        inab rucd ethqbuq
+Written to ciphertext.txt
+Serial Output:
+rank 0: chat bird quentin
+rank 0: chit bend quarter
+rank 0: quid tech branden
+rank 0: quit bend charter
+
+real	1m3.222s
+user	1m3.126s
+sys	0m0.013s
+
+Parallel Output:
+rank 11: quid tech branden 
+rank 11: quit bend charter 
+rank 6: chat bird quentin 
+rank 6: chit bend quarter 
+real 22.38
+user 256.67
+sys 2.93
+-------------------------------------------------------------------
+Run #12
+Input: chat bird quentin
+Input dictionary:      chatbirdquen
+Encryption dictionary: ehicudatrbqn
+Encrypted text:        ehic udat rbqncdn
+Written to ciphertext.txt
+Serial Output:
+rank 0: chit bend quarter
+rank 0: chat bird quentin
+rank 0: quid tech branden
+rank 0: quit bend charter
+
+real	0m59.679s
+user	0m59.590s
+sys	0m0.009s
+
+Parallel Output:
+rank 3: chit bend quarter 
+rank 3: chat bird quentin 
+rank 10: quid tech branden 
+rank 10: quit bend charter 
+real 22.26
+user 257.34
+sys 2.35
+-------------------------------------------------------------------
+Run #13
+Input: chat bird quentin
+Input dictionary:      chatbirdquen
+Encryption dictionary: uiqahbtrecdn
+Encrypted text:        uiqa hbtr ecdnabn
+Written to ciphertext.txt
+Serial Output:
+rank 0: quit bend charter
+rank 0: quid tech branden
+rank 0: chit bend quarter
+rank 0: chat bird quentin
+
+real	1m1.997s
+user	1m1.887s
+sys	0m0.028s
+
+Parallel Output:
+rank 2: quit bend charter 
+rank 2: quid tech branden 
+rank 9: chit bend quarter 
+rank 9: chat bird quentin 
+real 22.47
+user 257.28
+sys 2.55
+-------------------------------------------------------------------
+Run #14
+Input: chat bird quentin
+Input dictionary:      chatbirdquen
+Encryption dictionary: aricudhnetbq
+Encrypted text:        aric udhn etbqcdq
+Written to ciphertext.txt
+Serial Output:
+rank 0: chit bend quarter
+rank 0: chat bird quentin
+rank 0: quid tech branden
+rank 0: quit bend charter
+
+real	1m0.281s
+user	1m0.182s
+sys	0m0.021s
+
+Parallel Output:
+rank 11: quid tech branden 
+rank 11: quit bend charter 
+rank 3: chit bend quarter 
+rank 3: chat bird quentin 
+real 22.13
+user 255.97
+sys 2.17
+-------------------------------------------------------------------
+Run #15
+Input: chat bird quentin
+Input dictionary:      chatbirdquen
+Encryption dictionary: detciauhqnbr
+Encrypted text:        detc iauh qnbrcar
+Written to ciphertext.txt
+Serial Output:
+rank 0: chit bend quarter
+rank 0: chat bird quentin
+rank 0: quit bend charter
+rank 0: quid tech branden
+
+real	1m2.517s
+user	1m2.417s
+sys	0m0.025s
+
+Parallel Output:
+rank 3: chit bend quarter 
+rank 8: quit bend charter 
+rank 8: quid tech branden 
+rank 3: chat bird quentin 
+real 22.74
+user 259.32
+sys 3.12
+-------------------------------------------------------------------
+Run #16
+Input: chat bird quentin
+Input dictionary:      chatbirdquen
+Encryption dictionary: ictabnduhreq
+Encrypted text:        icta bndu hreqanq
+Written to ciphertext.txt
+Serial Output:
+rank 0: chat bird quentin
+rank 0: chit bend quarter
+rank 0: quit bend charter
+rank 0: quid tech branden
+
+real	0m59.547s
+user	0m59.450s
+sys	0m0.017s
+
+Parallel Output:
+rank 1: chat bird quentin 
+rank 11: quit bend charter 
+rank 1: chit bend quarter 
+rank 11: quid tech branden 
+real 22.08
+user 254.15
+sys 2.24
+-------------------------------------------------------------------
+Run #17
+Input: chat bird quentin
+Input dictionary:      chatbirdquen
+Encryption dictionary: ebaitqcdnuhr
+Encrypted text:        ebai tqcd nuhriqr
+Written to ciphertext.txt
+Serial Output:
+rank 0: quit bend charter
+rank 0: quid tech branden
+rank 0: chat bird quentin
+rank 0: chit bend quarter
+
+real	1m6.785s
+user	1m6.673s
+sys	0m0.021s
+
+Parallel Output:
+rank 5: quit bend charter 
+rank 5: quid tech branden 
+rank 6: chat bird quentin 
+rank 6: chit bend quarter 
+real 23.69
+user 267.58
+sys 4.28
+-------------------------------------------------------------------
+Run #18
+Input: chat bird quentin
+Input dictionary:      chatbirdquen
+Encryption dictionary: hrbaidtenucq
+Encrypted text:        hrba idte nucqadq
+Written to ciphertext.txt
+Serial Output:
+rank 0: chat bird quentin
+rank 0: chit bend quarter
+rank 0: quid tech branden
+rank 0: quit bend charter
+
+real	1m1.219s
+user	1m1.107s
+sys	0m0.024s
+
+Parallel Output:
+rank 10: chat bird quentin 
+rank 10: chit bend quarter 
+rank 11: quid tech branden 
+rank 11: quit bend charter 
+real 22.84
+user 262.62
+sys 2.75
+-------------------------------------------------------------------
+Run #19
+Input: chat bird quentin
+Input dictionary:      chatbirdquen
+Encryption dictionary: qchtudrbaein
+Encrypted text:        qcht udrb aeintdn
+Written to ciphertext.txt
+Serial Output:
+rank 0: quit bend charter
+rank 0: quid tech branden
+rank 0: chat bird quentin
+rank 0: chit bend quarter
+
+real	1m5.527s
+user	1m5.431s
+sys	0m0.008s
+
+Parallel Output:
+rank 1: chat bird quentin 
+rank 1: chit bend quarter 
+rank 0: quit bend charter 
+rank 0: quid tech branden 
+real 22.39
+user 257.46
+sys 3.13
+-------------------------------------------------------------------
+Run #20
+Input: chat bird quentin
+Input dictionary:      chatbirdquen
+Encryption dictionary: qhebadcutirn
+Encrypted text:        qheb adcu tirnbdn
+Written to ciphertext.txt
+Serial Output:
+rank 0: quid tech branden
+rank 0: quit bend charter
+rank 0: chat bird quentin
+rank 0: chit bend quarter
+
+real	1m1.134s
+user	1m1.041s
+sys	0m0.009s
+
+Parallel Output:
+rank 6: chat bird quentin 
+rank 6: chit bend quarter 
+rank 0: quid tech branden 
+rank 0: quit bend charter 
+real 22.86
+user 262.05
+sys 2.93
+-------------------------------------------------------------------
+Run #21
+Input: chat bird quentin
+Input dictionary:      chatbirdquen
+Encryption dictionary: btchrdiqanue
+Encrypted text:        btch rdiq anuehde
+Written to ciphertext.txt
+Serial Output:
+rank 0: chit bend quarter
+rank 0: chat bird quentin
+rank 0: quid tech branden
+rank 0: quit bend charter
+
+real	1m0.425s
+user	1m0.317s
+sys	0m0.024s
+
+Parallel Output:
+rank 2: chit bend quarter 
+rank 2: chat bird quentin 
+rank 7: quid tech branden 
+rank 7: quit bend charter 
+real 22.22
+user 256.02
+sys 2.19
+-------------------------------------------------------------------
+Run #22
+Input: chat bird quentin
+Input dictionary:      chatbirdquen
+Encryption dictionary: dhebraciqtun
+Encrypted text:        dheb raci qtunban
+Written to ciphertext.txt
+Serial Output:
+rank 0: chat bird quentin
+rank 0: chit bend quarter
+rank 0: quit bend charter
+rank 0: quid tech branden
+
+real	1m1.399s
+user	1m1.316s
+sys	0m0.012s
+
+Parallel Output:
+rank 6: chat bird quentin 
+rank 6: chit bend quarter 
+rank 8: quit bend charter 
+rank 8: quid tech branden 
+real 22.23
+user 257.31
+sys 1.85
+-------------------------------------------------------------------
+Run #23
+Input: chat bird quentin
+Input dictionary:      chatbirdquen
+Encryption dictionary: atuhedrcqibn
+Encrypted text:        atuh edrc qibnhdn
+Written to ciphertext.txt
+Serial Output:
+rank 0: chat bird quentin
+rank 0: chit bend quarter
+rank 0: quid tech branden
+rank 0: quit bend charter
+
+real	1m1.772s
+user	1m1.688s
+sys	0m0.005s
+
+Parallel Output:
+rank 8: quid tech branden 
+rank 8: quit bend charter 
+rank 7: chat bird quentin 
+rank 7: chit bend quarter 
+real 22.65
+user 257.25
+sys 3.90
+-------------------------------------------------------------------
+Run #24
+Input: chat bird quentin
+Input dictionary:      chatbirdquen
+Encryption dictionary: uicrtdqbnaeh
+Encrypted text:        uicr tdqb naehrdh
+Written to ciphertext.txt
+Serial Output:
+rank 0: chit bend quarter
+rank 0: chat bird quentin
+rank 0: quit bend charter
+rank 0: quid tech branden
+
+real	1m4.328s
+user	1m4.231s
+sys	0m0.013s
+
+Parallel Output:
+rank 6: quit bend charter 
+rank 6: quid tech branden 
+rank 2: chit bend quarter 
+rank 2: chat bird quentin 
+real 22.81
+user 257.77
+sys 5.42
+-------------------------------------------------------------------
+Run #25
+Input: chat bird quentin
+Input dictionary:      chatbirdquen
+Encryption dictionary: tuiqnraehcdb
+Encrypted text:        tuiq nrae hcdbqrb
+Written to ciphertext.txt
+Serial Output:
+rank 0: quit bend charter
+rank 0: quid tech branden
+rank 0: chit bend quarter
+rank 0: chat bird quentin
+
+real	1m1.502s
+user	1m1.403s
+sys	0m0.009s
+
+Parallel Output:
+rank 3: quit bend charter 
+rank 3: quid tech branden 
+rank 9: chit bend quarter 
+rank 9: chat bird quentin 
+real 22.51
+user 257.63
+sys 3.10
+-------------------------------------------------------------------
+Run #26
+Input: chat bird quentin
+Input dictionary:      chatbirdquen
+Encryption dictionary: irbndaqcthue
+Encrypted text:        irbn daqc thuenae
+Written to ciphertext.txt
+Serial Output:
+rank 0: quid tech branden
+rank 0: quit bend charter
+rank 0: chat bird quentin
+rank 0: chit bend quarter
+
+real	1m0.650s
+user	1m0.545s
+sys	0m0.021s
+
+Parallel Output:
+rank 7: chat bird quentin 
+rank 7: chit bend quarter 
+rank 6: quid tech branden 
+rank 6: quit bend charter 
+real 23.81
+user 272.98
+sys 3.13
+-------------------------------------------------------------------
+Run #27
+Input: chat bird quentin
+Input dictionary:      chatbirdquen
+Encryption dictionary: caqerdtnbihu
+Encrypted text:        caqe rdtn bihuedu
+Written to ciphertext.txt
+Serial Output:
+rank 0: chit bend quarter
+rank 0: chat bird quentin
+rank 0: quid tech branden
+rank 0: quit bend charter
+
+real	1m5.566s
+user	1m5.467s
+sys	0m0.017s
+
+Parallel Output:
+rank 0: chit bend quarter 
+rank 0: chat bird quentin 
+rank 2: quid tech branden 
+rank 2: quit bend charter 
+real 22.61
+user 260.09
+sys 2.45
+-------------------------------------------------------------------
+Run #28
+Input: chat bird quentin
+Input dictionary:      chatbirdquen
+Encryption dictionary: intrhcqdubae
+Encrypted text:        intr hcqd ubaerce
+Written to ciphertext.txt
+Serial Output:
+rank 0: chit bend quarter
+rank 0: chat bird quentin
+rank 0: quit bend charter
+rank 0: quid tech branden
+
+real	1m0.919s
+user	1m0.822s
+sys	0m0.017s
+
+Parallel Output:
+rank 5: chit bend quarter 
+rank 5: chat bird quentin 
+rank 6: quit bend charter 
+rank 6: quid tech branden 
+real 22.89
+user 260.05
+sys 4.56
+-------------------------------------------------------------------
+Run #29
+Input: chat bird quentin
+Input dictionary:      chatbirdquen
+Encryption dictionary: cahidtenbruq
+Encrypted text:        cahi dten bruqitq
+Written to ciphertext.txt
+Serial Output:
+rank 0: chat bird quentin
+rank 0: chit bend quarter
+rank 0: quid tech branden
+rank 0: quit bend charter
+
+real	1m1.187s
+user	1m1.095s
+sys	0m0.017s
+
+Parallel Output:
+rank 0: chat bird quentin 
+rank 0: chit bend quarter 
+rank 11: quid tech branden 
+rank 11: quit bend charter 
+real 22.75
+user 262.40
+sys 2.42
+-------------------------------------------------------------------
+Run #30
+Input: chat bird quentin
+Input dictionary:      chatbirdquen
+Encryption dictionary: dbrhcuateqin
+Encrypted text:        dbrh cuat eqinhun
+Written to ciphertext.txt
+Serial Output:
+rank 0: chat bird quentin
+rank 0: chit bend quarter
+rank 0: quid tech branden
+rank 0: quit bend charter
+
+real	1m2.098s
+user	1m1.995s
+sys	0m0.025s
+
+Parallel Output:
+rank 4: chat bird quentin 
+rank 4: chit bend quarter 
+rank 9: quid tech branden 
+rank 9: quit bend charter 
+real 23.02
+user 263.53
+sys 2.52
+-------------------------------------------------------------------

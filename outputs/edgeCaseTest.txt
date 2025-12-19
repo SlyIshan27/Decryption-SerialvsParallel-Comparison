@@ -1,0 +1,62 @@
+Edge Case Test 1
+Input: fortnite
+Input dictionary:      fortnie
+Encryption dictionary: netfori
+Encrypted text:        netforfi
+Written to ciphertext.txt
+
+Serial Output:
+No valid words were found from the given dictionary after the decryption(s) 
+
+Parallel Output:
+No valid words were found from the given dictionary after the decryption(s). 
+--------------------------------------------------------------------
+
+Edge Case Test 2
+Input: bruh
+Input dictionary:      bruh
+Encryption dictionary: hrbu
+Encrypted text:        hrbu
+Written to ciphertext.txt
+
+Serial Output:
+No valid words were found from the given dictionary after the decryption(s) 
+
+Parallel Output:
+No valid words were found from the given dictionary after the decryption(s). 
+--------------------------------------------------------------------
+
+Edge Case Test 3
+Input: test task!
+Input dictionary:      tesak
+Encryption dictionary: eastk
+Encrypted text:        ease etsk!
+Written to ciphertext.txt
+
+Serial Output:
+rank 0: test task!
+
+Parallel Output:
+rank 3: test task! 
+--------------------------------------------------------------------
+
+Edge Case Test 4
+Input: the cat
+Input dictionary:      theca
+Encryption dictionary: echta
+Encrypted text:        ech tae
+Written to ciphertext.txt
+
+Serial Output:
+rank 0: eta che
+rank 0: eat che
+rank 0: the cat
+rank 0: the act
+
+Parallel Output:
+rank 0: eta che 
+rank 0: eat che 
+
+Note: This code only gives two of the possible 4 answers as there are not enough processes to get all 4 answers and brute force all permutations and combinations.
+--------------------------------------------------------------------
+

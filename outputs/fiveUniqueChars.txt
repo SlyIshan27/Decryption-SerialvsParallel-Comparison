@@ -1,0 +1,752 @@
+five Unique Character Performance analysis: 
+
+Run #1
+Input: the cat
+Input dictionary:      theca
+Encryption dictionary: ehtac
+Encrypted text:        eht ace
+Written to ciphertext.txt
+Serial Output:
+rank 0: eta che
+rank 0: eat che
+rank 0: the act
+rank 0: the cat
+
+real	0m0.099s
+user	0m0.015s
+sys	0m0.015s
+
+Parallel Output:
+rank 0: eta che 
+rank 0: eat che 
+rank 2: the act 
+rank 2: the cat 
+real 0.52
+user 0.20
+sys 0.35
+-------------------------------------------------------------------
+Run #2
+Input: the cat
+Input dictionary:      theca
+Encryption dictionary: ehtac
+Encrypted text:        eht ace
+Written to ciphertext.txt
+Serial Output:
+rank 0: eta che
+rank 0: eat che
+rank 0: the act
+rank 0: the cat
+
+real	0m0.110s
+user	0m0.023s
+sys	0m0.011s
+
+Parallel Output:
+rank 0: eta che 
+rank 0: eat che 
+rank 2: the act 
+rank 2: the cat 
+real 0.52
+user 0.27
+sys 0.28
+-------------------------------------------------------------------
+Run #3
+Input: the cat
+Input dictionary:      theca
+Encryption dictionary: hctea
+Encrypted text:        hct eah
+Written to ciphertext.txt
+Serial Output:
+rank 0: the cat
+rank 0: the act
+rank 0: eta che
+rank 0: eat che
+
+real	0m0.108s
+user	0m0.014s
+sys	0m0.018s
+
+Parallel Output:
+rank 2: the cat 
+rank 2: the act 
+rank 3: eta che 
+rank 3: eat che 
+real 0.53
+user 0.23
+sys 0.32
+-------------------------------------------------------------------
+Run #4
+Input: the cat
+Input dictionary:      theca
+Encryption dictionary: cahet
+Encrypted text:        cah etc
+Written to ciphertext.txt
+Serial Output:
+rank 0: eat che
+rank 0: eta che
+rank 0: the cat
+rank 0: the act
+
+real	0m0.124s
+user	0m0.020s
+sys	0m0.017s
+
+Parallel Output:
+rank 3: eat che 
+rank 3: eta che 
+rank 4: the cat 
+rank 4: the act 
+real 0.55
+user 0.22
+sys 0.41
+-------------------------------------------------------------------
+Run #5
+Input: the cat
+Input dictionary:      theca
+Encryption dictionary: eahtc
+Encrypted text:        eah tce
+Written to ciphertext.txt
+Serial Output:
+rank 0: eat che
+rank 0: eta che
+rank 0: the act
+rank 0: the cat
+
+real	0m0.105s
+user	0m0.017s
+sys	0m0.014s
+
+Parallel Output:
+rank 0: eat che 
+rank 0: eta che 
+rank 3: the act 
+rank 3: the cat 
+real 0.53
+user 0.27
+sys 0.26
+-------------------------------------------------------------------
+Run #6
+Input: the cat
+Input dictionary:      theca
+Encryption dictionary: eahtc
+Encrypted text:        eah tce
+Written to ciphertext.txt
+Serial Output:
+rank 0: eat che
+rank 0: eta che
+rank 0: the act
+rank 0: the cat
+
+real	0m0.105s
+user	0m0.027s
+sys	0m0.005s
+
+Parallel Output:
+rank 0: eat che 
+rank 0: eta che 
+rank 3: the act 
+rank 3: the cat 
+real 0.53
+user 0.23
+sys 0.36
+-------------------------------------------------------------------
+Run #7
+Input: the cat
+Input dictionary:      theca
+Encryption dictionary: hetca
+Encrypted text:        het cah
+Written to ciphertext.txt
+Serial Output:
+rank 0: eta che
+rank 0: eat che
+rank 0: the cat
+rank 0: the act
+
+real	0m0.102s
+user	0m0.023s
+sys	0m0.008s
+
+Parallel Output:
+rank 1: eta che 
+rank 1: eat che 
+rank 2: the cat 
+rank 2: the act 
+real 0.55
+user 0.26
+sys 0.36
+-------------------------------------------------------------------
+Run #8
+Input: the cat
+Input dictionary:      theca
+Encryption dictionary: ctahe
+Encrypted text:        cta hec
+Written to ciphertext.txt
+Serial Output:
+rank 0: the cat
+rank 0: the act
+rank 0: eta che
+rank 0: eat che
+
+real	0m0.106s
+user	0m0.014s
+sys	0m0.018s
+
+Parallel Output:
+rank 1: the cat 
+rank 1: the act 
+rank 4: eta che 
+rank 4: eat che 
+real 0.52
+user 0.20
+sys 0.34
+-------------------------------------------------------------------
+Run #9
+Input: the cat
+Input dictionary:      theca
+Encryption dictionary: ectha
+Encrypted text:        ect hae
+Written to ciphertext.txt
+Serial Output:
+rank 0: eta che
+rank 0: eat che
+rank 0: the cat
+rank 0: the act
+
+real	0m0.105s
+user	0m0.026s
+sys	0m0.007s
+
+Parallel Output:
+rank 0: eta che 
+rank 0: eat che 
+rank 2: the cat 
+rank 2: the act 
+real 0.51
+user 0.20
+sys 0.33
+-------------------------------------------------------------------
+Run #10
+Input: the cat
+Input dictionary:      theca
+Encryption dictionary: ectha
+Encrypted text:        ect hae
+Written to ciphertext.txt
+Serial Output:
+rank 0: eta che
+rank 0: eat che
+rank 0: the cat
+rank 0: the act
+
+real	0m0.111s
+user	0m0.022s
+sys	0m0.011s
+
+Parallel Output:
+rank 0: eta che 
+rank 0: eat che 
+rank 2: the cat 
+rank 2: the act 
+real 0.52
+user 0.22
+sys 0.34
+-------------------------------------------------------------------
+Run #11
+Input: the cat
+Input dictionary:      theca
+Encryption dictionary: ahtec
+Encrypted text:        aht eca
+Written to ciphertext.txt
+Serial Output:
+rank 0: the act
+rank 0: the cat
+rank 0: eat che
+rank 0: eta che
+
+real	0m0.103s
+user	0m0.016s
+sys	0m0.015s
+
+Parallel Output:
+rank 2: the act 
+rank 2: the cat 
+rank 3: eat che 
+rank 3: eta che 
+real 0.51
+user 0.24
+sys 0.27
+-------------------------------------------------------------------
+Run #12
+Input: the cat
+Input dictionary:      theca
+Encryption dictionary: hetca
+Encrypted text:        het cah
+Written to ciphertext.txt
+Serial Output:
+rank 0: eta che
+rank 0: eat che
+rank 0: the cat
+rank 0: the act
+
+real	0m0.118s
+user	0m0.028s
+sys	0m0.008s
+
+Parallel Output:
+rank 1: eta che 
+rank 1: eat che 
+rank 2: the cat 
+rank 2: the act 
+real 0.51
+user 0.16
+sys 0.36
+-------------------------------------------------------------------
+Run #13
+Input: the cat
+Input dictionary:      theca
+Encryption dictionary: techa
+Encrypted text:        tec hat
+Written to ciphertext.txt
+Serial Output:
+rank 0: the cat
+rank 0: the act
+rank 0: eta che
+rank 0: eat che
+
+real	0m0.104s
+user	0m0.027s
+sys	0m0.004s
+
+Parallel Output:
+rank 0: the cat 
+rank 0: the act 
+rank 1: eta che 
+rank 1: eat che 
+real 0.51
+user 0.21
+sys 0.36
+-------------------------------------------------------------------
+Run #14
+Input: the cat
+Input dictionary:      theca
+Encryption dictionary: techa
+Encrypted text:        tec hat
+Written to ciphertext.txt
+Serial Output:
+rank 0: the cat
+rank 0: the act
+rank 0: eta che
+rank 0: eat che
+
+real	0m0.105s
+user	0m0.025s
+sys	0m0.007s
+
+Parallel Output:
+rank 1: eta che 
+rank 1: eat che 
+rank 0: the cat 
+rank 0: the act 
+real 0.51
+user 0.22
+sys 0.31
+-------------------------------------------------------------------
+Run #15
+Input: the cat
+Input dictionary:      theca
+Encryption dictionary: eacth
+Encrypted text:        eac the
+Written to ciphertext.txt
+Serial Output:
+rank 0: eat che
+rank 0: eta che
+rank 0: the cat
+rank 0: the act
+
+real	0m0.115s
+user	0m0.023s
+sys	0m0.012s
+
+Parallel Output:
+rank 0: eat che 
+rank 0: eta che 
+rank 3: the cat 
+rank 3: the act 
+real 0.51
+user 0.18
+sys 0.35
+-------------------------------------------------------------------
+Run #16
+Input: the cat
+Input dictionary:      theca
+Encryption dictionary: hceta
+Encrypted text:        hce tah
+Written to ciphertext.txt
+Serial Output:
+rank 0: eta che
+rank 0: eat che
+rank 0: the cat
+rank 0: the act
+
+real	0m0.095s
+user	0m0.012s
+sys	0m0.018s
+
+Parallel Output:
+rank 3: the cat 
+rank 3: the act 
+rank 2: eta che 
+rank 2: eat che 
+real 0.52
+user 0.19
+sys 0.35
+-------------------------------------------------------------------
+Run #17
+Input: the cat
+Input dictionary:      theca
+Encryption dictionary: hceta
+Encrypted text:        hce tah
+Written to ciphertext.txt
+Serial Output:
+rank 0: eta che
+rank 0: eat che
+rank 0: the cat
+rank 0: the act
+
+real	0m0.104s
+user	0m0.024s
+sys	0m0.007s
+
+Parallel Output:
+rank 2: eta che 
+rank 2: eat che 
+rank 3: the cat 
+rank 3: the act 
+real 0.52
+user 0.19
+sys 0.33
+-------------------------------------------------------------------
+Run #18
+Input: the cat
+Input dictionary:      theca
+Encryption dictionary: cthea
+Encrypted text:        cth eac
+Written to ciphertext.txt
+Serial Output:
+rank 0: the cat
+rank 0: the act
+rank 0: eta che
+rank 0: eat che
+
+real	0m0.111s
+user	0m0.014s
+sys	0m0.018s
+
+Parallel Output:
+rank 1: the cat 
+rank 1: the act 
+rank 3: eta che 
+rank 3: eat che 
+real 0.51
+user 0.19
+sys 0.33
+-------------------------------------------------------------------
+Run #19
+Input: the cat
+Input dictionary:      theca
+Encryption dictionary: tceha
+Encrypted text:        tce hat
+Written to ciphertext.txt
+Serial Output:
+rank 0: the cat
+rank 0: the act
+rank 0: eta che
+rank 0: eat che
+
+real	0m0.100s
+user	0m0.020s
+sys	0m0.010s
+
+Parallel Output:
+rank 0: the cat 
+rank 0: the act 
+rank 2: eta che 
+rank 2: eat che 
+real 0.52
+user 0.22
+sys 0.36
+-------------------------------------------------------------------
+Run #20
+Input: the cat
+Input dictionary:      theca
+Encryption dictionary: atche
+Encrypted text:        atc hea
+Written to ciphertext.txt
+Serial Output:
+rank 0: the act
+rank 0: the cat
+rank 0: eat che
+rank 0: eta che
+
+real	0m0.111s
+user	0m0.020s
+sys	0m0.015s
+
+Parallel Output:
+rank 1: the act 
+rank 1: the cat 
+rank 4: eat che 
+rank 4: eta che 
+real 0.52
+user 0.18
+sys 0.39
+-------------------------------------------------------------------
+Run #21
+Input: the cat
+Input dictionary:      theca
+Encryption dictionary: atche
+Encrypted text:        atc hea
+Written to ciphertext.txt
+Serial Output:
+rank 0: the act
+rank 0: the cat
+rank 0: eat che
+rank 0: eta che
+
+real	0m0.103s
+user	0m0.021s
+sys	0m0.011s
+
+Parallel Output:
+rank 1: the act 
+rank 1: the cat 
+rank 4: eat che 
+rank 4: eta che 
+real 0.52
+user 0.18
+sys 0.36
+-------------------------------------------------------------------
+Run #22
+Input: the cat
+Input dictionary:      theca
+Encryption dictionary: hatce
+Encrypted text:        hat ceh
+Written to ciphertext.txt
+Serial Output:
+rank 0: the cat
+rank 0: the act
+rank 0: eat che
+rank 0: eta che
+
+real	0m0.103s
+user	0m0.015s
+sys	0m0.016s
+
+Parallel Output:
+rank 2: the cat 
+rank 2: the act 
+rank 4: eat che 
+rank 4: eta che 
+real 0.53
+user 0.21
+sys 0.35
+-------------------------------------------------------------------
+Run #23
+Input: the cat
+Input dictionary:      theca
+Encryption dictionary: cheat
+Encrypted text:        che atc
+Written to ciphertext.txt
+Serial Output:
+rank 0: eat che
+rank 0: eta che
+rank 0: the cat
+rank 0: the act
+
+real	0m0.099s
+user	0m0.015s
+sys	0m0.015s
+
+Parallel Output:
+rank 2: eat che 
+rank 2: eta che 
+rank 4: the cat 
+rank 4: the act 
+real 0.51
+user 0.22
+sys 0.32
+-------------------------------------------------------------------
+Run #24
+Input: the cat
+Input dictionary:      theca
+Encryption dictionary: ehact
+Encrypted text:        eha cte
+Written to ciphertext.txt
+Serial Output:
+rank 0: eat che
+rank 0: eta che
+rank 0: the act
+rank 0: the cat
+
+real	0m0.106s
+user	0m0.020s
+sys	0m0.012s
+
+Parallel Output:
+rank 0: eat che 
+rank 0: eta che 
+rank 4: the act 
+rank 4: the cat 
+real 0.53
+user 0.28
+sys 0.30
+-------------------------------------------------------------------
+Run #25
+Input: the cat
+Input dictionary:      theca
+Encryption dictionary: ehact
+Encrypted text:        eha cte
+Written to ciphertext.txt
+Serial Output:
+rank 0: eat che
+rank 0: eta che
+rank 0: the act
+rank 0: the cat
+
+real	0m0.114s
+user	0m0.017s
+sys	0m0.017s
+
+Parallel Output:
+rank 0: eat che 
+rank 0: eta che 
+rank 4: the act 
+rank 4: the cat 
+real 0.52
+user 0.22
+sys 0.34
+-------------------------------------------------------------------
+Run #26
+Input: the cat
+Input dictionary:      theca
+Encryption dictionary: aceht
+Encrypted text:        ace hta
+Written to ciphertext.txt
+Serial Output:
+rank 0: eat che
+rank 0: eta che
+rank 0: the cat
+rank 0: the act
+
+real	0m0.113s
+user	0m0.022s
+sys	0m0.010s
+
+Parallel Output:
+rank 2: eat che 
+rank 2: eta che 
+rank 4: the cat 
+rank 4: the act 
+real 0.51
+user 0.25
+sys 0.29
+-------------------------------------------------------------------
+Run #27
+Input: the cat
+Input dictionary:      theca
+Encryption dictionary: cetah
+Encrypted text:        cet ahc
+Written to ciphertext.txt
+Serial Output:
+rank 0: eta che
+rank 0: eat che
+rank 0: the act
+rank 0: the cat
+
+real	0m0.112s
+user	0m0.018s
+sys	0m0.016s
+
+Parallel Output:
+rank 2: the act 
+rank 2: the cat 
+rank 1: eta che 
+rank 1: eat che 
+real 0.52
+user 0.17
+sys 0.38
+-------------------------------------------------------------------
+Run #28
+Input: the cat
+Input dictionary:      theca
+Encryption dictionary: tecah
+Encrypted text:        tec aht
+Written to ciphertext.txt
+Serial Output:
+rank 0: the act
+rank 0: the cat
+rank 0: eta che
+rank 0: eat che
+
+real	0m0.104s
+user	0m0.009s
+sys	0m0.022s
+
+Parallel Output:
+rank 0: the act 
+rank 0: the cat 
+rank 1: eta che 
+rank 1: eat che 
+real 0.52
+user 0.21
+sys 0.34
+-------------------------------------------------------------------
+Run #29
+Input: the cat
+Input dictionary:      theca
+Encryption dictionary: tecah
+Encrypted text:        tec aht
+Written to ciphertext.txt
+Serial Output:
+rank 0: the act
+rank 0: the cat
+rank 0: eta che
+rank 0: eat che
+
+real	0m0.113s
+user	0m0.024s
+sys	0m0.010s
+
+Parallel Output:
+rank 1: eta che 
+rank 1: eat che 
+rank 0: the act 
+rank 0: the cat 
+real 0.53
+user 0.22
+sys 0.37
+-------------------------------------------------------------------
+Run #30
+Input: the cat
+Input dictionary:      theca
+Encryption dictionary: aetch
+Encrypted text:        aet cha
+Written to ciphertext.txt
+Serial Output:
+rank 0: eat che
+rank 0: eta che
+rank 0: the cat
+rank 0: the act
+
+real	0m0.116s
+user	0m0.016s
+sys	0m0.020s
+
+Parallel Output:
+rank 1: eat che 
+rank 1: eta che 
+rank 2: the cat 
+rank 2: the act 
+real 0.57
+user 0.27
+sys 0.39
+-------------------------------------------------------------------

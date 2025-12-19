@@ -1,0 +1,1892 @@
+Seven Unique Character Performance analysis: 
+
+Run #1
+Input: the cat in the hat
+Input dictionary:      thecain
+Encryption dictionary: ahitcen
+Encrypted text:        ahi tca en ahi hca
+Written to ciphertext.txt
+Serial Output:
+rank 0: ate cia nh ate tia
+rank 0: ace tia nh ace cia
+rank 0: the cat in the hat
+rank 0: the cat ni the hat
+rank 0: the nat ci the hat
+rank 0: the nit ac the hit
+rank 0: the nit ca the hit
+rank 0: tic ant eh tic int
+rank 0: tic ant he tic int
+rank 0: tie ant ch tie int
+rank 0: ten cat hi ten eat
+rank 0: ten hat ci ten eat
+rank 0: eat ice nh eat ace
+rank 0: eta hie nc eta tie
+rank 0: eta che in eta the
+rank 0: eta che ni eta the
+rank 0: etc hie an etc tie
+rank 0: etc hie na etc tie
+rank 0: nit han ec nit ian
+rank 0: nit can he nit ian
+rank 0: nit can eh nit ian
+rank 0: nth ian ec nth tan
+rank 0: nth can ie nth tan
+
+real	0m0.117s
+user	0m0.018s
+sys	0m0.019s
+
+Parallel Output:
+rank 6: nit han ec nit ian 
+rank 6: nit can he nit ian 
+rank 6: nit can eh nit ian 
+rank 6: nth ian ec nth tan 
+rank 6: nth can ie nth tan 
+rank 0: ate cia nh ate tia 
+rank 0: ace tia nh ace cia 
+rank 3: the cat in the hat 
+rank 3: the cat ni the hat 
+rank 3: the nat ci the hat 
+rank 3: the nit ac the hit 
+rank 3: the nit ca the hit 
+rank 3: tic ant eh tic int 
+rank 3: tic ant he tic int 
+rank 3: tie ant ch tie int 
+rank 3: ten cat hi ten eat 
+rank 3: ten hat ci ten eat 
+rank 5: eat ice nh eat ace 
+rank 5: eta hie nc eta tie 
+rank 5: eta che in eta the 
+rank 5: eta che ni eta the 
+rank 5: etc hie an etc tie 
+rank 5: etc hie na etc tie 
+real 0.56
+user 0.34
+sys 0.50
+-------------------------------------------------------------------
+Run #2
+Input: the cat in the hat
+Input dictionary:      thecain
+Encryption dictionary: thaiecn
+Encrypted text:        tha iet cn tha het
+Written to ciphertext.txt
+Serial Output:
+rank 0: the cat in the hat
+rank 0: the cat ni the hat
+rank 0: the nat ci the hat
+rank 0: the nit ca the hit
+rank 0: the nit ac the hit
+rank 0: tie ant ch tie int
+rank 0: tic ant he tic int
+rank 0: tic ant eh tic int
+rank 0: ten hat ci ten eat
+rank 0: ten cat hi ten eat
+rank 0: ate cia nh ate tia
+rank 0: ace tia nh ace cia
+rank 0: eta hie nc eta tie
+rank 0: eta che in eta the
+rank 0: eta che ni eta the
+rank 0: etc hie an etc tie
+rank 0: etc hie na etc tie
+rank 0: eat ice nh eat ace
+rank 0: nth ian ec nth tan
+rank 0: nth can ie nth tan
+rank 0: nit han ec nit ian
+rank 0: nit can eh nit ian
+rank 0: nit can he nit ian
+
+real	0m0.119s
+user	0m0.005s
+sys	0m0.028s
+
+Parallel Output:
+rank 0: the cat in the hat 
+rank 0: the cat ni the hat 
+rank 0: the nat ci the hat 
+rank 0: the nit ca the hit 
+rank 0: the nit ac the hit 
+rank 0: tie ant ch tie int 
+rank 0: tic ant he tic int 
+rank 0: tic ant eh tic int 
+rank 2: ate cia nh ate tia 
+rank 2: ace tia nh ace cia 
+rank 4: eta hie nc eta tie 
+rank 4: eta che in eta the 
+rank 4: eta che ni eta the 
+rank 4: etc hie an etc tie 
+rank 4: etc hie na etc tie 
+rank 4: eat ice nh eat ace 
+rank 6: nth ian ec nth tan 
+rank 6: nth can ie nth tan 
+rank 6: nit han ec nit ian 
+rank 6: nit can eh nit ian 
+rank 6: nit can he nit ian 
+rank 0: ten hat ci ten eat 
+rank 0: ten cat hi ten eat 
+real 0.56
+user 0.37
+sys 0.44
+-------------------------------------------------------------------
+Run #3
+Input: the cat in the hat
+Input dictionary:      thecain
+Encryption dictionary: thaiecn
+Encrypted text:        tha iet cn tha het
+Written to ciphertext.txt
+Serial Output:
+rank 0: the cat in the hat
+rank 0: the cat ni the hat
+rank 0: the nat ci the hat
+rank 0: the nit ca the hit
+rank 0: the nit ac the hit
+rank 0: tie ant ch tie int
+rank 0: tic ant he tic int
+rank 0: tic ant eh tic int
+rank 0: ten hat ci ten eat
+rank 0: ten cat hi ten eat
+rank 0: ate cia nh ate tia
+rank 0: ace tia nh ace cia
+rank 0: eta hie nc eta tie
+rank 0: eta che in eta the
+rank 0: eta che ni eta the
+rank 0: etc hie an etc tie
+rank 0: etc hie na etc tie
+rank 0: eat ice nh eat ace
+rank 0: nth ian ec nth tan
+rank 0: nth can ie nth tan
+rank 0: nit han ec nit ian
+rank 0: nit can eh nit ian
+rank 0: nit can he nit ian
+
+real	0m0.109s
+user	0m0.015s
+sys	0m0.016s
+
+Parallel Output:
+rank 2: ate cia nh ate tia 
+rank 4: eta hie nc eta tie 
+rank 4: eta che in eta the 
+rank 4: eta che ni eta the 
+rank 4: etc hie an etc tie 
+rank 4: etc hie na etc tie 
+rank 4: eat ice nh eat ace 
+rank 6: nth ian ec nth tan 
+rank 6: nth can ie nth tan 
+rank 6: nit han ec nit ian 
+rank 6: nit can eh nit ian 
+rank 6: nit can he nit ian 
+rank 0: the cat in the hat 
+rank 0: the cat ni the hat 
+rank 0: the nat ci the hat 
+rank 0: the nit ca the hit 
+rank 0: the nit ac the hit 
+rank 0: tie ant ch tie int 
+rank 0: tic ant he tic int 
+rank 0: tic ant eh tic int 
+rank 2: ace tia nh ace cia 
+rank 0: ten hat ci ten eat 
+rank 0: ten cat hi ten eat 
+real 0.56
+user 0.29
+sys 0.49
+-------------------------------------------------------------------
+Run #4
+Input: the cat in the hat
+Input dictionary:      thecain
+Encryption dictionary: enctiah
+Encrypted text:        enc tie ah enc nie
+Written to ciphertext.txt
+Serial Output:
+rank 0: etc hie an etc tie
+rank 0: etc hie na etc tie
+rank 0: eta che ni eta the
+rank 0: eta che in eta the
+rank 0: eta hie nc eta tie
+rank 0: eat ice nh eat ace
+rank 0: nth ian ec nth tan
+rank 0: nth can ie nth tan
+rank 0: nit can eh nit ian
+rank 0: nit can he nit ian
+rank 0: nit han ec nit ian
+rank 0: ten cat hi ten eat
+rank 0: ten hat ci ten eat
+rank 0: tic ant eh tic int
+rank 0: tic ant he tic int
+rank 0: tie ant ch tie int
+rank 0: the cat in the hat
+rank 0: the cat ni the hat
+rank 0: the nit ac the hit
+rank 0: the nit ca the hit
+rank 0: the nat ci the hat
+rank 0: ace tia nh ace cia
+rank 0: ate cia nh ate tia
+
+real	0m0.126s
+user	0m0.021s
+sys	0m0.018s
+
+Parallel Output:
+rank 0: etc hie an etc tie 
+rank 0: etc hie na etc tie 
+rank 0: eta che ni eta the 
+rank 1: nth ian ec nth tan 
+rank 1: nth can ie nth tan 
+rank 3: ten cat hi ten eat 
+rank 3: ten hat ci ten eat 
+rank 5: ace tia nh ace cia 
+rank 5: ate cia nh ate tia 
+rank 1: nit can eh nit ian 
+rank 1: nit can he nit ian 
+rank 0: eta che in eta the 
+rank 0: eta hie nc eta tie 
+rank 0: eat ice nh eat ace 
+rank 1: nit han ec nit ian 
+rank 3: tic ant eh tic int 
+rank 3: tic ant he tic int 
+rank 3: tie ant ch tie int 
+rank 3: the cat in the hat 
+rank 3: the cat ni the hat 
+rank 3: the nit ac the hit 
+rank 3: the nit ca the hit 
+rank 3: the nat ci the hat 
+real 0.58
+user 0.39
+sys 0.52
+-------------------------------------------------------------------
+Run #5
+Input: the cat in the hat
+Input dictionary:      thecain
+Encryption dictionary: inehcta
+Encrypted text:        ine hci ta ine nci
+Written to ciphertext.txt
+Serial Output:
+rank 0: nit han ec nit ian
+rank 0: nit can eh nit ian
+rank 0: nit can he nit ian
+rank 0: nth can ie nth tan
+rank 0: nth ian ec nth tan
+rank 0: etc hie na etc tie
+rank 0: etc hie an etc tie
+rank 0: eta hie nc eta tie
+rank 0: eta che in eta the
+rank 0: eta che ni eta the
+rank 0: eat ice nh eat ace
+rank 0: tie ant ch tie int
+rank 0: tic ant he tic int
+rank 0: tic ant eh tic int
+rank 0: ten hat ci ten eat
+rank 0: ten cat hi ten eat
+rank 0: the nit ca the hit
+rank 0: the nit ac the hit
+rank 0: the nat ci the hat
+rank 0: the cat ni the hat
+rank 0: the cat in the hat
+rank 0: ace tia nh ace cia
+rank 0: ate cia nh ate tia
+
+real	0m0.117s
+user	0m0.023s
+sys	0m0.012s
+
+Parallel Output:
+rank 2: etc hie na etc tie 
+rank 2: etc hie an etc tie 
+rank 2: eta hie nc eta tie 
+rank 2: eta che in eta the 
+rank 2: eta che ni eta the 
+rank 2: eat ice nh eat ace 
+rank 5: tie ant ch tie int 
+rank 5: tic ant he tic int 
+rank 5: tic ant eh tic int 
+rank 5: ten hat ci ten eat 
+rank 5: ten cat hi ten eat 
+rank 5: the nit ca the hit 
+rank 5: the nit ac the hit 
+rank 5: the nat ci the hat 
+rank 5: the cat ni the hat 
+rank 5: the cat in the hat 
+rank 6: ace tia nh ace cia 
+rank 6: ate cia nh ate tia 
+rank 1: nit han ec nit ian 
+rank 1: nit can eh nit ian 
+rank 1: nit can he nit ian 
+rank 1: nth can ie nth tan 
+rank 1: nth ian ec nth tan 
+real 0.58
+user 0.36
+sys 0.47
+-------------------------------------------------------------------
+Run #6
+Input: the cat in the hat
+Input dictionary:      thecain
+Encryption dictionary: tiahnec
+Encrypted text:        tia hnt ec tia int
+Written to ciphertext.txt
+Serial Output:
+rank 0: tie ant ch tie int
+rank 0: tic ant eh tic int
+rank 0: tic ant he tic int
+rank 0: the nit ac the hit
+rank 0: the nit ca the hit
+rank 0: the nat ci the hat
+rank 0: the cat ni the hat
+rank 0: the cat in the hat
+rank 0: ten hat ci ten eat
+rank 0: ten cat hi ten eat
+rank 0: ate cia nh ate tia
+rank 0: ace tia nh ace cia
+rank 0: nth ian ec nth tan
+rank 0: nth can ie nth tan
+rank 0: nit han ec nit ian
+rank 0: nit can eh nit ian
+rank 0: nit can he nit ian
+rank 0: eta hie nc eta tie
+rank 0: eta che ni eta the
+rank 0: eta che in eta the
+rank 0: etc hie na etc tie
+rank 0: etc hie an etc tie
+rank 0: eat ice nh eat ace
+
+real	0m0.122s
+user	0m0.023s
+sys	0m0.014s
+
+Parallel Output:
+rank 5: eta hie nc eta tie 
+rank 5: eta che ni eta the 
+rank 5: eta che in eta the 
+rank 5: etc hie na etc tie 
+rank 5: etc hie an etc tie 
+rank 5: eat ice nh eat ace 
+rank 0: tie ant ch tie int 
+rank 0: tic ant eh tic int 
+rank 0: tic ant he tic int 
+rank 0: the nit ac the hit 
+rank 0: the nit ca the hit 
+rank 0: the nat ci the hat 
+rank 0: the cat ni the hat 
+rank 0: the cat in the hat 
+rank 0: ten hat ci ten eat 
+rank 0: ten cat hi ten eat 
+rank 2: ate cia nh ate tia 
+rank 4: nth ian ec nth tan 
+rank 4: nth can ie nth tan 
+rank 4: nit han ec nit ian 
+rank 4: nit can eh nit ian 
+rank 4: nit can he nit ian 
+rank 2: ace tia nh ace cia 
+real 0.57
+user 0.31
+sys 0.48
+-------------------------------------------------------------------
+Run #7
+Input: the cat in the hat
+Input dictionary:      thecain
+Encryption dictionary: neitahc
+Encrypted text:        nei tan hc nei ean
+Written to ciphertext.txt
+Serial Output:
+rank 0: nit han ec nit ian
+rank 0: nit can he nit ian
+rank 0: nit can eh nit ian
+rank 0: nth ian ec nth tan
+rank 0: nth can ie nth tan
+rank 0: eta hie nc eta tie
+rank 0: eta che in eta the
+rank 0: eta che ni eta the
+rank 0: etc hie na etc tie
+rank 0: etc hie an etc tie
+rank 0: eat ice nh eat ace
+rank 0: ten hat ci ten eat
+rank 0: ten cat hi ten eat
+rank 0: tie ant ch tie int
+rank 0: tic ant he tic int
+rank 0: tic ant eh tic int
+rank 0: the nat ci the hat
+rank 0: the nit ac the hit
+rank 0: the nit ca the hit
+rank 0: the cat ni the hat
+rank 0: the cat in the hat
+rank 0: ate cia nh ate tia
+rank 0: ace tia nh ace cia
+
+real	0m0.107s
+user	0m0.015s
+sys	0m0.016s
+
+Parallel Output:
+rank 0: nit han ec nit ian 
+rank 0: nit can he nit ian 
+rank 0: nit can eh nit ian 
+rank 0: nth ian ec nth tan 
+rank 0: nth can ie nth tan 
+rank 1: eta hie nc eta tie 
+rank 1: eta che in eta the 
+rank 1: eta che ni eta the 
+rank 1: etc hie na etc tie 
+rank 1: etc hie an etc tie 
+rank 1: eat ice nh eat ace 
+rank 3: ten hat ci ten eat 
+rank 3: ten cat hi ten eat 
+rank 3: tie ant ch tie int 
+rank 4: ate cia nh ate tia 
+rank 4: ace tia nh ace cia 
+rank 3: tic ant he tic int 
+rank 3: tic ant eh tic int 
+rank 3: the nat ci the hat 
+rank 3: the nit ac the hit 
+rank 3: the nit ca the hit 
+rank 3: the cat ni the hat 
+rank 3: the cat in the hat 
+real 0.60
+user 0.37
+sys 0.58
+-------------------------------------------------------------------
+Run #8
+Input: the cat in the hat
+Input dictionary:      thecain
+Encryption dictionary: neitahc
+Encrypted text:        nei tan hc nei ean
+Written to ciphertext.txt
+Serial Output:
+rank 0: nit han ec nit ian
+rank 0: nit can he nit ian
+rank 0: nit can eh nit ian
+rank 0: nth ian ec nth tan
+rank 0: nth can ie nth tan
+rank 0: eta hie nc eta tie
+rank 0: eta che in eta the
+rank 0: eta che ni eta the
+rank 0: etc hie na etc tie
+rank 0: etc hie an etc tie
+rank 0: eat ice nh eat ace
+rank 0: ten hat ci ten eat
+rank 0: ten cat hi ten eat
+rank 0: tie ant ch tie int
+rank 0: tic ant he tic int
+rank 0: tic ant eh tic int
+rank 0: the nat ci the hat
+rank 0: the nit ac the hit
+rank 0: the nit ca the hit
+rank 0: the cat ni the hat
+rank 0: the cat in the hat
+rank 0: ate cia nh ate tia
+rank 0: ace tia nh ace cia
+
+real	0m0.109s
+user	0m0.021s
+sys	0m0.011s
+
+Parallel Output:
+rank 0: nit han ec nit ian 
+rank 0: nit can he nit ian 
+rank 0: nit can eh nit ian 
+rank 0: nth ian ec nth tan 
+rank 0: nth can ie nth tan 
+rank 1: eta hie nc eta tie 
+rank 1: eta che in eta the 
+rank 1: eta che ni eta the 
+rank 1: etc hie na etc tie 
+rank 1: etc hie an etc tie 
+rank 1: eat ice nh eat ace 
+rank 3: ten hat ci ten eat 
+rank 3: ten cat hi ten eat 
+rank 3: tie ant ch tie int 
+rank 3: tic ant he tic int 
+rank 3: tic ant eh tic int 
+rank 3: the nat ci the hat 
+rank 3: the nit ac the hit 
+rank 3: the nit ca the hit 
+rank 3: the cat ni the hat 
+rank 3: the cat in the hat 
+rank 4: ate cia nh ate tia 
+rank 4: ace tia nh ace cia 
+real 0.57
+user 0.39
+sys 0.46
+-------------------------------------------------------------------
+Run #9
+Input: the cat in the hat
+Input dictionary:      thecain
+Encryption dictionary: ihancet
+Encrypted text:        iha nci et iha hci
+Written to ciphertext.txt
+Serial Output:
+rank 0: ace tia nh ace cia
+rank 0: ate cia nh ate tia
+rank 0: nit can eh nit ian
+rank 0: nit can he nit ian
+rank 0: nit han ec nit ian
+rank 0: nth can ie nth tan
+rank 0: nth ian ec nth tan
+rank 0: eat ice nh eat ace
+rank 0: eta hie nc eta tie
+rank 0: eta che ni eta the
+rank 0: eta che in eta the
+rank 0: etc hie an etc tie
+rank 0: etc hie na etc tie
+rank 0: tic ant he tic int
+rank 0: tic ant eh tic int
+rank 0: tie ant ch tie int
+rank 0: the nat ci the hat
+rank 0: the nit ca the hit
+rank 0: the nit ac the hit
+rank 0: the cat ni the hat
+rank 0: the cat in the hat
+rank 0: ten hat ci ten eat
+rank 0: ten cat hi ten eat
+
+real	0m0.115s
+user	0m0.023s
+sys	0m0.010s
+
+Parallel Output:
+rank 5: eat ice nh eat ace 
+rank 5: eta hie nc eta tie 
+rank 5: eta che ni eta the 
+rank 5: eta che in eta the 
+rank 5: etc hie an etc tie 
+rank 5: etc hie na etc tie 
+rank 6: tic ant he tic int 
+rank 6: tic ant eh tic int 
+rank 6: tie ant ch tie int 
+rank 6: the nat ci the hat 
+rank 6: the nit ca the hit 
+rank 6: the nit ac the hit 
+rank 6: the cat ni the hat 
+rank 6: the cat in the hat 
+rank 2: ace tia nh ace cia 
+rank 2: ate cia nh ate tia 
+rank 3: nit can eh nit ian 
+rank 3: nit can he nit ian 
+rank 3: nit han ec nit ian 
+rank 3: nth can ie nth tan 
+rank 3: nth ian ec nth tan 
+rank 6: ten hat ci ten eat 
+rank 6: ten cat hi ten eat 
+real 0.55
+user 0.33
+sys 0.43
+-------------------------------------------------------------------
+Run #10
+Input: the cat in the hat
+Input dictionary:      thecain
+Encryption dictionary: hacetni
+Encrypted text:        hac eth ni hac ath
+Written to ciphertext.txt
+Serial Output:
+rank 0: ace tia nh ace cia
+rank 0: ate cia nh ate tia
+rank 0: eat ice nh eat ace
+rank 0: eta che ni eta the
+rank 0: eta che in eta the
+rank 0: eta hie nc eta tie
+rank 0: etc hie na etc tie
+rank 0: etc hie an etc tie
+rank 0: the cat ni the hat
+rank 0: the cat in the hat
+rank 0: the nat ci the hat
+rank 0: the nit ca the hit
+rank 0: the nit ac the hit
+rank 0: ten cat hi ten eat
+rank 0: ten hat ci ten eat
+rank 0: tic ant eh tic int
+rank 0: tic ant he tic int
+rank 0: tie ant ch tie int
+rank 0: nth can ie nth tan
+rank 0: nth ian ec nth tan
+rank 0: nit can eh nit ian
+rank 0: nit can he nit ian
+rank 0: nit han ec nit ian
+
+real	0m0.120s
+user	0m0.022s
+sys	0m0.014s
+
+Parallel Output:
+rank 1: ace tia nh ace cia 
+rank 1: ate cia nh ate tia 
+rank 3: eat ice nh eat ace 
+rank 3: eta che ni eta the 
+rank 3: eta che in eta the 
+rank 3: eta hie nc eta tie 
+rank 3: etc hie na etc tie 
+rank 3: etc hie an etc tie 
+rank 4: the cat ni the hat 
+rank 4: the cat in the hat 
+rank 4: the nat ci the hat 
+rank 4: the nit ca the hit 
+rank 4: the nit ac the hit 
+rank 4: ten cat hi ten eat 
+rank 4: ten hat ci ten eat 
+rank 5: nth can ie nth tan 
+rank 5: nth ian ec nth tan 
+rank 5: nit can eh nit ian 
+rank 5: nit can he nit ian 
+rank 4: tic ant eh tic int 
+rank 4: tic ant he tic int 
+rank 4: tie ant ch tie int 
+rank 5: nit han ec nit ian 
+real 0.55
+user 0.38
+sys 0.40
+-------------------------------------------------------------------
+Run #11
+Input: the cat in the hat
+Input dictionary:      thecain
+Encryption dictionary: cteaihn
+Encrypted text:        cte aic hn cte tic
+Written to ciphertext.txt
+Serial Output:
+rank 0: ten hat ci ten eat
+rank 0: ten cat hi ten eat
+rank 0: tie ant ch tie int
+rank 0: tic ant he tic int
+rank 0: tic ant eh tic int
+rank 0: the cat in the hat
+rank 0: the cat ni the hat
+rank 0: the nit ca the hit
+rank 0: the nit ac the hit
+rank 0: the nat ci the hat
+rank 0: etc hie an etc tie
+rank 0: etc hie na etc tie
+rank 0: eta che in eta the
+rank 0: eta che ni eta the
+rank 0: eta hie nc eta tie
+rank 0: eat ice nh eat ace
+rank 0: ace tia nh ace cia
+rank 0: ate cia nh ate tia
+rank 0: nth ian ec nth tan
+rank 0: nth can ie nth tan
+rank 0: nit can eh nit ian
+rank 0: nit can he nit ian
+rank 0: nit han ec nit ian
+
+real	0m0.116s
+user	0m0.026s
+sys	0m0.009s
+
+Parallel Output:
+rank 3: ace tia nh ace cia 
+rank 3: ate cia nh ate tia 
+rank 6: nth ian ec nth tan 
+rank 6: nth can ie nth tan 
+rank 1: ten hat ci ten eat 
+rank 1: ten cat hi ten eat 
+rank 1: tie ant ch tie int 
+rank 1: tic ant he tic int 
+rank 1: tic ant eh tic int 
+rank 2: etc hie an etc tie 
+rank 2: etc hie na etc tie 
+rank 2: eta che in eta the 
+rank 2: eta che ni eta the 
+rank 2: eta hie nc eta tie 
+rank 2: eat ice nh eat ace 
+rank 6: nit can eh nit ian 
+rank 6: nit can he nit ian 
+rank 6: nit han ec nit ian 
+rank 1: the cat in the hat 
+rank 1: the cat ni the hat 
+rank 1: the nit ca the hit 
+rank 1: the nit ac the hit 
+rank 1: the nat ci the hat 
+real 0.59
+user 0.35
+sys 0.54
+-------------------------------------------------------------------
+Run #12
+Input: the cat in the hat
+Input dictionary:      thecain
+Encryption dictionary: ncteiha
+Encrypted text:        nct ein ha nct cin
+Written to ciphertext.txt
+Serial Output:
+rank 0: nth ian ec nth tan
+rank 0: nth can ie nth tan
+rank 0: nit can he nit ian
+rank 0: nit can eh nit ian
+rank 0: nit han ec nit ian
+rank 0: ten cat hi ten eat
+rank 0: ten hat ci ten eat
+rank 0: tic ant he tic int
+rank 0: tic ant eh tic int
+rank 0: tie ant ch tie int
+rank 0: the cat ni the hat
+rank 0: the cat in the hat
+rank 0: the nit ca the hit
+rank 0: the nit ac the hit
+rank 0: the nat ci the hat
+rank 0: etc hie na etc tie
+rank 0: etc hie an etc tie
+rank 0: eta hie nc eta tie
+rank 0: eta che in eta the
+rank 0: eta che ni eta the
+rank 0: eat ice nh eat ace
+rank 0: ace tia nh ace cia
+rank 0: ate cia nh ate tia
+
+real	0m0.116s
+user	0m0.013s
+sys	0m0.021s
+
+Parallel Output:
+rank 2: ten cat hi ten eat 
+rank 2: ten hat ci ten eat 
+rank 2: tic ant he tic int 
+rank 2: tic ant eh tic int 
+rank 2: tie ant ch tie int 
+rank 2: the cat ni the hat 
+rank 2: the cat in the hat 
+rank 2: the nit ca the hit 
+rank 2: the nit ac the hit 
+rank 2: the nat ci the hat 
+rank 3: etc hie na etc tie 
+rank 3: etc hie an etc tie 
+rank 3: eta hie nc eta tie 
+rank 3: eta che in eta the 
+rank 3: eta che ni eta the 
+rank 3: eat ice nh eat ace 
+rank 6: ace tia nh ace cia 
+rank 6: ate cia nh ate tia 
+rank 0: nth ian ec nth tan 
+rank 0: nth can ie nth tan 
+rank 0: nit can he nit ian 
+rank 0: nit can eh nit ian 
+rank 0: nit han ec nit ian 
+real 0.58
+user 0.35
+sys 0.55
+-------------------------------------------------------------------
+Run #13
+Input: the cat in the hat
+Input dictionary:      thecain
+Encryption dictionary: ncteiha
+Encrypted text:        nct ein ha nct cin
+Written to ciphertext.txt
+Serial Output:
+rank 0: nth ian ec nth tan
+rank 0: nth can ie nth tan
+rank 0: nit can he nit ian
+rank 0: nit can eh nit ian
+rank 0: nit han ec nit ian
+rank 0: ten cat hi ten eat
+rank 0: ten hat ci ten eat
+rank 0: tic ant he tic int
+rank 0: tic ant eh tic int
+rank 0: tie ant ch tie int
+rank 0: the cat ni the hat
+rank 0: the cat in the hat
+rank 0: the nit ca the hit
+rank 0: the nit ac the hit
+rank 0: the nat ci the hat
+rank 0: etc hie na etc tie
+rank 0: etc hie an etc tie
+rank 0: eta hie nc eta tie
+rank 0: eta che in eta the
+rank 0: eta che ni eta the
+rank 0: eat ice nh eat ace
+rank 0: ace tia nh ace cia
+rank 0: ate cia nh ate tia
+
+real	0m0.110s
+user	0m0.014s
+sys	0m0.019s
+
+Parallel Output:
+rank 2: ten cat hi ten eat 
+rank 2: ten hat ci ten eat 
+rank 3: etc hie na etc tie 
+rank 3: etc hie an etc tie 
+rank 3: eta hie nc eta tie 
+rank 6: ace tia nh ace cia 
+rank 0: nth ian ec nth tan 
+rank 0: nth can ie nth tan 
+rank 3: eta che in eta the 
+rank 3: eta che ni eta the 
+rank 0: nit can he nit ian 
+rank 0: nit can eh nit ian 
+rank 0: nit han ec nit ian 
+rank 6: ate cia nh ate tia 
+rank 2: tic ant he tic int 
+rank 2: tic ant eh tic int 
+rank 2: tie ant ch tie int 
+rank 3: eat ice nh eat ace 
+rank 2: the cat ni the hat 
+rank 2: the cat in the hat 
+rank 2: the nit ca the hit 
+rank 2: the nit ac the hit 
+rank 2: the nat ci the hat 
+real 0.57
+user 0.29
+sys 0.52
+-------------------------------------------------------------------
+Run #14
+Input: the cat in the hat
+Input dictionary:      thecain
+Encryption dictionary: iechnta
+Encrypted text:        iec hni ta iec eni
+Written to ciphertext.txt
+Serial Output:
+rank 0: etc hie na etc tie
+rank 0: etc hie an etc tie
+rank 0: eta hie nc eta tie
+rank 0: eta che in eta the
+rank 0: eta che ni eta the
+rank 0: eat ice nh eat ace
+rank 0: nit can eh nit ian
+rank 0: nit can he nit ian
+rank 0: nit han ec nit ian
+rank 0: nth can ie nth tan
+rank 0: nth ian ec nth tan
+rank 0: tie ant ch tie int
+rank 0: tic ant he tic int
+rank 0: tic ant eh tic int
+rank 0: ten cat hi ten eat
+rank 0: ten hat ci ten eat
+rank 0: the cat ni the hat
+rank 0: the cat in the hat
+rank 0: the nit ca the hit
+rank 0: the nit ac the hit
+rank 0: the nat ci the hat
+rank 0: ace tia nh ace cia
+rank 0: ate cia nh ate tia
+
+real	0m0.112s
+user	0m0.017s
+sys	0m0.018s
+
+Parallel Output:
+rank 4: nit can eh nit ian 
+rank 4: nit can he nit ian 
+rank 4: nit han ec nit ian 
+rank 4: nth can ie nth tan 
+rank 5: tie ant ch tie int 
+rank 5: tic ant he tic int 
+rank 5: tic ant eh tic int 
+rank 5: ten cat hi ten eat 
+rank 5: ten hat ci ten eat 
+rank 6: ace tia nh ace cia 
+rank 6: ate cia nh ate tia 
+rank 1: etc hie na etc tie 
+rank 1: etc hie an etc tie 
+rank 1: eta hie nc eta tie 
+rank 1: eta che in eta the 
+rank 1: eta che ni eta the 
+rank 1: eat ice nh eat ace 
+rank 4: nth ian ec nth tan 
+rank 5: the cat ni the hat 
+rank 5: the cat in the hat 
+rank 5: the nit ca the hit 
+rank 5: the nit ac the hit 
+rank 5: the nat ci the hat 
+real 0.56
+user 0.31
+sys 0.50
+-------------------------------------------------------------------
+Run #15
+Input: the cat in the hat
+Input dictionary:      thecain
+Encryption dictionary: teahnic
+Encrypted text:        tea hnt ic tea ent
+Written to ciphertext.txt
+Serial Output:
+rank 0: ten hat ci ten eat
+rank 0: ten cat hi ten eat
+rank 0: the nat ci the hat
+rank 0: the nit ac the hit
+rank 0: the nit ca the hit
+rank 0: the cat in the hat
+rank 0: the cat ni the hat
+rank 0: tie ant ch tie int
+rank 0: tic ant eh tic int
+rank 0: tic ant he tic int
+rank 0: eta hie nc eta tie
+rank 0: eta che in eta the
+rank 0: eta che ni eta the
+rank 0: etc hie na etc tie
+rank 0: etc hie an etc tie
+rank 0: eat ice nh eat ace
+rank 0: ate cia nh ate tia
+rank 0: ace tia nh ace cia
+rank 0: nth ian ec nth tan
+rank 0: nth can ie nth tan
+rank 0: nit han ec nit ian
+rank 0: nit can eh nit ian
+rank 0: nit can he nit ian
+
+real	0m0.112s
+user	0m0.019s
+sys	0m0.015s
+
+Parallel Output:
+rank 0: ten hat ci ten eat 
+rank 0: ten cat hi ten eat 
+rank 1: eta hie nc eta tie 
+rank 1: eta che in eta the 
+rank 1: eta che ni eta the 
+rank 1: etc hie na etc tie 
+rank 1: etc hie an etc tie 
+rank 1: eat ice nh eat ace 
+rank 2: ate cia nh ate tia 
+rank 4: nth ian ec nth tan 
+rank 4: nth can ie nth tan 
+rank 4: nit han ec nit ian 
+rank 4: nit can eh nit ian 
+rank 4: nit can he nit ian 
+rank 0: the nat ci the hat 
+rank 0: the nit ac the hit 
+rank 0: the nit ca the hit 
+rank 0: the cat in the hat 
+rank 0: the cat ni the hat 
+rank 2: ace tia nh ace cia 
+rank 0: tie ant ch tie int 
+rank 0: tic ant eh tic int 
+rank 0: tic ant he tic int 
+real 0.57
+user 0.40
+sys 0.45
+-------------------------------------------------------------------
+Run #16
+Input: the cat in the hat
+Input dictionary:      thecain
+Encryption dictionary: chtiane
+Encrypted text:        cht iac ne cht hac
+Written to ciphertext.txt
+Serial Output:
+rank 0: the nat ci the hat
+rank 0: the nit ac the hit
+rank 0: the nit ca the hit
+rank 0: the cat ni the hat
+rank 0: the cat in the hat
+rank 0: tic ant he tic int
+rank 0: tic ant eh tic int
+rank 0: tie ant ch tie int
+rank 0: ten hat ci ten eat
+rank 0: ten cat hi ten eat
+rank 0: ace tia nh ace cia
+rank 0: ate cia nh ate tia
+rank 0: nth can ie nth tan
+rank 0: nth ian ec nth tan
+rank 0: nit han ec nit ian
+rank 0: nit can he nit ian
+rank 0: nit can eh nit ian
+rank 0: etc hie an etc tie
+rank 0: etc hie na etc tie
+rank 0: eta che in eta the
+rank 0: eta che ni eta the
+rank 0: eta hie nc eta tie
+rank 0: eat ice nh eat ace
+
+real	0m0.110s
+user	0m0.034s
+sys	0m0.000s
+
+Parallel Output:
+rank 2: the nat ci the hat 
+rank 2: the nit ac the hit 
+rank 2: the nit ca the hit 
+rank 2: the cat ni the hat 
+rank 2: the cat in the hat 
+rank 2: tic ant he tic int 
+rank 2: tic ant eh tic int 
+rank 2: tie ant ch tie int 
+rank 4: ace tia nh ace cia 
+rank 4: ate cia nh ate tia 
+rank 5: nth can ie nth tan 
+rank 5: nth ian ec nth tan 
+rank 5: nit han ec nit ian 
+rank 5: nit can he nit ian 
+rank 5: nit can eh nit ian 
+rank 6: etc hie an etc tie 
+rank 6: etc hie na etc tie 
+rank 6: eta che in eta the 
+rank 6: eta che ni eta the 
+rank 6: eta hie nc eta tie 
+rank 6: eat ice nh eat ace 
+rank 2: ten hat ci ten eat 
+rank 2: ten cat hi ten eat 
+real 0.56
+user 0.33
+sys 0.45
+-------------------------------------------------------------------
+Run #17
+Input: the cat in the hat
+Input dictionary:      thecain
+Encryption dictionary: ehtcani
+Encrypted text:        eht cae ni eht hae
+Written to ciphertext.txt
+Serial Output:
+rank 0: etc hie na etc tie
+rank 0: etc hie an etc tie
+rank 0: eta che ni eta the
+rank 0: eta che in eta the
+rank 0: eta hie nc eta tie
+rank 0: eat ice nh eat ace
+rank 0: ten cat hi ten eat
+rank 0: ten hat ci ten eat
+rank 0: the cat ni the hat
+rank 0: the cat in the hat
+rank 0: the nat ci the hat
+rank 0: the nit ca the hit
+rank 0: the nit ac the hit
+rank 0: tic ant he tic int
+rank 0: tic ant eh tic int
+rank 0: tie ant ch tie int
+rank 0: ate cia nh ate tia
+rank 0: ace tia nh ace cia
+rank 0: nth can ie nth tan
+rank 0: nth ian ec nth tan
+rank 0: nit han ec nit ian
+rank 0: nit can he nit ian
+rank 0: nit can eh nit ian
+
+real	0m0.104s
+user	0m0.013s
+sys	0m0.018s
+
+Parallel Output:
+rank 4: ate cia nh ate tia 
+rank 5: nth can ie nth tan 
+rank 5: nth ian ec nth tan 
+rank 0: etc hie na etc tie 
+rank 0: etc hie an etc tie 
+rank 0: eta che ni eta the 
+rank 0: eta che in eta the 
+rank 0: eta hie nc eta tie 
+rank 2: ten cat hi ten eat 
+rank 2: ten hat ci ten eat 
+rank 2: the cat ni the hat 
+rank 2: the cat in the hat 
+rank 2: the nat ci the hat 
+rank 2: the nit ca the hit 
+rank 2: the nit ac the hit 
+rank 4: ace tia nh ace cia 
+rank 0: eat ice nh eat ace 
+rank 2: tic ant he tic int 
+rank 2: tic ant eh tic int 
+rank 2: tie ant ch tie int 
+rank 5: nit han ec nit ian 
+rank 5: nit can he nit ian 
+rank 5: nit can eh nit ian 
+real 0.56
+user 0.33
+sys 0.54
+-------------------------------------------------------------------
+Run #18
+Input: the cat in the hat
+Input dictionary:      thecain
+Encryption dictionary: ehtcani
+Encrypted text:        eht cae ni eht hae
+Written to ciphertext.txt
+Serial Output:
+rank 0: etc hie na etc tie
+rank 0: etc hie an etc tie
+rank 0: eta che ni eta the
+rank 0: eta che in eta the
+rank 0: eta hie nc eta tie
+rank 0: eat ice nh eat ace
+rank 0: ten cat hi ten eat
+rank 0: ten hat ci ten eat
+rank 0: the cat ni the hat
+rank 0: the cat in the hat
+rank 0: the nat ci the hat
+rank 0: the nit ca the hit
+rank 0: the nit ac the hit
+rank 0: tic ant he tic int
+rank 0: tic ant eh tic int
+rank 0: tie ant ch tie int
+rank 0: ate cia nh ate tia
+rank 0: ace tia nh ace cia
+rank 0: nth can ie nth tan
+rank 0: nth ian ec nth tan
+rank 0: nit han ec nit ian
+rank 0: nit can he nit ian
+rank 0: nit can eh nit ian
+
+real	0m0.114s
+user	0m0.024s
+sys	0m0.009s
+
+Parallel Output:
+rank 5: nth can ie nth tan 
+rank 5: nth ian ec nth tan 
+rank 0: etc hie na etc tie 
+rank 0: etc hie an etc tie 
+rank 0: eta che ni eta the 
+rank 0: eta che in eta the 
+rank 0: eta hie nc eta tie 
+rank 2: ten cat hi ten eat 
+rank 2: ten hat ci ten eat 
+rank 2: the cat ni the hat 
+rank 2: the cat in the hat 
+rank 2: the nat ci the hat 
+rank 2: the nit ca the hit 
+rank 2: the nit ac the hit 
+rank 4: ate cia nh ate tia 
+rank 4: ace tia nh ace cia 
+rank 5: nit han ec nit ian 
+rank 5: nit can he nit ian 
+rank 5: nit can eh nit ian 
+rank 0: eat ice nh eat ace 
+rank 2: tic ant he tic int 
+rank 2: tic ant eh tic int 
+rank 2: tie ant ch tie int 
+real 0.55
+user 0.34
+sys 0.44
+-------------------------------------------------------------------
+Run #19
+Input: the cat in the hat
+Input dictionary:      thecain
+Encryption dictionary: anhecit
+Encrypted text:        anh eca it anh nca
+Written to ciphertext.txt
+Serial Output:
+rank 0: ace tia nh ace cia
+rank 0: ate cia nh ate tia
+rank 0: nit can eh nit ian
+rank 0: nit can he nit ian
+rank 0: nit han ec nit ian
+rank 0: nth can ie nth tan
+rank 0: nth ian ec nth tan
+rank 0: eat ice nh eat ace
+rank 0: etc hie na etc tie
+rank 0: etc hie an etc tie
+rank 0: eta hie nc eta tie
+rank 0: eta che in eta the
+rank 0: eta che ni eta the
+rank 0: the nat ci the hat
+rank 0: the nit ca the hit
+rank 0: the nit ac the hit
+rank 0: the cat ni the hat
+rank 0: the cat in the hat
+rank 0: ten hat ci ten eat
+rank 0: ten cat hi ten eat
+rank 0: tie ant ch tie int
+rank 0: tic ant eh tic int
+rank 0: tic ant he tic int
+
+real	0m0.124s
+user	0m0.007s
+sys	0m0.029s
+
+Parallel Output:
+rank 0: ace tia nh ace cia 
+rank 0: ate cia nh ate tia 
+rank 1: nit can eh nit ian 
+rank 1: nit can he nit ian 
+rank 1: nit han ec nit ian 
+rank 1: nth can ie nth tan 
+rank 1: nth ian ec nth tan 
+rank 3: eat ice nh eat ace 
+rank 3: etc hie na etc tie 
+rank 3: etc hie an etc tie 
+rank 6: the nat ci the hat 
+rank 6: the nit ca the hit 
+rank 6: the nit ac the hit 
+rank 6: the cat ni the hat 
+rank 6: the cat in the hat 
+rank 6: ten hat ci ten eat 
+rank 6: ten cat hi ten eat 
+rank 6: tie ant ch tie int 
+rank 6: tic ant eh tic int 
+rank 6: tic ant he tic int 
+rank 3: eta hie nc eta tie 
+rank 3: eta che in eta the 
+rank 3: eta che ni eta the 
+real 0.58
+user 0.36
+sys 0.49
+-------------------------------------------------------------------
+Run #20
+Input: the cat in the hat
+Input dictionary:      thecain
+Encryption dictionary: citehna
+Encrypted text:        cit ehc na cit ihc
+Written to ciphertext.txt
+Serial Output:
+rank 0: tic ant he tic int
+rank 0: tic ant eh tic int
+rank 0: tie ant ch tie int
+rank 0: ten cat hi ten eat
+rank 0: ten hat ci ten eat
+rank 0: the cat ni the hat
+rank 0: the cat in the hat
+rank 0: the nit ca the hit
+rank 0: the nit ac the hit
+rank 0: the nat ci the hat
+rank 0: etc hie na etc tie
+rank 0: etc hie an etc tie
+rank 0: eta che ni eta the
+rank 0: eta che in eta the
+rank 0: eta hie nc eta tie
+rank 0: eat ice nh eat ace
+rank 0: nit can he nit ian
+rank 0: nit can eh nit ian
+rank 0: nit han ec nit ian
+rank 0: nth can ie nth tan
+rank 0: nth ian ec nth tan
+rank 0: ace tia nh ace cia
+rank 0: ate cia nh ate tia
+
+real	0m0.121s
+user	0m0.015s
+sys	0m0.019s
+
+Parallel Output:
+rank 5: nit can he nit ian 
+rank 5: nit can eh nit ian 
+rank 5: nit han ec nit ian 
+rank 5: nth can ie nth tan 
+rank 5: nth ian ec nth tan 
+rank 6: ace tia nh ace cia 
+rank 6: ate cia nh ate tia 
+rank 2: tic ant he tic int 
+rank 2: tic ant eh tic int 
+rank 2: tie ant ch tie int 
+rank 2: ten cat hi ten eat 
+rank 2: ten hat ci ten eat 
+rank 2: the cat ni the hat 
+rank 2: the cat in the hat 
+rank 2: the nit ca the hit 
+rank 2: the nit ac the hit 
+rank 2: the nat ci the hat 
+rank 3: etc hie na etc tie 
+rank 3: etc hie an etc tie 
+rank 3: eta che ni eta the 
+rank 3: eta che in eta the 
+rank 3: eta hie nc eta tie 
+rank 3: eat ice nh eat ace 
+real 0.58
+user 0.33
+sys 0.52
+-------------------------------------------------------------------
+Run #21
+Input: the cat in the hat
+Input dictionary:      thecain
+Encryption dictionary: etanich
+Encrypted text:        eta nie ch eta tie
+Written to ciphertext.txt
+Serial Output:
+rank 0: eta che ni eta the
+rank 0: eta che in eta the
+rank 0: eta hie nc eta tie
+rank 0: etc hie an etc tie
+rank 0: etc hie na etc tie
+rank 0: eat ice nh eat ace
+rank 0: ten cat hi ten eat
+rank 0: ten hat ci ten eat
+rank 0: tie ant ch tie int
+rank 0: tic ant eh tic int
+rank 0: tic ant he tic int
+rank 0: the nit ca the hit
+rank 0: the nit ac the hit
+rank 0: the nat ci the hat
+rank 0: the cat ni the hat
+rank 0: the cat in the hat
+rank 0: ate cia nh ate tia
+rank 0: ace tia nh ace cia
+rank 0: nth ian ec nth tan
+rank 0: nth can ie nth tan
+rank 0: nit can eh nit ian
+rank 0: nit can he nit ian
+rank 0: nit han ec nit ian
+
+real	0m0.117s
+user	0m0.034s
+sys	0m0.001s
+
+Parallel Output:
+rank 2: ate cia nh ate tia 
+rank 2: ace tia nh ace cia 
+rank 3: nth ian ec nth tan 
+rank 3: nth can ie nth tan 
+rank 3: nit can eh nit ian 
+rank 3: nit can he nit ian 
+rank 3: nit han ec nit ian 
+rank 0: eta che ni eta the 
+rank 0: eta che in eta the 
+rank 0: eta hie nc eta tie 
+rank 0: etc hie an etc tie 
+rank 0: etc hie na etc tie 
+rank 0: eat ice nh eat ace 
+rank 1: ten cat hi ten eat 
+rank 1: ten hat ci ten eat 
+rank 1: tie ant ch tie int 
+rank 1: tic ant eh tic int 
+rank 1: tic ant he tic int 
+rank 1: the nit ca the hit 
+rank 1: the nit ac the hit 
+rank 1: the nat ci the hat 
+rank 1: the cat ni the hat 
+rank 1: the cat in the hat 
+real 0.57
+user 0.34
+sys 0.51
+-------------------------------------------------------------------
+Run #22
+Input: the cat in the hat
+Input dictionary:      thecain
+Encryption dictionary: ihnaect
+Encrypted text:        ihn aei ct ihn hei
+Written to ciphertext.txt
+Serial Output:
+rank 0: nit can eh nit ian
+rank 0: nit can he nit ian
+rank 0: nit han ec nit ian
+rank 0: nth can ie nth tan
+rank 0: nth ian ec nth tan
+rank 0: ace tia nh ace cia
+rank 0: ate cia nh ate tia
+rank 0: eat ice nh eat ace
+rank 0: eta hie nc eta tie
+rank 0: eta che ni eta the
+rank 0: eta che in eta the
+rank 0: etc hie na etc tie
+rank 0: etc hie an etc tie
+rank 0: tie ant ch tie int
+rank 0: tic ant eh tic int
+rank 0: tic ant he tic int
+rank 0: the nat ci the hat
+rank 0: the nit ac the hit
+rank 0: the nit ca the hit
+rank 0: the cat in the hat
+rank 0: the cat ni the hat
+rank 0: ten hat ci ten eat
+rank 0: ten cat hi ten eat
+
+real	0m0.116s
+user	0m0.022s
+sys	0m0.011s
+
+Parallel Output:
+rank 6: tie ant ch tie int 
+rank 6: tic ant eh tic int 
+rank 6: tic ant he tic int 
+rank 6: the nat ci the hat 
+rank 6: the nit ac the hit 
+rank 6: the nit ca the hit 
+rank 6: the cat in the hat 
+rank 6: the cat ni the hat 
+rank 2: nit can eh nit ian 
+rank 2: nit can he nit ian 
+rank 2: nit han ec nit ian 
+rank 3: ace tia nh ace cia 
+rank 4: eat ice nh eat ace 
+rank 6: ten hat ci ten eat 
+rank 6: ten cat hi ten eat 
+rank 2: nth can ie nth tan 
+rank 2: nth ian ec nth tan 
+rank 3: ate cia nh ate tia 
+rank 4: eta hie nc eta tie 
+rank 4: eta che ni eta the 
+rank 4: eta che in eta the 
+rank 4: etc hie na etc tie 
+rank 4: etc hie an etc tie 
+real 0.56
+user 0.34
+sys 0.49
+-------------------------------------------------------------------
+Run #23
+Input: the cat in the hat
+Input dictionary:      thecain
+Encryption dictionary: ihnaect
+Encrypted text:        ihn aei ct ihn hei
+Written to ciphertext.txt
+Serial Output:
+rank 0: nit can eh nit ian
+rank 0: nit can he nit ian
+rank 0: nit han ec nit ian
+rank 0: nth can ie nth tan
+rank 0: nth ian ec nth tan
+rank 0: ace tia nh ace cia
+rank 0: ate cia nh ate tia
+rank 0: eat ice nh eat ace
+rank 0: eta hie nc eta tie
+rank 0: eta che ni eta the
+rank 0: eta che in eta the
+rank 0: etc hie na etc tie
+rank 0: etc hie an etc tie
+rank 0: tie ant ch tie int
+rank 0: tic ant eh tic int
+rank 0: tic ant he tic int
+rank 0: the nat ci the hat
+rank 0: the nit ac the hit
+rank 0: the nit ca the hit
+rank 0: the cat in the hat
+rank 0: the cat ni the hat
+rank 0: ten hat ci ten eat
+rank 0: ten cat hi ten eat
+
+real	0m0.114s
+user	0m0.017s
+sys	0m0.018s
+
+Parallel Output:
+rank 2: nit can eh nit ian 
+rank 2: nit can he nit ian 
+rank 2: nit han ec nit ian 
+rank 4: eat ice nh eat ace 
+rank 4: eta hie nc eta tie 
+rank 4: eta che ni eta the 
+rank 4: eta che in eta the 
+rank 4: etc hie na etc tie 
+rank 4: etc hie an etc tie 
+rank 6: tie ant ch tie int 
+rank 6: tic ant eh tic int 
+rank 6: tic ant he tic int 
+rank 6: the nat ci the hat 
+rank 6: the nit ac the hit 
+rank 6: the nit ca the hit 
+rank 6: the cat in the hat 
+rank 6: the cat ni the hat 
+rank 2: nth can ie nth tan 
+rank 2: nth ian ec nth tan 
+rank 6: ten hat ci ten eat 
+rank 6: ten cat hi ten eat 
+rank 3: ace tia nh ace cia 
+rank 3: ate cia nh ate tia 
+real 0.58
+user 0.35
+sys 0.49
+-------------------------------------------------------------------
+Run #24
+Input: the cat in the hat
+Input dictionary:      thecain
+Encryption dictionary: atiench
+Encrypted text:        ati ena ch ati tna
+Written to ciphertext.txt
+Serial Output:
+rank 0: ate cia nh ate tia
+rank 0: ace tia nh ace cia
+rank 0: tie ant ch tie int
+rank 0: tic ant eh tic int
+rank 0: tic ant he tic int
+rank 0: ten cat hi ten eat
+rank 0: ten hat ci ten eat
+rank 0: the nit ca the hit
+rank 0: the nit ac the hit
+rank 0: the nat ci the hat
+rank 0: the cat in the hat
+rank 0: the cat ni the hat
+rank 0: eat ice nh eat ace
+rank 0: eta che in eta the
+rank 0: eta che ni eta the
+rank 0: eta hie nc eta tie
+rank 0: etc hie an etc tie
+rank 0: etc hie na etc tie
+rank 0: nth ian ec nth tan
+rank 0: nth can ie nth tan
+rank 0: nit can eh nit ian
+rank 0: nit can he nit ian
+rank 0: nit han ec nit ian
+
+real	0m0.116s
+user	0m0.024s
+sys	0m0.010s
+
+Parallel Output:
+rank 3: eat ice nh eat ace 
+rank 3: eta che in eta the 
+rank 3: eta che ni eta the 
+rank 3: eta hie nc eta tie 
+rank 3: etc hie an etc tie 
+rank 3: etc hie na etc tie 
+rank 4: nth ian ec nth tan 
+rank 4: nth can ie nth tan 
+rank 4: nit can eh nit ian 
+rank 4: nit can he nit ian 
+rank 4: nit han ec nit ian 
+rank 0: ate cia nh ate tia 
+rank 0: ace tia nh ace cia 
+rank 1: tie ant ch tie int 
+rank 1: tic ant eh tic int 
+rank 1: tic ant he tic int 
+rank 1: ten cat hi ten eat 
+rank 1: ten hat ci ten eat 
+rank 1: the nit ca the hit 
+rank 1: the nit ac the hit 
+rank 1: the nat ci the hat 
+rank 1: the cat in the hat 
+rank 1: the cat ni the hat 
+real 0.56
+user 0.34
+sys 0.45
+-------------------------------------------------------------------
+Run #25
+Input: the cat in the hat
+Input dictionary:      thecain
+Encryption dictionary: ntheiac
+Encrypted text:        nth ein ac nth tin
+Written to ciphertext.txt
+Serial Output:
+rank 0: nth ian ec nth tan
+rank 0: nth can ie nth tan
+rank 0: nit han ec nit ian
+rank 0: nit can he nit ian
+rank 0: nit can eh nit ian
+rank 0: the nit ac the hit
+rank 0: the nit ca the hit
+rank 0: the nat ci the hat
+rank 0: the cat in the hat
+rank 0: the cat ni the hat
+rank 0: ten hat ci ten eat
+rank 0: ten cat hi ten eat
+rank 0: tie ant ch tie int
+rank 0: tic ant eh tic int
+rank 0: tic ant he tic int
+rank 0: eta hie nc eta tie
+rank 0: eta che ni eta the
+rank 0: eta che in eta the
+rank 0: etc hie an etc tie
+rank 0: etc hie na etc tie
+rank 0: eat ice nh eat ace
+rank 0: ate cia nh ate tia
+rank 0: ace tia nh ace cia
+
+real	0m0.128s
+user	0m0.013s
+sys	0m0.023s
+
+Parallel Output:
+rank 5: ate cia nh ate tia 
+rank 0: nth ian ec nth tan 
+rank 0: nth can ie nth tan 
+rank 1: the nit ac the hit 
+rank 1: the nit ca the hit 
+rank 1: the nat ci the hat 
+rank 1: the cat in the hat 
+rank 1: the cat ni the hat 
+rank 1: ten hat ci ten eat 
+rank 1: ten cat hi ten eat 
+rank 3: eta hie nc eta tie 
+rank 3: eta che ni eta the 
+rank 3: eta che in eta the 
+rank 3: etc hie an etc tie 
+rank 3: etc hie na etc tie 
+rank 3: eat ice nh eat ace 
+rank 5: ace tia nh ace cia 
+rank 0: nit han ec nit ian 
+rank 0: nit can he nit ian 
+rank 0: nit can eh nit ian 
+rank 1: tie ant ch tie int 
+rank 1: tic ant eh tic int 
+rank 1: tic ant he tic int 
+real 0.58
+user 0.41
+sys 0.45
+-------------------------------------------------------------------
+Run #26
+Input: the cat in the hat
+Input dictionary:      thecain
+Encryption dictionary: ictahne
+Encrypted text:        ict ahi ne ict chi
+Written to ciphertext.txt
+Serial Output:
+rank 0: tic ant he tic int
+rank 0: tic ant eh tic int
+rank 0: tie ant ch tie int
+rank 0: the nit ac the hit
+rank 0: the nit ca the hit
+rank 0: the nat ci the hat
+rank 0: the cat ni the hat
+rank 0: the cat in the hat
+rank 0: ten hat ci ten eat
+rank 0: ten cat hi ten eat
+rank 0: ace tia nh ace cia
+rank 0: ate cia nh ate tia
+rank 0: nit can he nit ian
+rank 0: nit can eh nit ian
+rank 0: nit han ec nit ian
+rank 0: nth ian ec nth tan
+rank 0: nth can ie nth tan
+rank 0: etc hie an etc tie
+rank 0: etc hie na etc tie
+rank 0: eta che in eta the
+rank 0: eta che ni eta the
+rank 0: eta hie nc eta tie
+rank 0: eat ice nh eat ace
+
+real	0m0.115s
+user	0m0.025s
+sys	0m0.010s
+
+Parallel Output:
+rank 6: etc hie an etc tie 
+rank 6: etc hie na etc tie 
+rank 6: eta che in eta the 
+rank 6: eta che ni eta the 
+rank 6: eta hie nc eta tie 
+rank 6: eat ice nh eat ace 
+rank 2: tic ant he tic int 
+rank 2: tic ant eh tic int 
+rank 2: tie ant ch tie int 
+rank 2: the nit ac the hit 
+rank 2: the nit ca the hit 
+rank 2: the nat ci the hat 
+rank 2: the cat ni the hat 
+rank 2: the cat in the hat 
+rank 2: ten hat ci ten eat 
+rank 2: ten cat hi ten eat 
+rank 3: ace tia nh ace cia 
+rank 3: ate cia nh ate tia 
+rank 5: nit can he nit ian 
+rank 5: nit can eh nit ian 
+rank 5: nit han ec nit ian 
+rank 5: nth ian ec nth tan 
+rank 5: nth can ie nth tan 
+real 0.57
+user 0.32
+sys 0.52
+-------------------------------------------------------------------
+Run #27
+Input: the cat in the hat
+Input dictionary:      thecain
+Encryption dictionary: aetcnih
+Encrypted text:        aet cna ih aet ena
+Written to ciphertext.txt
+Serial Output:
+rank 0: ate cia nh ate tia
+rank 0: ace tia nh ace cia
+rank 0: eat ice nh eat ace
+rank 0: eta che in eta the
+rank 0: eta che ni eta the
+rank 0: eta hie nc eta tie
+rank 0: etc hie na etc tie
+rank 0: etc hie an etc tie
+rank 0: ten cat hi ten eat
+rank 0: ten hat ci ten eat
+rank 0: tie ant ch tie int
+rank 0: tic ant eh tic int
+rank 0: tic ant he tic int
+rank 0: the cat in the hat
+rank 0: the cat ni the hat
+rank 0: the nit ca the hit
+rank 0: the nit ac the hit
+rank 0: the nat ci the hat
+rank 0: nth can ie nth tan
+rank 0: nth ian ec nth tan
+rank 0: nit can eh nit ian
+rank 0: nit can he nit ian
+rank 0: nit han ec nit ian
+
+real	0m0.107s
+user	0m0.022s
+sys	0m0.009s
+
+Parallel Output:
+rank 0: ate cia nh ate tia 
+rank 0: ace tia nh ace cia 
+rank 1: eat ice nh eat ace 
+rank 1: eta che in eta the 
+rank 1: eta che ni eta the 
+rank 1: eta hie nc eta tie 
+rank 1: etc hie na etc tie 
+rank 1: etc hie an etc tie 
+rank 2: ten cat hi ten eat 
+rank 2: ten hat ci ten eat 
+rank 2: tie ant ch tie int 
+rank 2: tic ant eh tic int 
+rank 2: tic ant he tic int 
+rank 4: nth can ie nth tan 
+rank 4: nth ian ec nth tan 
+rank 2: the cat in the hat 
+rank 2: the cat ni the hat 
+rank 2: the nit ca the hit 
+rank 2: the nit ac the hit 
+rank 2: the nat ci the hat 
+rank 4: nit can eh nit ian 
+rank 4: nit can he nit ian 
+rank 4: nit han ec nit ian 
+real 0.56
+user 0.36
+sys 0.48
+-------------------------------------------------------------------
+Run #28
+Input: the cat in the hat
+Input dictionary:      thecain
+Encryption dictionary: aetcnih
+Encrypted text:        aet cna ih aet ena
+Written to ciphertext.txt
+Serial Output:
+rank 0: ate cia nh ate tia
+rank 0: ace tia nh ace cia
+rank 0: eat ice nh eat ace
+rank 0: eta che in eta the
+rank 0: eta che ni eta the
+rank 0: eta hie nc eta tie
+rank 0: etc hie na etc tie
+rank 0: etc hie an etc tie
+rank 0: ten cat hi ten eat
+rank 0: ten hat ci ten eat
+rank 0: tie ant ch tie int
+rank 0: tic ant eh tic int
+rank 0: tic ant he tic int
+rank 0: the cat in the hat
+rank 0: the cat ni the hat
+rank 0: the nit ca the hit
+rank 0: the nit ac the hit
+rank 0: the nat ci the hat
+rank 0: nth can ie nth tan
+rank 0: nth ian ec nth tan
+rank 0: nit can eh nit ian
+rank 0: nit can he nit ian
+rank 0: nit han ec nit ian
+
+real	0m0.105s
+user	0m0.010s
+sys	0m0.021s
+
+Parallel Output:
+rank 0: ate cia nh ate tia 
+rank 0: ace tia nh ace cia 
+rank 1: eat ice nh eat ace 
+rank 1: eta che in eta the 
+rank 1: eta che ni eta the 
+rank 1: eta hie nc eta tie 
+rank 1: etc hie na etc tie 
+rank 1: etc hie an etc tie 
+rank 2: ten cat hi ten eat 
+rank 2: ten hat ci ten eat 
+rank 2: tie ant ch tie int 
+rank 2: tic ant eh tic int 
+rank 4: nth can ie nth tan 
+rank 4: nth ian ec nth tan 
+rank 4: nit can eh nit ian 
+rank 4: nit can he nit ian 
+rank 4: nit han ec nit ian 
+rank 2: tic ant he tic int 
+rank 2: the cat in the hat 
+rank 2: the cat ni the hat 
+rank 2: the nit ca the hit 
+rank 2: the nit ac the hit 
+rank 2: the nat ci the hat 
+real 0.58
+user 0.41
+sys 0.40
+-------------------------------------------------------------------
+Run #29
+Input: the cat in the hat
+Input dictionary:      thecain
+Encryption dictionary: citnhae
+Encrypted text:        cit nhc ae cit ihc
+Written to ciphertext.txt
+Serial Output:
+rank 0: tic ant he tic int
+rank 0: tic ant eh tic int
+rank 0: tie ant ch tie int
+rank 0: the nat ci the hat
+rank 0: the nit ac the hit
+rank 0: the nit ca the hit
+rank 0: the cat ni the hat
+rank 0: the cat in the hat
+rank 0: ten hat ci ten eat
+rank 0: ten cat hi ten eat
+rank 0: nit can he nit ian
+rank 0: nit can eh nit ian
+rank 0: nit han ec nit ian
+rank 0: nth can ie nth tan
+rank 0: nth ian ec nth tan
+rank 0: ace tia nh ace cia
+rank 0: ate cia nh ate tia
+rank 0: etc hie na etc tie
+rank 0: etc hie an etc tie
+rank 0: eta che ni eta the
+rank 0: eta che in eta the
+rank 0: eta hie nc eta tie
+rank 0: eat ice nh eat ace
+
+real	0m0.119s
+user	0m0.021s
+sys	0m0.013s
+
+Parallel Output:
+rank 6: etc hie na etc tie 
+rank 6: etc hie an etc tie 
+rank 2: tic ant he tic int 
+rank 2: tic ant eh tic int 
+rank 2: tie ant ch tie int 
+rank 3: nit can he nit ian 
+rank 3: nit can eh nit ian 
+rank 3: nit han ec nit ian 
+rank 3: nth can ie nth tan 
+rank 3: nth ian ec nth tan 
+rank 5: ace tia nh ace cia 
+rank 5: ate cia nh ate tia 
+rank 6: eta che ni eta the 
+rank 6: eta che in eta the 
+rank 2: the nat ci the hat 
+rank 2: the nit ac the hit 
+rank 6: eta hie nc eta tie 
+rank 6: eat ice nh eat ace 
+rank 2: the nit ca the hit 
+rank 2: the cat ni the hat 
+rank 2: the cat in the hat 
+rank 2: ten hat ci ten eat 
+rank 2: ten cat hi ten eat 
+real 0.55
+user 0.32
+sys 0.48
+-------------------------------------------------------------------
+Run #30
+Input: the cat in the hat
+Input dictionary:      thecain
+Encryption dictionary: eaicthn
+Encrypted text:        eai cte hn eai ate
+Written to ciphertext.txt
+Serial Output:
+rank 0: eat ice nh eat ace
+rank 0: etc hie an etc tie
+rank 0: etc hie na etc tie
+rank 0: eta che in eta the
+rank 0: eta che ni eta the
+rank 0: eta hie nc eta tie
+rank 0: ace tia nh ace cia
+rank 0: ate cia nh ate tia
+rank 0: ten cat hi ten eat
+rank 0: ten hat ci ten eat
+rank 0: tie ant ch tie int
+rank 0: tic ant he tic int
+rank 0: tic ant eh tic int
+rank 0: the cat in the hat
+rank 0: the cat ni the hat
+rank 0: the nat ci the hat
+rank 0: the nit ac the hit
+rank 0: the nit ca the hit
+rank 0: nit can eh nit ian
+rank 0: nit can he nit ian
+rank 0: nit han ec nit ian
+rank 0: nth ian ec nth tan
+rank 0: nth can ie nth tan
+
+real	0m0.124s
+user	0m0.026s
+sys	0m0.009s
+
+Parallel Output:
+rank 0: eat ice nh eat ace 
+rank 0: etc hie an etc tie 
+rank 0: etc hie na etc tie 
+rank 0: eta che in eta the 
+rank 0: eta che ni eta the 
+rank 0: eta hie nc eta tie 
+rank 1: ace tia nh ace cia 
+rank 1: ate cia nh ate tia 
+rank 4: ten cat hi ten eat 
+rank 4: ten hat ci ten eat 
+rank 4: tie ant ch tie int 
+rank 4: tic ant he tic int 
+rank 4: tic ant eh tic int 
+rank 6: nit can eh nit ian 
+rank 6: nit can he nit ian 
+rank 6: nit han ec nit ian 
+rank 6: nth ian ec nth tan 
+rank 6: nth can ie nth tan 
+rank 4: the cat in the hat 
+rank 4: the cat ni the hat 
+rank 4: the nat ci the hat 
+rank 4: the nit ac the hit 
+rank 4: the nit ca the hit 
+real 0.57
+user 0.35
+sys 0.51
+-------------------------------------------------------------------
